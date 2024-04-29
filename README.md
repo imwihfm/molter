@@ -16,4 +16,4 @@ opts.exporter = #exportMusicXML
   \FileExport #opts
 }
 ```
-Dazu müssen die beiden folgenden Repositories in einem Ordner zum Include-Verzeichnis von LilyPond hinzugefügt werden (unter Preferences -> LilyPond Preferences -> LilyPond Include Paths).
+Dazu müssen die beiden folgenden Repositories in einem Ordner zum Include-Verzeichnis von LilyPond hinzugefügt werden (unter Preferences -> LilyPond Preferences -> LilyPond Include Paths): [Lilypond-export](https://github.com/openlilylib/lilypond-export), [Oll-core](https://github.com/openlilylib/oll-core)
