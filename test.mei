@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead xml:id="mqnjko5">
+      <fileDesc xml:id="fawwzz8">
+         <titleStmt xml:id="t1319sdj">
+            <title />
+            <respStmt />
+         </titleStmt>
+         <pubStmt xml:id="pzmmx0v" />
+      </fileDesc>
+      <encodingDesc xml:id="e1q4kruz">
+         <appInfo xml:id="avpefc">
+            <application xml:id="a1hg7zzy" isodate="2024-05-02T17:25:18" version="4.2.0-dev-a83cf81">
+               <name xml:id="nro4pjn">Verovio</name>
+               <p xml:id="p1chixj7">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="m167c7n4">
+            <score xml:id="s1aj7kbi">
+               <scoreDef xml:id="sm8fmie">
+                  <staffGrp xml:id="slzty4s">
+                     <staffDef xml:id="P1" n="1" lines="5" ppq="64">
+                        <label xml:id="lv3rt4u">Part 1</label>
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="slm8jm8">
+                  <measure xml:id="mz60ake" n="1">
+                     <staff xml:id="skynw90" n="1">
+                        <layer xml:id="ldexvlj" n="1">
+                           <note xml:id="n1v3m7zt" dur.ppq="64" dur="4" oct="4" pname="c" />
+                           <note xml:id="n8t90ih" dur.ppq="64" dur="4" oct="4" pname="c" />
+                           <note xml:id="nm3tfph" dur.ppq="64" dur="4" oct="4" pname="c" />
+                           <note xml:id="n105u8vw" dur.ppq="64" dur="4" oct="4" pname="c" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1af012o" n="2">
+                     <staff xml:id="sw3nbwj" n="1">
+                        <layer xml:id="lupi1n7" n="1">
+                           <mSpace xml:id="ml680dy" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
