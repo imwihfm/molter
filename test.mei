@@ -982,7 +982,7 @@
                                     <syl xml:id="s1kz9fpm" con="d" wordpos="i">Ser</syl>
                                  </verse>
                               </note>
-                              <note xml:id="ncr68r4" dur.ppq="1" dur="8" oct="4" pname="f" stem.dir="up">
+                              <note xml:id="ncr68r4" dur.ppq="1" dur="8" oct="4" pname="f" stem.dir="up" accid="s">
                                  <verse xml:id="v1dpmqlg" n="1">
                                     <syl xml:id="s8onfnz" con="s" wordpos="t">le</syl>
                                  </verse>
