@@ -18,7 +18,7 @@
                <name xml:id="nhfi8v3">Verovio</name>
                <p xml:id="pb1vtbj">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="abu65x01" startdate="2024-05-03T15:18:49" version="1.0.13">
+            <application xml:id="abu65x01" enddate="2024-05-06T10:51:32" startdate="2024-05-03T15:18:49" version="1.0.13">
                <name xml:id="nzb6e8y1">mei-friend</name>
                <p xml:id="p46rb45">First edit by mei-friend 1.0.13, 22 April 2024.</p>
             </application>
@@ -29,6 +29,7 @@
       <facsimile xmlns="http://www.music-encoding.org/ns/mei">
          <surface xml:id="srcxmuz2">
             <graphic xml:id="ghwws931" target="alp.jpg" width="1904px" height="1904px"/>
+            <zone xml:id="zvab1i21" lrx="1211" lry="1188" type="rest" ulx="858" uly="826"/>
          </surface>
       </facsimile>
       <body>
@@ -756,7 +757,7 @@
                                  <syl xml:id="s13xwpg4" con="s" wordpos="t">ce ?</syl>
                               </verse>
                            </note>
-                           <rest xml:id="r1dppjr5" dur.ppq="2" dur="4" />
+                           <rest xml:id="r1dppjr5" dur="4" dur.ppq="2" facs="#zvab1i21"/>
                         </layer>
                      </staff>
                      <dynam xml:id="ddyd8qe" place="above" staff="1" tstamp="2.000000" val="33" vgrp="2000">pp</dynam>
