@@ -30,12 +30,6 @@
          <surface xml:id="srcxmuz2">
             <graphic xml:id="ghwws931" target="alp.jpg" width="1904px" height="1904px"/>
          </surface>
-         <surface xml:id="s8el1k6">
-            <graphic xml:id="gpcfbjt1" target="Page-2" width="0" height="0"/>
-         </surface>
-         <surface xml:id="salbwdb">
-            <graphic xml:id="g1lv9861" target="Page-3" width="0" height="0"/>
-         </surface>
       </facsimile>
       <body>
          <mdiv xml:id="msfcg2r">
@@ -80,7 +74,7 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="s1vn8mus">
-                  <pb xml:id="p1yptzh3" facs="srcxmuz2"/>
+                  <pb xml:id="p1yptzh3" facs="#srcxmuz2"/>
                   <measure xml:id="m1m57yo6" n="1">
                      <staff xml:id="sjw0lf6" n="1">
                         <layer xml:id="lf36ryd" n="1">
