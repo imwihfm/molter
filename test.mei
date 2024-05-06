@@ -18,7 +18,7 @@
                <name xml:id="nhfi8v3">Verovio</name>
                <p xml:id="pb1vtbj">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="abu65x01" enddate="2024-05-06T10:51:32" startdate="2024-05-03T15:18:49" version="1.0.13">
+            <application xml:id="abu65x01" enddate="2024-05-06T11:18:33" startdate="2024-05-03T15:18:49" version="1.0.13">
                <name xml:id="nzb6e8y1">mei-friend</name>
                <p xml:id="p46rb45">First edit by mei-friend 1.0.13, 22 April 2024.</p>
             </application>
@@ -26,6 +26,11 @@
       </encodingDesc>
    </meiHead>
    <music>
+      <facsimile xml:id="fhxu3ft1">
+         <surface xml:id="skkt8kd">
+            <graphic xml:id="g9ok543" target="test.jpg" width="850" height="296"/>
+         </surface>
+      </facsimile>
       <body>
          <mdiv xml:id="msfcg2r">
             <score xml:id="s1ysydmp">
@@ -1475,7 +1480,7 @@
                      <dynam xml:id="d4rcz6r" place="above" staff="1" tstamp="2.500000" val="96" vgrp="2000">f</dynam>
                      <dynam xml:id="d1ykhlpl" place="above" staff="3" tstamp="2.500000" val="96" vgrp="2000">f</dynam>
                   </measure>
-                  <pb xml:id="pe3p6mb" facs="#s8el1k6"/>
+                  <pb xml:id="pe3p6mb" facs="#skkt8kd"/>
                   <measure xml:id="m4k2gam" n="9">
                      <staff xml:id="scu8b2f" n="1">
                         <layer xml:id="l9u8l29" n="1">
@@ -2522,7 +2527,7 @@
                      </staff>
                      <hairpin xml:id="h1de9wq5" staff="1" tstamp="2.250000" tstamp2="0m+3.0000" form="cres" place="above" vgrp="2000" />
                   </measure>
-                  <pb xml:id="pyuq4yb" facs="#salbwdb"/>
+                  <pb xml:id="pyuq4yb" facs="#smri7o01"/>
                   <measure xml:id="moiamis" n="15">
                      <staff xml:id="si17u9p" n="1">
                         <layer xml:id="l1nzbc8a" n="1">
