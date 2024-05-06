@@ -74,6 +74,7 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="s1vn8mus">
+                  <pb xml:id="pe3p6mb" facs="#skkt8kd"/>
                   <measure xml:id="m1m57yo6" n="1">
                      <staff xml:id="sjw0lf6" n="1">
                         <layer xml:id="lf36ryd" n="1">
@@ -1480,7 +1481,6 @@
                      <dynam xml:id="d4rcz6r" place="above" staff="1" tstamp="2.500000" val="96" vgrp="2000">f</dynam>
                      <dynam xml:id="d1ykhlpl" place="above" staff="3" tstamp="2.500000" val="96" vgrp="2000">f</dynam>
                   </measure>
-                  <pb xml:id="pe3p6mb" facs="#skkt8kd"/>
                   <measure xml:id="m4k2gam" n="9">
                      <staff xml:id="scu8b2f" n="1">
                         <layer xml:id="l9u8l29" n="1">
