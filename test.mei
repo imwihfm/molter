@@ -28,7 +28,7 @@
    <music>
       <facsimile xmlns="http://www.music-encoding.org/ns/mei">
          <surface xml:id="srcxmuz2">
-            <graphic xml:id="ghwws931" target="alp.jpg" width="1904" height="1904"/>
+            <graphic xml:id="ghwws931" target="alp.jpg" width="1904px" height="1904px"/>
          </surface>
          <surface xml:id="s8el1k6">
             <graphic xml:id="gpcfbjt1" target="Page-2" width="0" height="0"/>
