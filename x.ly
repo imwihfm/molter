@@ -21,6 +21,7 @@ music = \new PianoStaff <<
 >>
 
 
+
 % or as a layout extension that is added to the layout
 opts.exporter = #exportMusicXML
 \score {

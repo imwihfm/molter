@@ -1,7 +1,6 @@
 \version "2.19.82"
 
-\include "oll-core/package.ily"
-\loadPackage lilypond-export
+
 music = \new PianoStaff <<
   \new Staff <<
     { \time 3/4 \key es \major \set Timing.tempoWholesPerMinute = #(ly:make-moment 30) \partial 4 s4 | \repeat volta 2 { s2.*3 } }
@@ -18,12 +17,11 @@ music = \new PianoStaff <<
   \new Lyrics \lyricsto "mel" { \lyricmode { ku ka ke ki ku ka ko } }
 >>
 
-opts.exporter = #exportMusicXML
+
 
 % or as a layout extension that is added to the layout
 \score {
   \music
   \layout {
-    \FileExport #opts
   }
 }
