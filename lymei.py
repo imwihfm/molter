@@ -1,3 +1,5 @@
+import time
+import subprocess
 import copy
 import verovio
 
@@ -5,15 +7,13 @@ import verovio
 with open("lymei-test.ly", "r") as lyfile:
     lylines = lyfile.readlines()
 
-# tk = verovio.toolkit()
-# tk.loadFile("/home/amte/Desktop/Untitled.xml")
-# with open("/home/amte/Desktop/Untitled.mei", "w") as mei:
-#     mei.write(tk.getMEI())
 
 def count_leading_spaces(line):
     return len(line) - len(line.lstrip())
 
 
+
+# Prepare xml conversion
 lylinescp = copy.copy(lylines)
 with open("x.ly", "w") as f:
     for i, ln in enumerate(lylinescp):
@@ -25,14 +25,18 @@ with open("x.ly", "w") as f:
             lylinescp[i] += (((count_leading_spaces(ln) + 2) * " ") + '\FileExport #opts\n')
     f.write("".join(lylinescp))
 
-# print(lylinescp)
-import subprocess
 
-# Example: Running an external command and capturing its output
-result = subprocess.run(['lilypond', 'x.ly'], capture_output=True, text=True)
+# Generate mxml
+result = subprocess.run(['lilypond', "--include", "/home/amte/Downloads/clones/openlilylib/", 'x.ly'], capture_output=True, text=True)
 
 # Access the output
 print('STDOUT:', result.stdout)
 print('STDERR:', result.stderr)
 print('Return Code:', result.returncode)
 
+time.sleep(2)
+print("Making MEI...")
+tk = verovio.toolkit()
+tk.loadFile("x.xml")
+with open("Untitled.mei", "w") as mei:
+    mei.write(tk.getMEI())
