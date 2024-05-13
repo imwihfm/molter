@@ -5,13 +5,18 @@
 # workaround Ly -> Mei
 ## Vorbereitung einer LilyPond-Datei für den MEI-Export
 ```
+% \version "2.24.2"
+% Nach der Version kommt:
+
 \include "oll-core/package.ily"
 \loadPackage lilypond-export
 
+% Vor dem \score kommt:
 opts.exporter = #exportMusicXML
 
-% \score { \new Staff \new Voice { c'4 4 4 4 } } 
+\score { \new Staff \new Voice { c'4 4 4 4 } } 
 
+% In Layout kommt:
 \layout{
   \FileExport #opts
 }
