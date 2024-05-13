@@ -4,7 +4,7 @@ import copy
 import verovio
 
 
-with open("lymei-test.ly", "r") as lyfile:
+with open("Partitur-1Satz.ly", "r") as lyfile:
     lylines = lyfile.readlines()
 
 
@@ -15,7 +15,7 @@ def count_leading_spaces(line):
 
 # Prepare xml conversion
 lylinescp = copy.copy(lylines)
-with open("x.ly", "w") as f:
+with open("part.ly", "w") as f:
     for i, ln in enumerate(lylinescp):
         if ln.startswith("\\version"):
             lylinescp[i] += '\n\include "oll-core/package.ily"\n\loadPackage lilypond-export\n'
@@ -27,7 +27,7 @@ with open("x.ly", "w") as f:
 
 
 # Generate mxml
-result = subprocess.run(['lilypond', "--include", "/home/amte/Downloads/clones/openlilylib/", 'x.ly'], capture_output=True, text=True)
+result = subprocess.run(['lilypond', "--include", "/home/amte/Downloads/clones/openlilylib/", 'part.ly'], capture_output=True, text=True)
 
 # Access the output
 print('STDOUT:', result.stdout)
@@ -37,6 +37,6 @@ print('Return Code:', result.returncode)
 time.sleep(2)
 print("Making MEI...")
 tk = verovio.toolkit()
-tk.loadFile("x.xml")
-with open("Untitled.mei", "w") as mei:
+tk.loadFile("part.xml")
+with open("part.mei", "w") as mei:
     mei.write(tk.getMEI())
