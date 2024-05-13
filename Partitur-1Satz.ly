@@ -29,4 +29,6 @@ opts.exporter = #exportMusicXML
   \layout { 
     \FileExport #opts
   }
+  \midi {
+  }
 }
