@@ -18,7 +18,7 @@
                <name xml:id="nhfi8v3">Verovio</name>
                <p xml:id="pb1vtbj">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="abu65x01" enddate="2024-05-06T11:28:39" startdate="2024-05-03T15:18:49" version="1.0.13">
+            <application xml:id="abu65x01" enddate="2024-05-24T12:56:45" startdate="2024-05-03T15:18:49" version="1.0.14">
                <name xml:id="nzb6e8y1">mei-friend</name>
                <p xml:id="p46rb45">First edit by mei-friend 1.0.13, 22 April 2024.</p>
             </application>
@@ -26,11 +26,9 @@
       </encodingDesc>
    </meiHead>
    <music>
-      <facsimile xml:id="fhxu3ft1">
-         <surface xml:id="skkt8kd">
-            <graphic xml:id="g9ok543" target="test.jpg" width="850" height="296"/>
-            <zone xml:id="z664gzb" lrx="247" lry="284" type="measure" ulx="25" uly="20"/>
-            <zone xml:id="zasuidx2" lrx="240" lry="192" type="note" ulx="211" uly="155"/>
+      <facsimile xml:id="f8u7r031">
+         <surface xml:id="sv5mqld">
+            <graphic xml:id="gts0l5c1" target="test2.jpg" width="0" height="0"/>
          </surface>
       </facsimile>
       <body>
@@ -76,8 +74,8 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="s1vn8mus">
-                  <pb xml:id="pe3p6mb" facs="#skkt8kd"/>
-                  <measure xml:id="m1m57yo6" facs="#z664gzb" n="1">
+                  
+                  <measure xml:id="m1m57yo6"  n="1">
                      <staff xml:id="sjw0lf6" n="1">
                         <layer xml:id="lf36ryd" n="1">
                            <note xml:id="n129248e" dur.ppq="2" dur="4" oct="4" pname="g" stem.dir="up">
@@ -176,7 +174,7 @@
                                  <syl xml:id="s19utviu" con="s" wordpos="t">tresse,</syl>
                               </verse>
                            </note>
-                           <note xml:id="n19moku1" accid.ges="f" dur="4" dur.ppq="2" facs="#zasuidx2" oct="4" pname="e" stem.dir="down">
+                           <note xml:id="n19moku1" accid.ges="f" dur="4" dur.ppq="2" oct="4" pname="e" stem.dir="down">
                               <verse xml:id="vgendst" n="1">
                                  <syl xml:id="sp4qqhc" con="d" wordpos="i">glis</syl>
                               </verse>
@@ -758,7 +756,7 @@
                                  <syl xml:id="s13xwpg4" con="s" wordpos="t">ce ?</syl>
                               </verse>
                            </note>
-                           <rest xml:id="r1dppjr5" dur="4" dur.ppq="2" facs="#zvab1i21"/>
+                           <rest xml:id="r1dppjr5" dur="4" dur.ppq="2" />
                         </layer>
                      </staff>
                      <dynam xml:id="ddyd8qe" place="above" staff="1" tstamp="2.000000" val="33" vgrp="2000">pp</dynam>
@@ -2529,7 +2527,7 @@
                      </staff>
                      <hairpin xml:id="h1de9wq5" staff="1" tstamp="2.250000" tstamp2="0m+3.0000" form="cres" place="above" vgrp="2000" />
                   </measure>
-                  <pb xml:id="pyuq4yb" facs="#smri7o01"/>
+                  <pb xml:id="pyuq4yb" facs="#sv5mqld"/>
                   <measure xml:id="moiamis" n="15">
                      <staff xml:id="si17u9p" n="1">
                         <layer xml:id="l1nzbc8a" n="1">
