@@ -112,8 +112,8 @@ text = \lyricmode {
   che co -- n quel -- lo sem -- pre và.
   
 }
-opts.exporter = #exportMusicXML
 
+opts.exporter = #exportMusicXML
 \score {
   <<
     \new Staff = "staff" {
@@ -133,6 +133,7 @@ opts.exporter = #exportMusicXML
   >>
   \layout {
     \FileExport #opts
+
   }
 }
 
