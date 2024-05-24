@@ -31,5 +31,7 @@ Dazu müssen die beiden folgenden Repositories in einem Ordner zum Include-Verze
   </surface>
 </facsimile>
 ```
-https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/teymuri/molter/main/test.mei&scale=28&breaks=auto&page=1&speed=true&notationOrientation=bottom&notationProportion=0.51
-https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/teymuri/molter/main/test.mei&scale=60&breaks=auto&select=r1dppjr5&page=1&speed=true&notationOrientation=bottom&notationProportion=0.51&facsimileOrientation=left&facsimileProportion=0.45
+
+```
+<pb xml:id="pe3p6mb" facs="#skkt8kd"/>
+```
