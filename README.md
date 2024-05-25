@@ -35,3 +35,6 @@ Dazu müssen die beiden folgenden Repositories in einem Ordner zum Include-Verze
 ```
 <pb xml:id="pe3p6mb" facs="#skkt8kd"/>
 ```
+
+# TODO
+- Den Seitenumbruch bei den Mei-Dateien so gestalten wie bei den Faksimile Seiten
