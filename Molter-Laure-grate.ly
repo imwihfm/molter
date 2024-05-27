@@ -1,9 +1,17 @@
 
 \version "2.24.2"
 
+\include "oll-core/package.ily"
+\loadPackage lilypond-export
+
 \language "deutsch"
 
-\header { title = "L'aure grate, il fresco rio" composer = "Johann Melchior Molter" }
+\header {
+  title = "Cantata per Soprano Solo"
+  subtitle = \markup \center-column {"con Violino primo" "Violino Secondo" "Violetta" "e" "Basso continuo"}
+  composer =  \markup \center-column {"Johann Melchior Molter" "(1696-1765)"}
+  instrument = \markup "Soprano"
+}
 
 dashPlus = \trill
 
@@ -11,20 +19,25 @@ dashPlus = \trill
  sopran = \relative {
   \key a \major
   \time 2/4
+  \tempo "Un poco allegro"
   
-  \partial8 r8 r2 r2 r2 r2 r2 r2 r2 r2 r2 r2 r2 r2 r2 \break r2 
+  \partial8 r8 
+  
+  \compressMMRests {
+  R2*14} 
+  
   %Laure grate il fresco
   r4 r8     cis''16. d32 e8 a, a fis' 
   
   %rio l'ombre tacite del bosco
-  gis fis r8 d16. cis32   d8. e,16 e8 d'   d cis
+  fis e r8 d16. cis32   d8. e,16 e8 d'   d cis
   
   %fan piu dolce al pensier 
   r8 e16. d32   \break   cis32 (\melisma  h a8. ) fis'32 ( e dis8.) e8.( dis 32 cis) \melismaEnd h4 
-  cis32 ( \melisma  h a8.) fis'32 ( e \melismaEnd dis8.) 
+  cis32([ h a8.)]  fis'32([ e dis8.)]   
   
   %mio al pensier mio la soave 
-  e8 e e e    e8. \melisma dis32 cis \melismaEnd h8 a g32([ \melisma fis e16)]  h'32([ a \melismaEnd g16)] 
+  e8 e e e    e8. \melisma dis32 cis \melismaEnd h8 a g32([ fis e16)]  h'32([ a g16)] 
   
   %Melisma liberta
   e'8 e    \break
@@ -35,7 +48,8 @@ dashPlus = \trill
   \tuplet 6/4 { gis16([ a h cis dis e]) \melismaEnd } fis,8 dis' e4. r8
  
   
-  r2 r2 r2 r2 r2 r2 r2 r2 r2 r2 r2 r2 r2 \break r2 
+  \compressMMRests {
+  R2*14}
   
   
   %Laure grate il fresco
@@ -57,7 +71,7 @@ dashPlus = \trill
   e,16 fis gis a h cis  
   
   %mio la soave
-  d16[ \melisma  cis d8.] \melismaEnd  fis16[ \melisma  e d] \melismaEnd     \break    cis16 cis([ h a]) 
+  d16[ \melisma  cis \melismaEnd d8.]   fis16[ \melisma  e d] \melismaEnd     \break    cis16 cis([ h a]) 
   
   %liberta + Melisma
   h h([ a g])  e'16 \melisma e8-+ d32 cis h8 a  fis8. d'32 h \appoggiatura a8 gis8.-+ a16 
@@ -67,10 +81,11 @@ dashPlus = \trill
   gis8.-+ a16   a4. r8
   
   
-  r2 r2 r2 r2 r2 r2 r2 r2 r2 r2 r2
+  \compressMMRests {
+  R2*11}
   
   %se non priva del contento d'altro
-  r4 \bar "||" r8 a16.    h32 cis8 fis, fis d'   d cis r8 cis16. d32    
+  r4\fermata \bar "||" r8 a16.    h32 cis8 fis, fis d'   d cis r8 cis16. d32    
   
   %benche non
   e16 cis8 ais  
@@ -94,15 +109,15 @@ dashPlus = \trill
 }
 
 text = \lyricmode {
-  L'au -- re gra -- teil fre -- sco ri -- o
-  l'om -- bre ta -- ci -- te del bo -- sco fan più dol -- ceal pensier mio al pen -- sier mi -- o
-  la soave li -- ber -- tà li -- ber -- tà 
+  L'au -- re gra -- te~il fre -- sco ri -- o
+  l'om -- bre ta -- ci -- te del bos -- co fan più dol -- ce~al pen -- sier mio al pen -- sier mi -- o
+  la soa -- ve li -- ber -- tà __ li -- ber -- tà 
   
-  L`au -- re gra -- teil fre -- sco ri -- o
+  L`au -- re gra -- te~il fre -- sco ri -- o
   l'om -- bre ta -- ci -- te de -- l bo -- sco fan più dol -- ce 
   al pen -- sier mi -- o 
-  la soa -- ve li -- ber -- tà fan più dol -- ceal pen -- sier mio
-  la soa -- ve li -- ber -- tà li -- be -- rtà
+  la soa -- ve li -- ber -- tà __ fan più dol -- ce~al pen -- sier mi -- o
+  la soa -- ve li -- ber -- tà __ li -- ber -- tà
   
   Se non pri -- va del con -- ten -- to d'a -- ltro ben -- che
   non cog -- no -- sco ne men pro -- vo a -- l con tor -- men -- to 
@@ -110,7 +125,12 @@ text = \lyricmode {
   
 }
 
+opts.exporter = #exportMusicXML
+
 \score {
+  \header {
+    piece = "Aria"
+  }
   <<
     \new Staff = "staff" {
       \new Voice = "Noten" {
@@ -127,5 +147,8 @@ text = \lyricmode {
     }
     }
   >>
+  \layout{
+  \FileExport #opts
+  }
 }
 

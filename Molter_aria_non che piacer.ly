@@ -1,9 +1,16 @@
 
 \version "2.24.2"
 
+\include "oll-core/package.ily"
+\loadPackage lilypond-export
+
 \language "deutsch"
 
-\header { title = "Aria" composer = "Johann Melchior Molter" }
+\header {
+  title = "Cantata"
+  composer =  \markup \center-column {"Johann Melchior Molter" "(1696-1765)"}
+  instrument = \markup "Soprano"
+}
 
 dashPlus = \trill
 
@@ -11,8 +18,10 @@ dashPlus = \trill
  sopran = \relative {
   \key a \major
   \time 2/4
+  \tempo "Allegro"
   
-  r2 r2 r2 r2 r2 r2 r2 r2 r2 r2 
+  \compressMMRests {
+  R2*10}
   
   %Non che piacer non vé piu amabile di te
   r4 a'4 e'8 d16 cis d8 e a,4 fis' e8 d16 \melisma cis \melismaEnd d8 e a,4
@@ -32,7 +41,8 @@ dashPlus = \trill
   %placida liberta
   e'~ e dis16 cis h8 a gis4\melisma h16 a gis fis e4. \melismaEnd r8
   
-  r2 r2 r2 r2 r2 r2 r2
+  \compressMMRests {
+  R2*7}
   
   %non che piacer non vé piu amabile di te
   r4 e h'8 h h e    h4 fis'   e8 d16\melisma cis \melismaEnd d8 e a,4 
@@ -55,16 +65,18 @@ dashPlus = \trill
   %placida liberta
   e'8~ e d16 \melisma cis \melismaEnd h8 \melisma a \melismaEnd  e4 h'-+ a r4
   
-  r2 r2 r2 r2 r2 r2 r2 r2 r2 r2 r2 r2 
+  \compressMMRests {
+  R2*12} 
   
   %se non taprezza ancor quanto
-  r4 \bar "||" r8 fis cis' h16 \melisma a \melismaEnd h8 cis fis,4 cis' fis8
+  r4 \fermata \bar "||" r8 fis cis' h16 \melisma a \melismaEnd h8 cis fis,4 cis' fis8
   
   %ti piange allor, allor che piu non t'ha
   e16 \melisma d \melismaEnd e8 fis  h,\melisma cis \melismaEnd d4  cis8 fis, gis r16 fis  fis4 r4
   
   
-  r2 r2 r2 r2
+  \compressMMRests {
+  R2*4}
   
   %se non taprezza ancor quanto
   r4 cis' fis8 e16 \melisma d \melismaEnd e8 fis  h,4 h e8
@@ -79,24 +91,29 @@ dashPlus = \trill
 
 text = \lyricmode {
   
-  Non che pi -- a -- cer non vé piùa -- ma -- bi -- le di te
-  non che pi -- a -- cer no -- n vé piùa -- ma -- bi -- le di te 
-  pla -- ci -- da li -- ber -- tà
-  pla -- ci -- da li -- ber -- tà
-  Non che pia -- cer non vé piùa -- ma -- bi -- le di te
-  nò che pi -- a -- cer non vé pla -- ci -- da li -- ber -- tà
-  pla -- ci -- da li -- ber -- tà
-  pla -- ci -- da li -- ber -- tà
+  Non che pi -- a -- cer non vé più~a -- ma -- bi -- le di te
+  non che pi -- a -- cer no -- n vé più~a -- ma -- bi -- le di te 
+  pla -- ci -- da li -- ber -- tà __
+  pla -- ci -- da li -- ber -- tà __
+  Non che pia -- cer non vé più~a -- ma -- bi -- le di te
+  nò che pi -- a -- cer non vé pla -- ci -- da __ li -- ber -- tà __
+  pla -- ci -- da __ li -- ber -- tà __
+  pla -- ci -- da __ li -- ber -- tà
   
-  Se non t'ap -- prez -- za ancor quan -- to ti pia -- ngeal -- lor,
+  Se non t'ap -- prez -- za ancor quan -- to ti pia -- nge~al -- lor,
   all -- or che più non t'ha
   
-  Se non t'ap -- prez -- za ancor quan -- to ti pia -- ngeal -- lor,
+  Se non t'ap -- prez -- za ancor quan -- to ti pia -- nge~al -- lor,
   al -- lor che più non t'ha al -- lor che più non t'ha
   
 }
 
+opts.exporter = #exportMusicXML
+
 \score {
+  \header {
+    piece = "Aria"
+  }
   <<
     \new Staff = "staff" {
       \new Voice = "Noten" {
@@ -113,5 +130,8 @@ text = \lyricmode {
     }
     }
   >>
+  \layout{
+  \FileExport #opts
+  }
 }
 

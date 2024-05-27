@@ -1,9 +1,16 @@
 
 \version "2.24.2"
 
+\include "oll-core/package.ily"
+\loadPackage lilypond-export
+
 \language "deutsch"
 
-\header { title = "Recitativo" composer = "Johann Melchior Molter" }
+\header {
+  title = "Cantata"
+  composer =  \markup \center-column {"Johann Melchior Molter" "(1696-1765)"}
+  instrument = \markup "Soprano"
+}
 
 dashPlus = \trill
 
@@ -38,15 +45,20 @@ text = \lyricmode {
   in que -- ste so -- li -- tu -- di -- ni re -- mo -- te dal -- le cu -- re
   lon -- ta -- no vi -- vo lie -- to.
   e mi -- ei gior -- ni e le ver -- di cam -- pa -- gne,
-  glia -- me -- ni bo -- schi,
+  gli~a -- me -- ni bo -- schi,
   i lim -- pi di ru -- scel -- li va -- ghe -- ggio,
-  ei frut -- ti ei fio -- ri or cog -- lio,
+  e~i frut -- ti e~i fio -- ri or cog -- lio,
   or gus -- to, or mi -- ro: 
   e la pie -- na d'u -- do -- ri au -- ra re -- spi -- rò
   
 }
 
+opts.exporter = #exportMusicXML
+
 \score {
+  \header {
+    piece = "Recitativo"
+  }
   <<
     \new Staff = "staff" {
       \new Voice = "Noten" {
@@ -63,5 +75,8 @@ text = \lyricmode {
     }
     }
   >>
+  \layout{
+  \FileExport #opts
+  }
 }
 
