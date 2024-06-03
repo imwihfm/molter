@@ -5,7 +5,10 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title />
+            <title>title</title>
+            <respStmt>
+              <persName role="composer">komponist</persName>
+            </respStmt>
          </titleStmt>
          <pubStmt>
             <date isodate="2024-05-13T22:23:39" />
