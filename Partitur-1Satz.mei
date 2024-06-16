@@ -16,7 +16,7 @@
       </fileDesc>
       <encodingDesc xml:id="e7pe5zc">
          <appInfo xml:id="apz6ydt2">
-            <application xml:id="a4mtmzl2" enddate="2024-06-14T08:06:49" startdate="2024-06-14T08:00:15" version="1.0.14">
+            <application xml:id="a4mtmzl2" enddate="2024-06-16T20:05:09" startdate="2024-06-14T08:00:15" version="1.0.14">
                <name xml:id="n18943z1">mei-friend</name>
                <p xml:id="pfkvsh3">First edit by mei-friend 1.0.14, 23 May 2024.</p>
             </application>
@@ -30,6 +30,7 @@
             <zone xml:id="z143ckn2" lrx="108" lry="168" type="measure" ulx="60" uly="44"/>
             <zone xml:id="z48j4qv1" lrx="138" lry="167" type="measure" ulx="113" uly="43"/>
             <zone xml:id="ziqlh8y2" lrx="176" lry="171" type="measure" ulx="140" uly="39"/>
+            <zone xml:id="zi939u31" lrx="209" lry="171" type="measure" ulx="176" uly="38"/>
          </surface>
       </facsimile>
       <body>
@@ -173,26 +174,26 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure xml:id="m1osotkw" n="3">
+                  <measure xml:id="m1osotkw" facs="#zi939u31" n="3">
                      <staff xml:id="m4s1" n="1">
                         <layer xml:id="m4s1l1" n="1">
                            <beam>
-                              <note xml:id="n6m370b" type="mscore-beam-begin" dur="8" pname="d" oct="5" />
-                              <note xml:id="n1p92e0t" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
-                              <note xml:id="n1x5gy7p" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
-                              <note xml:id="nxz7aba" dur="8" pname="d" oct="5" />
+                              <note xml:id="n6m370b" type="mscore-beam-begin" dur="8" pname="d" oct="5"/>
+                              <note xml:id="n1p92e0t" type="mscore-beam-mid" dur="8" pname="e" oct="4"/>
+                              <note xml:id="n1x5gy7p" type="mscore-beam-mid" dur="8" pname="e" oct="4"/>
+                              <note xml:id="nxz7aba" dur="8" pname="d" oct="5"/>
                            </beam>
                         </layer>
                      </staff>
                      <staff xml:id="m4s2" n="2">
                         <layer xml:id="m4s2l1" n="1">
                            <beam>
-                              <note xml:id="njh47ge" type="mscore-beam-begin" dur="8" pname="b" oct="4" />
-                              <note xml:id="ni41v6u" type="mscore-beam-mid" dur="8" pname="a" oct="4" />
+                              <note xml:id="njh47ge" type="mscore-beam-begin" dur="8" pname="b" oct="4"/>
+                              <note xml:id="ni41v6u" type="mscore-beam-mid" dur="8" pname="a" oct="4"/>
                               <note xml:id="n1x7oses" type="mscore-beam-mid" dur="8" pname="g" oct="4">
-                                 <accid accid.ges="s" />
+                                 <accid accid.ges="s"/>
                               </note>
-                              <note xml:id="n2bskwr" dur="8" pname="b" oct="4" />
+                              <note xml:id="n2bskwr" dur="8" pname="b" oct="4"/>
                            </beam>
                         </layer>
                      </staff>
@@ -200,11 +201,11 @@
                         <layer xml:id="m4s3l1" n="1">
                            <beam>
                               <note xml:id="n1ocm1cu" type="mscore-beam-begin" dur="8" pname="g" oct="4">
-                                 <accid accid.ges="s" />
+                                 <accid accid.ges="s"/>
                               </note>
-                              <note xml:id="ngrltqm" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
-                              <note xml:id="n2gv3xx" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
-                              <note xml:id="n11307y8" dur="8" pname="e" oct="4" />
+                              <note xml:id="ngrltqm" type="mscore-beam-mid" dur="8" pname="b" oct="3"/>
+                              <note xml:id="n2gv3xx" type="mscore-beam-mid" dur="8" pname="b" oct="3"/>
+                              <note xml:id="n11307y8" dur="8" pname="e" oct="4"/>
                            </beam>
                         </layer>
                      </staff>
