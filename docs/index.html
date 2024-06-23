@@ -7,8 +7,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin-top: 150px; /* Add margin to prevent text overlap with image */
-            margin-right: 55%; /* Ensure text doesn't overlap the image */
+            margin-top: 20px; /* Add margin to prevent text overlap with image */
+            margin-right: 50%; /* Ensure text doesn't overlap the image */
             padding: 20px; /* Add padding to the body content */
         }
         header {
@@ -22,13 +22,13 @@
             font-weight: bold;
         }
         .subtitle {
-            font-size: 16px;
+            font-size: 20px;
             color: #555;
         }
         .header-image {
             position: fixed; /* Position the image relative to the viewport */
             top: 20px; /* Adjust top position */
-            right: 20px; /* Adjust right position */
+            right: 0px; /* Adjust right position */
             width: 50%; /* Scale the image to 50% of its original size */
             height: auto; /* Maintain aspect ratio */
             border: 2px solid #000; /* Add border around the image */
@@ -41,20 +41,27 @@
         .content {
             padding: 20px;
         }
+        .body-box {
+            border: 2px solid #000; /* Border around the body content */
+            padding: 20px; /* Padding inside the border */
+            margin: 20px; /* Margin outside the border */
+            margin-top: 150px; /* Add margin to prevent text overlap with image */
+            margin-right: 55%; /* Ensure text doesn't overlap the image */
+        }
     </style>
 </head>
 <body>
+    <div class="body-box">
     <header>
         <div class="logo">Johann Melchior Molter (1696 - 1765)</div>
         <div class="subtitle">L'aure grate il fresco rio - Mus. Hs. 427</div>
-        <div class="header-image">
-            <img src="Molter.jpg" alt="Header Image">
-        </div>
+        <img src="Molter.jpg" alt="Header Image" class="header-image">
     </header>
     <div class="content">
         <p>
         Molter komponierte 11 Kirchenkantaten, das Karfreitagsoratorium „Höchst schmerzensvoller Tag“, zahlreiche weltliche Kantaten, 14 Ouverturen, 21 Orchestersonaten, 8 Orchesterkonzerte, 170 Sinfonien, 20 Orchestermenuette und etwa 100 kammermusikalische Kompositionen, die zum Teil mit konzertierendem Instrument gesetzt sind.
         </p>
+    </div>
     </div>
 </body>
 </html>
