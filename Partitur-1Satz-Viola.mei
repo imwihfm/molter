@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
@@ -58,17 +59,72 @@
                      <staff xml:id="m1s1" n="1">
                         <layer xml:id="m1s1l1" n="1">
                            <note xml:id="ngkgxbw" type="mscore-beam-none" dur="8" oct="4" pname="e"/>
+=======
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-basic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-basic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0+basic">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-05-13T22:23:39" />
+         </pubStmt>
+      </fileDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <pgHead>
+                     <rend halign="left" valign="top">
+                        <rend type="instrument_excerpt">Viola</rend>
+                     </rend>
+                     <rend halign="center" valign="top">
+                        <rend type="title" fontsize="x-large">Cantata per Soprano Solo</rend>
+                        <lb />
+                        <rend type="subtitle" fontsize="large">con Violino primo, Violino Secondo, Violetta e Basso continuo</rend>
+                     </rend>
+                     <rend halign="right" valign="bottom">
+                        <rend type="composer">Johann Melchior Molter<lb />(1696-1765</rend>
+                     </rend>
+                  </pgHead>
+                  <staffGrp>
+                     <staffDef n="1" lines="5" keysig="3s" meter.count="2" meter.unit="4">
+                        <label>Violetta</label>
+                        <labelAbbr>Vla.</labelAbbr>
+                        <clef shape="C" line="3" />
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1">
+                  <pb />
+                  <measure xml:id="mz7okjm" metcon="false" n="0">
+                     <staff xml:id="m1s1" n="1">
+                        <layer xml:id="m1s1l1" n="1">
+                           <note xml:id="ngkgxbw" type="mscore-beam-none" dur="8" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                         </layer>
                      </staff>
                   </measure>
                   <measure xml:id="mnmyv3h" n="1">
                      <staff xml:id="m2s1" n="1">
                         <layer xml:id="m2s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b19sse5l">
                               <note xml:id="n1w1fzhp" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="no0hsa6" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n1wur3yr" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n6elq0d" dur="8" oct="4" pname="d" />
+=======
+                           <beam>
+                              <note xml:id="n1w1fzhp" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="no0hsa6" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1wur3yr" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n6elq0d" dur="8" pname="d" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -76,6 +132,7 @@
                   <measure xml:id="m1cmbd" n="2">
                      <staff xml:id="m3s1" n="1">
                         <layer xml:id="m3s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="buyg73l">
                               <note xml:id="n1ebd9h" type="mscore-beam-begin" dur="8" oct="4" pname="d" />
                               <note xml:id="ngsu2ac" dur="8" oct="4" pname="c">
@@ -85,6 +142,17 @@
                            <rest xml:id="r1ywmvas" type="mscore-beam-none" dur="8" />
                            <note xml:id="n1mvwcqu" type="mscore-beam-none" dur="8" oct="4" pname="g">
                               <accid xml:id="awl8dto" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n1ebd9h" type="mscore-beam-begin" dur="8" pname="d" oct="4" />
+                              <note xml:id="ngsu2ac" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                           <rest xml:id="r1ywmvas" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n1mvwcqu" type="mscore-beam-none" dur="8" pname="g" oct="4">
+                              <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                         </layer>
                      </staff>
@@ -92,6 +160,7 @@
                   <measure xml:id="mckn74r" n="3">
                      <staff xml:id="m4s1" n="1">
                         <layer xml:id="m4s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="btkaktg">
                               <note xml:id="no8alak" type="mscore-beam-begin" dur="8" oct="4" pname="g">
                                  <accid xml:id="a1vv8dfq" accid.ges="s" />
@@ -99,6 +168,15 @@
                               <note xml:id="n11i77os" type="mscore-beam-mid" dur="8" oct="3" pname="b" />
                               <note xml:id="n1avqppc" type="mscore-beam-mid" dur="8" oct="3" pname="b" />
                               <note xml:id="n1b9rn3b" dur="8" oct="4" pname="e" />
+=======
+                           <beam>
+                              <note xml:id="no8alak" type="mscore-beam-begin" dur="8" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n11i77os" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="n1avqppc" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="n1b9rn3b" dur="8" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -106,18 +184,28 @@
                   <measure xml:id="m7seru2" n="4">
                      <staff xml:id="m5s1" n="1">
                         <layer xml:id="m5s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bp8v90s">
                               <note xml:id="nnot8vi" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="ns1xv64" dur="8" oct="4" pname="e" />
                            </beam>
                            <rest xml:id="r1mnne2f" type="mscore-beam-none" dur="8" />
                            <note xml:id="n13787ve" type="mscore-beam-none" dur="8" oct="4" pname="a" />
+=======
+                           <beam>
+                              <note xml:id="nnot8vi" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="ns1xv64" dur="8" pname="e" oct="4" />
+                           </beam>
+                           <rest xml:id="r1mnne2f" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n13787ve" type="mscore-beam-none" dur="8" pname="a" oct="4" />
+>>>>>>> alexandra/arbeit
                         </layer>
                      </staff>
                   </measure>
                   <measure xml:id="m1j9m69m" n="5">
                      <staff xml:id="m6s1" n="1">
                         <layer xml:id="m6s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b19x0qii">
                               <note xml:id="n1cl6gkw" type="mscore-beam-begin" dur="8" oct="4" pname="f">
                                  <accid xml:id="a6bdey6" accid.ges="s" />
@@ -130,6 +218,20 @@
                               </note>
                               <note xml:id="n1gk53au" dur="8" oct="4" pname="f">
                                  <accid xml:id="af019uy" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n1cl6gkw" type="mscore-beam-begin" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nni91ua" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1h9zt43" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1gk53au" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -138,7 +240,11 @@
                   <measure xml:id="mi6mkov" n="6">
                      <staff xml:id="m7s1" n="1">
                         <layer xml:id="m7s1l1" n="1">
+<<<<<<< HEAD
                            <note xml:id="n1svkcco" dur="4" oct="4" pname="e" />
+=======
+                           <note xml:id="n1svkcco" dur="4" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            <rest xml:id="r1jgjf2k" dur="4" />
                         </layer>
                      </staff>
@@ -146,11 +252,19 @@
                   <measure xml:id="muslbh2" n="7">
                      <staff xml:id="m8s1" n="1">
                         <layer xml:id="m8s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b128pca7">
                               <note xml:id="n1cg9y64" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="n1nc3xmt" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n13oqddq" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="nc5ezca" dur="8" oct="4" pname="e" />
+=======
+                           <beam>
+                              <note xml:id="n1cg9y64" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1nc3xmt" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n13oqddq" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="nc5ezca" dur="8" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -158,11 +272,16 @@
                   <measure xml:id="m1tvomhq" n="8">
                      <staff xml:id="m9s1" n="1">
                         <layer xml:id="m9s1l1" n="1">
+<<<<<<< HEAD
                            <note xml:id="n1yvnsnu" dur="4" oct="4" pname="d" />
+=======
+                           <note xml:id="n1yvnsnu" dur="4" pname="d" oct="4" />
+>>>>>>> alexandra/arbeit
                            <rest xml:id="r1fv2z1v" dur="4" />
                         </layer>
                      </staff>
                   </measure>
+<<<<<<< HEAD
                   <sb xml:id="seh20qb" />
                   <measure xml:id="m1p3pyzz" n="9">
                      <staff xml:id="m10s1" n="1">
@@ -172,6 +291,17 @@
                               <note xml:id="n1vuo3qy" type="mscore-beam-mid" dur="8" oct="4" pname="d" />
                               <note xml:id="n95rdue" type="mscore-beam-mid" dur="8" oct="4" pname="d" />
                               <note xml:id="nuw0sn2" dur="8" oct="4" pname="d" />
+=======
+                  <sb />
+                  <measure xml:id="m1p3pyzz" n="9">
+                     <staff xml:id="m10s1" n="1">
+                        <layer xml:id="m10s1l1" n="1">
+                           <beam>
+                              <note xml:id="nyevlal" type="mscore-beam-begin" dur="8" pname="d" oct="4" />
+                              <note xml:id="n1vuo3qy" type="mscore-beam-mid" dur="8" pname="d" oct="4" />
+                              <note xml:id="n95rdue" type="mscore-beam-mid" dur="8" pname="d" oct="4" />
+                              <note xml:id="nuw0sn2" dur="8" pname="d" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -179,11 +309,19 @@
                   <measure xml:id="m19nhc00" n="10">
                      <staff xml:id="m11s1" n="1">
                         <layer xml:id="m11s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bfsc99r">
                               <note xml:id="n13nivm6" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="no67it9" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="naj5tm1" type="mscore-beam-mid" dur="8" oct="4" pname="d" />
                               <note xml:id="n1qgn86j" dur="8" oct="4" pname="d" />
+=======
+                           <beam>
+                              <note xml:id="n13nivm6" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="no67it9" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="naj5tm1" type="mscore-beam-mid" dur="8" pname="d" oct="4" />
+                              <note xml:id="n1qgn86j" dur="8" pname="d" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -191,6 +329,7 @@
                   <measure xml:id="mffx28a" n="11">
                      <staff xml:id="m12s1" n="1">
                         <layer xml:id="m12s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b142jsky">
                               <note xml:id="ndiq4we" type="mscore-beam-begin" dur="8" oct="4" pname="c">
                                  <accid xml:id="am4lr04" accid.ges="s" />
@@ -199,6 +338,16 @@
                               <note xml:id="nnugzlu" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n19cm06" dur="8" oct="4" pname="f">
                                  <accid xml:id="a1go1jkr" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="ndiq4we" type="mscore-beam-begin" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nldriua" type="mscore-beam-mid" dur="8" pname="d" oct="4" />
+                              <note xml:id="nnugzlu" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n19cm06" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -208,12 +357,21 @@
                      <staff xml:id="m13s1" n="1">
                         <layer xml:id="m13s1l1" n="1">
                            <rest xml:id="r2c52u5" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="bj6aivp">
                               <note xml:id="n168gw8r" type="mscore-beam-begin" dur="8" oct="4" pname="f">
                                  <accid xml:id="a1w85nke" accid.ges="s" />
                               </note>
                               <note xml:id="neq57ml" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n18lb3n9" dur="8" oct="4" pname="e" />
+=======
+                           <beam>
+                              <note xml:id="n168gw8r" type="mscore-beam-begin" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="neq57ml" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n18lb3n9" dur="8" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -221,6 +379,7 @@
                   <measure xml:id="muomjh" n="13">
                      <staff xml:id="m14s1" n="1">
                         <layer xml:id="m14s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1ar4jh4">
                               <note xml:id="n1wt3ncf" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="n7ovvvx" type="mscore-beam-mid" dur="16" oct="4" pname="c">
@@ -230,6 +389,17 @@
                               <note xml:id="nsh0dtn" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n1k5lk9r" dur="8" oct="4" pname="f">
                                  <accid xml:id="as3fkm4" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n1wt3ncf" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="n7ovvvx" type="mscore-beam-mid" dur="16" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1j4o1o1" type="mscore-beam-mid" dur="16" pname="d" oct="4" />
+                              <note xml:id="nsh0dtn" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1k5lk9r" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -239,12 +409,21 @@
                      <staff xml:id="m15s1" n="1">
                         <layer xml:id="m15s1l1" n="1">
                            <rest xml:id="r14c657m" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="b5u7qzn">
                               <note xml:id="n1qst75u" type="mscore-beam-begin" dur="8" oct="4" pname="f">
                                  <accid xml:id="a1gt44y3" accid.ges="s" />
                               </note>
                               <note xml:id="n16rnxry" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="nxwgibe" dur="8" oct="3" pname="b" />
+=======
+                           <beam>
+                              <note xml:id="n1qst75u" type="mscore-beam-begin" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n16rnxry" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="nxwgibe" dur="8" pname="b" oct="3" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -252,6 +431,7 @@
                   <measure xml:id="majhh3l" n="15">
                      <staff xml:id="m16s1" n="1">
                         <layer xml:id="m16s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bln7478">
                               <note xml:id="no5fkuh" type="mscore-beam-begin" dur="8" oct="4" pname="c">
                                  <accid xml:id="a1bskyzt" accid.ges="s" />
@@ -261,11 +441,23 @@
                               </note>
                               <note xml:id="n5m7d0a" type="mscore-beam-mid" dur="8" oct="3" pname="a" />
                               <note xml:id="n1panqx8" dur="8" oct="4" pname="e" />
+=======
+                           <beam>
+                              <note xml:id="no5fkuh" type="mscore-beam-begin" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nqp4mu3" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n5m7d0a" type="mscore-beam-mid" dur="8" pname="a" oct="3" />
+                              <note xml:id="n1panqx8" dur="8" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
                      <dynam xml:id="d13iiezs" label="p" startid="#n1panqx8">p</dynam>
                   </measure>
+<<<<<<< HEAD
                   <sb xml:id="scz7mnk" />
                   <measure xml:id="md6roc3" n="16">
                      <staff xml:id="m17s1" n="1">
@@ -275,6 +467,17 @@
                               <note xml:id="n3eymw8" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="navvs3n" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="nuf7s4r" dur="8" oct="4" pname="d" />
+=======
+                  <sb />
+                  <measure xml:id="md6roc3" n="16">
+                     <staff xml:id="m17s1" n="1">
+                        <layer xml:id="m17s1l1" n="1">
+                           <beam>
+                              <note xml:id="nkjc2ve" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="n3eymw8" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="navvs3n" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="nuf7s4r" dur="8" pname="d" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -282,6 +485,7 @@
                   <measure xml:id="mf4ql8o" n="17">
                      <staff xml:id="m18s1" n="1">
                         <layer xml:id="m18s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b13dijzl">
                               <note xml:id="n1r67sf1" type="mscore-beam-begin" dur="8" oct="4" pname="d" />
                               <note xml:id="n8txgpe" dur="8" oct="4" pname="c">
@@ -291,6 +495,17 @@
                            <rest xml:id="rtjr7z5" type="mscore-beam-none" dur="8" />
                            <note xml:id="n1aztod8" type="mscore-beam-none" dur="8" oct="4" pname="g">
                               <accid xml:id="a15cghix" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n1r67sf1" type="mscore-beam-begin" dur="8" pname="d" oct="4" />
+                              <note xml:id="n8txgpe" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                           <rest xml:id="rtjr7z5" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n1aztod8" type="mscore-beam-none" dur="8" pname="g" oct="4">
+                              <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                         </layer>
                      </staff>
@@ -298,6 +513,7 @@
                   <measure xml:id="m1b367r3" n="18">
                      <staff xml:id="m19s1" n="1">
                         <layer xml:id="m19s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b207cdk">
                               <note xml:id="n1kqm5yb" type="mscore-beam-begin" dur="8" oct="4" pname="g">
                                  <accid xml:id="acuj1za" accid.ges="s" />
@@ -305,6 +521,15 @@
                               <note xml:id="n3mpetc" type="mscore-beam-mid" dur="8" oct="3" pname="b" />
                               <note xml:id="ngdnc2y" type="mscore-beam-mid" dur="8" oct="3" pname="b" />
                               <note xml:id="nt6vrvf" dur="8" oct="4" pname="e" />
+=======
+                           <beam>
+                              <note xml:id="n1kqm5yb" type="mscore-beam-begin" dur="8" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n3mpetc" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="ngdnc2y" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="nt6vrvf" dur="8" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -312,18 +537,28 @@
                   <measure xml:id="m1tuu7cp" n="19">
                      <staff xml:id="m20s1" n="1">
                         <layer xml:id="m20s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1fsqln">
                               <note xml:id="nvcz6y0" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="nqxyava" dur="8" oct="4" pname="e" />
                            </beam>
                            <rest xml:id="re49kqf" type="mscore-beam-none" dur="8" />
                            <note xml:id="n1eh3v60" type="mscore-beam-none" dur="8" oct="4" pname="b" />
+=======
+                           <beam>
+                              <note xml:id="nvcz6y0" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="nqxyava" dur="8" pname="e" oct="4" />
+                           </beam>
+                           <rest xml:id="re49kqf" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n1eh3v60" type="mscore-beam-none" dur="8" pname="b" oct="4" />
+>>>>>>> alexandra/arbeit
                         </layer>
                      </staff>
                   </measure>
                   <measure xml:id="m6bkfl4" n="20">
                      <staff xml:id="m21s1" n="1">
                         <layer xml:id="m21s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1ha4wzd">
                               <note xml:id="n1fxckea" type="mscore-beam-begin" dur="8" oct="4" pname="a" />
                               <note xml:id="n18caqox" type="mscore-beam-mid" dur="8" oct="4" pname="a" />
@@ -332,6 +567,16 @@
                               </note>
                               <note xml:id="nggd5ck" dur="8" oct="4" pname="f">
                                  <accid xml:id="a7vcz0m" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n1fxckea" type="mscore-beam-begin" dur="8" pname="a" oct="4" />
+                              <note xml:id="n18caqox" type="mscore-beam-mid" dur="8" pname="a" oct="4" />
+                              <note xml:id="ngetenx" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nggd5ck" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -341,6 +586,7 @@
                      <staff xml:id="m22s1" n="1">
                         <layer xml:id="m22s1l1" n="1">
                            <rest xml:id="r1v2ql0v" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="b1yy1t5v">
                               <note xml:id="n129hn20" type="mscore-beam-begin" dur="8" oct="4" pname="g">
                                  <accid xml:id="axtfs8c" accid.ges="s" />
@@ -348,6 +594,15 @@
                               <note xml:id="nd3r0h9" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n1ajha6s" dur="8" oct="4" pname="g">
                                  <accid xml:id="a1umkd4" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n129hn20" type="mscore-beam-begin" dur="8" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nd3r0h9" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1ajha6s" dur="8" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -357,6 +612,7 @@
                      <staff xml:id="m23s1" n="1">
                         <layer xml:id="m23s1l1" n="1">
                            <rest xml:id="rf4nq8i" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="bew4gsn">
                               <note xml:id="ndeehl7" type="mscore-beam-begin" dur="8" oct="4" pname="a" />
                               <note xml:id="nic1cla" type="mscore-beam-mid" dur="8" oct="4" pname="f">
@@ -364,16 +620,30 @@
                               </note>
                               <note xml:id="ngc40uj" dur="8" oct="4" pname="f">
                                  <accid xml:id="a1x8o6l1" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="ndeehl7" type="mscore-beam-begin" dur="8" pname="a" oct="4" />
+                              <note xml:id="nic1cla" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="ngc40uj" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
                      </staff>
                   </measure>
+<<<<<<< HEAD
                   <sb xml:id="skd67yw" />
+=======
+                  <sb />
+>>>>>>> alexandra/arbeit
                   <measure xml:id="mpc8wp3" n="23">
                      <staff xml:id="m24s1" n="1">
                         <layer xml:id="m24s1l1" n="1">
                            <rest xml:id="r1ossieq" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="bjjkq7s">
                               <note xml:id="n15wroux" type="mscore-beam-begin" dur="16" oct="4" pname="e" />
                               <note xml:id="n3jngtn" type="mscore-beam-mid" dur="16" oct="4" pname="f">
@@ -383,6 +653,17 @@
                                  <accid xml:id="aqrk4f0" accid.ges="s" />
                               </note>
                               <note xml:id="n197vuir" dur="8" oct="4" pname="a" />
+=======
+                           <beam>
+                              <note xml:id="n15wroux" type="mscore-beam-begin" dur="16" pname="e" oct="4" />
+                              <note xml:id="n3jngtn" type="mscore-beam-mid" dur="16" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1oxvle0" type="mscore-beam-mid" dur="8" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n197vuir" dur="8" pname="a" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -390,6 +671,7 @@
                   <measure xml:id="m136qhlr" n="24">
                      <staff xml:id="m25s1" n="1">
                         <layer xml:id="m25s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bvl1sdk">
                               <note xml:id="n4f317n" type="mscore-beam-begin" dur="8" oct="4" pname="g">
                                  <accid xml:id="axl18uw" accid.ges="s" />
@@ -402,6 +684,20 @@
                               </note>
                               <note xml:id="n1n4ymjo" dur="8" oct="4" pname="d">
                                  <accid xml:id="a51wy2i" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n4f317n" type="mscore-beam-begin" dur="8" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="ny2a719" type="mscore-beam-mid" dur="8" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="njzgqpq" type="mscore-beam-mid" dur="8" pname="d" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1n4ymjo" dur="8" pname="d" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -410,6 +706,7 @@
                   <measure xml:id="m1bqz4d8" n="25">
                      <staff xml:id="m26s1" n="1">
                         <layer xml:id="m26s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bs11nsh">
                               <note xml:id="n7zypoj" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="n9qksya" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
@@ -418,6 +715,16 @@
                               </note>
                               <note xml:id="n18i0hqx" dur="8" oct="3" pname="a">
                                  <accid xml:id="a1bchk43" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n7zypoj" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="n9qksya" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1hrlffj" type="mscore-beam-mid" dur="8" pname="a" oct="3">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n18i0hqx" dur="8" pname="a" oct="3">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -426,6 +733,7 @@
                   <measure xml:id="mw2dsdy" n="26">
                      <staff xml:id="m27s1" n="1">
                         <layer xml:id="m27s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bvfexio">
                               <note xml:id="nkx28y6" type="mscore-beam-begin" dur="8" oct="3" pname="b" />
                               <note xml:id="n54kxa2" type="mscore-beam-mid" dur="8" oct="3" pname="b" />
@@ -434,6 +742,16 @@
                               </note>
                               <note xml:id="n1ulnvtg" dur="8" oct="4" pname="d">
                                  <accid xml:id="anvqqmw" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="nkx28y6" type="mscore-beam-begin" dur="8" pname="b" oct="3" />
+                              <note xml:id="n54kxa2" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="n19e1u6b" type="mscore-beam-mid" dur="8" pname="d" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1ulnvtg" dur="8" pname="d" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -443,6 +761,7 @@
                      <staff xml:id="m28s1" n="1">
                         <layer xml:id="m28s1l1" n="1">
                            <rest xml:id="rda4gi2" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="brkdxbd">
                               <note xml:id="n11bhkwv" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="nfrufwp" type="mscore-beam-mid" dur="8" oct="4" pname="c">
@@ -450,6 +769,15 @@
                               </note>
                               <note xml:id="nqgpyww" dur="8" oct="3" pname="a">
                                  <accid xml:id="alyf11c" accid="s" />
+=======
+                           <beam>
+                              <note xml:id="n11bhkwv" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="nfrufwp" type="mscore-beam-mid" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nqgpyww" dur="8" pname="a" oct="3">
+                                 <accid accid="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -458,6 +786,7 @@
                   <measure xml:id="m1i2vnu9" n="28">
                      <staff xml:id="m29s1" n="1">
                         <layer xml:id="m29s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1a4ro95">
                               <note xml:id="n1h59wk3" type="mscore-beam-begin" dur="8" oct="3" pname="b" />
                               <note xml:id="n1vemoe9" type="mscore-beam-mid" dur="8" oct="3" pname="b" />
@@ -466,6 +795,16 @@
                               </note>
                               <note xml:id="n1l9dptq" dur="8" oct="4" pname="d">
                                  <accid xml:id="ajeg59b" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n1h59wk3" type="mscore-beam-begin" dur="8" pname="b" oct="3" />
+                              <note xml:id="n1vemoe9" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="ni2nero" type="mscore-beam-mid" dur="8" pname="d" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1l9dptq" dur="8" pname="d" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -475,6 +814,7 @@
                      <staff xml:id="m30s1" n="1">
                         <layer xml:id="m30s1l1" n="1">
                            <rest xml:id="rzuc6zw" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="b186zcrw">
                               <note xml:id="n157yhcc" type="mscore-beam-begin" dur="8" oct="4" pname="a" />
                               <note xml:id="n189qi1v" type="mscore-beam-mid" dur="8" oct="4" pname="f">
@@ -482,16 +822,30 @@
                               </note>
                               <note xml:id="nxxn9da" dur="8" oct="4" pname="f">
                                  <accid xml:id="a1p3fhbq" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n157yhcc" type="mscore-beam-begin" dur="8" pname="a" oct="4" />
+                              <note xml:id="n189qi1v" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nxxn9da" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
                      </staff>
                   </measure>
+<<<<<<< HEAD
                   <sb xml:id="sk8yds3" />
+=======
+                  <sb />
+>>>>>>> alexandra/arbeit
                   <measure xml:id="m1ofurog" n="30">
                      <staff xml:id="m31s1" n="1">
                         <layer xml:id="m31s1l1" n="1">
                            <rest xml:id="rnygool" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="b16d0cu3">
                               <note xml:id="n1f8hfy5" type="mscore-beam-begin" dur="8" oct="4" pname="a" />
                               <note xml:id="niir0f1" type="mscore-beam-mid" dur="8" oct="4" pname="f">
@@ -499,6 +853,15 @@
                               </note>
                               <note xml:id="nefx0na" dur="8" oct="4" pname="f">
                                  <accid xml:id="a9fi75v" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n1f8hfy5" type="mscore-beam-begin" dur="8" pname="a" oct="4" />
+                              <note xml:id="niir0f1" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nefx0na" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -508,6 +871,7 @@
                      <staff xml:id="m32s1" n="1">
                         <layer xml:id="m32s1l1" n="1">
                            <rest xml:id="rttp1cy" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="b15vf9or">
                               <note xml:id="ns3f07b" type="mscore-beam-begin" dur="8" oct="4" pname="a" />
                               <note xml:id="n1knckm2" type="mscore-beam-mid" dur="8" oct="4" pname="f">
@@ -515,6 +879,15 @@
                               </note>
                               <note xml:id="n1ylp1s" dur="8" oct="4" pname="f">
                                  <accid xml:id="a1lzw9rt" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="ns3f07b" type="mscore-beam-begin" dur="8" pname="a" oct="4" />
+                              <note xml:id="n1knckm2" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1ylp1s" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -523,6 +896,7 @@
                   <measure xml:id="m14av632" n="32">
                      <staff xml:id="m33s1" n="1">
                         <layer xml:id="m33s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1xz46o9">
                               <note xml:id="n19wrviy" type="mscore-beam-begin" dur="8" oct="4" pname="g">
                                  <accid xml:id="a1181785" accid.ges="s" />
@@ -530,6 +904,15 @@
                               <note xml:id="nq46qjw" type="mscore-beam-mid" dur="8" oct="4" pname="b" />
                               <note xml:id="nz85id7" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n1dl47pe" dur="8" oct="4" pname="b" />
+=======
+                           <beam>
+                              <note xml:id="n19wrviy" type="mscore-beam-begin" dur="8" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nq46qjw" type="mscore-beam-mid" dur="8" pname="b" oct="4" />
+                              <note xml:id="nz85id7" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1dl47pe" dur="8" pname="b" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -538,11 +921,19 @@
                   <measure xml:id="m1o3va13" n="33">
                      <staff xml:id="m34s1" n="1">
                         <layer xml:id="m34s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bvep1zq">
                               <note xml:id="n15l5ubq" type="mscore-beam-begin" dur="8" oct="4" pname="b" />
                               <note xml:id="n1l8juju" type="mscore-beam-mid" dur="8" oct="4" pname="b" />
                               <note xml:id="ndx4015" type="mscore-beam-mid" dur="8" oct="4" pname="b" />
                               <note xml:id="n1cxk9x2" dur="8" oct="4" pname="a" />
+=======
+                           <beam>
+                              <note xml:id="n15l5ubq" type="mscore-beam-begin" dur="8" pname="b" oct="4" />
+                              <note xml:id="n1l8juju" type="mscore-beam-mid" dur="8" pname="b" oct="4" />
+                              <note xml:id="ndx4015" type="mscore-beam-mid" dur="8" pname="b" oct="4" />
+                              <note xml:id="n1cxk9x2" dur="8" pname="a" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -550,6 +941,7 @@
                   <measure xml:id="m75yyfa" n="34">
                      <staff xml:id="m35s1" n="1">
                         <layer xml:id="m35s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b4iqw5x">
                               <note xml:id="n1uzolyl" type="mscore-beam-begin" dur="8" oct="4" pname="a" />
                               <note xml:id="n2g2eit" dur="8" oct="4" pname="g">
@@ -559,6 +951,17 @@
                            <rest xml:id="r15zwk9r" type="mscore-beam-none" dur="8" />
                            <note xml:id="nzqaqyd" type="mscore-beam-none" dur="8" oct="4" pname="d">
                               <accid xml:id="a1f6spxr" accid="s" />
+=======
+                           <beam>
+                              <note xml:id="n1uzolyl" type="mscore-beam-begin" dur="8" pname="a" oct="4" />
+                              <note xml:id="n2g2eit" dur="8" pname="g" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                           </beam>
+                           <rest xml:id="r15zwk9r" type="mscore-beam-none" dur="8" />
+                           <note xml:id="nzqaqyd" type="mscore-beam-none" dur="8" pname="d" oct="4">
+                              <accid accid="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                         </layer>
                      </staff>
@@ -566,6 +969,7 @@
                   <measure xml:id="mb757j4" n="35">
                      <staff xml:id="m36s1" n="1">
                         <layer xml:id="m36s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="byr4alw">
                               <note xml:id="n26p9rv" type="mscore-beam-begin" dur="8" oct="4" pname="d">
                                  <accid xml:id="a8w5v2w" accid="n" />
@@ -575,6 +979,17 @@
                                  <accid xml:id="a1e3wk7d" accid.ges="s" />
                               </note>
                               <note xml:id="nxvjbw5" dur="8" oct="4" pname="b" />
+=======
+                           <beam>
+                              <note xml:id="n26p9rv" type="mscore-beam-begin" dur="8" pname="d" oct="4">
+                                 <accid accid="n" />
+                              </note>
+                              <note xml:id="n18lnof6" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1ph822a" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nxvjbw5" dur="8" pname="b" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -582,18 +997,28 @@
                   <measure xml:id="m1pmdsax" n="36">
                      <staff xml:id="m37s1" n="1">
                         <layer xml:id="m37s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1c697xc">
                               <note xml:id="nvct8yi" type="mscore-beam-begin" dur="8" oct="4" pname="b" />
                               <note xml:id="nzjy8rh" dur="8" oct="4" pname="b" />
                            </beam>
                            <rest xml:id="rn7zbzk" type="mscore-beam-none" dur="8" />
                            <note xml:id="n1evdiex" type="mscore-beam-none" dur="8" oct="4" pname="b" />
+=======
+                           <beam>
+                              <note xml:id="nvct8yi" type="mscore-beam-begin" dur="8" pname="b" oct="4" />
+                              <note xml:id="nzjy8rh" dur="8" pname="b" oct="4" />
+                           </beam>
+                           <rest xml:id="rn7zbzk" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n1evdiex" type="mscore-beam-none" dur="8" pname="b" oct="4" />
+>>>>>>> alexandra/arbeit
                         </layer>
                      </staff>
                   </measure>
                   <measure xml:id="mc9dyza" n="37">
                      <staff xml:id="m38s1" n="1">
                         <layer xml:id="m38s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bbvhb9j">
                               <note xml:id="n4peznm" type="mscore-beam-begin" dur="8" oct="4" pname="a" />
                               <note xml:id="njdd6z7" type="mscore-beam-mid" dur="8" oct="5" pname="c">
@@ -604,16 +1029,36 @@
                               </note>
                               <note xml:id="ncmzzvc" dur="8" oct="5" pname="c">
                                  <accid xml:id="a1mmb2w4" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n4peznm" type="mscore-beam-begin" dur="8" pname="a" oct="4" />
+                              <note xml:id="njdd6z7" type="mscore-beam-mid" dur="8" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1caawx0" type="mscore-beam-mid" dur="8" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="ncmzzvc" dur="8" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
                      </staff>
                   </measure>
+<<<<<<< HEAD
                   <sb xml:id="sy5krgr" />
                   <measure xml:id="m15z6g9g" n="38">
                      <staff xml:id="m39s1" n="1">
                         <layer xml:id="m39s1l1" n="1">
                            <note xml:id="n5w7lf8" dur="4" oct="4" pname="b" />
+=======
+                  <sb />
+                  <measure xml:id="m15z6g9g" n="38">
+                     <staff xml:id="m39s1" n="1">
+                        <layer xml:id="m39s1l1" n="1">
+                           <note xml:id="n5w7lf8" dur="4" pname="b" oct="4" />
+>>>>>>> alexandra/arbeit
                            <rest xml:id="rp9jdu6" dur="4" />
                         </layer>
                      </staff>
@@ -621,11 +1066,19 @@
                   <measure xml:id="m1jstj0k" n="39">
                      <staff xml:id="m40s1" n="1">
                         <layer xml:id="m40s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bpb10tq">
                               <note xml:id="n1cldoqt" type="mscore-beam-begin" dur="8" oct="4" pname="b" />
                               <note xml:id="n18dr77g" type="mscore-beam-mid" dur="8" oct="4" pname="b" />
                               <note xml:id="n17cwull" type="mscore-beam-mid" dur="8" oct="4" pname="b" />
                               <note xml:id="n1a2xoe9" dur="8" oct="4" pname="b" />
+=======
+                           <beam>
+                              <note xml:id="n1cldoqt" type="mscore-beam-begin" dur="8" pname="b" oct="4" />
+                              <note xml:id="n18dr77g" type="mscore-beam-mid" dur="8" pname="b" oct="4" />
+                              <note xml:id="n17cwull" type="mscore-beam-mid" dur="8" pname="b" oct="4" />
+                              <note xml:id="n1a2xoe9" dur="8" pname="b" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -633,7 +1086,11 @@
                   <measure xml:id="m8ikmpt" n="40">
                      <staff xml:id="m41s1" n="1">
                         <layer xml:id="m41s1l1" n="1">
+<<<<<<< HEAD
                            <note xml:id="n1esw2jb" dur="4" oct="4" pname="a" />
+=======
+                           <note xml:id="n1esw2jb" dur="4" pname="a" oct="4" />
+>>>>>>> alexandra/arbeit
                            <rest xml:id="rf75bkh" dur="4" />
                         </layer>
                      </staff>
@@ -641,12 +1098,21 @@
                   <measure xml:id="mjaloep" n="41">
                      <staff xml:id="m42s1" n="1">
                         <layer xml:id="m42s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1solxsk">
                               <note xml:id="n1qsi4bk" type="mscore-beam-begin" dur="8" oct="4" pname="a" />
                               <note xml:id="n65j6xo" type="mscore-beam-mid" dur="8" oct="4" pname="a" />
                               <note xml:id="nthhpwk" type="mscore-beam-mid" dur="8" oct="4" pname="a" />
                               <note xml:id="n1fujjjf" dur="8" oct="4" pname="f">
                                  <accid xml:id="a1f4s42z" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n1qsi4bk" type="mscore-beam-begin" dur="8" pname="a" oct="4" />
+                              <note xml:id="n65j6xo" type="mscore-beam-mid" dur="8" pname="a" oct="4" />
+                              <note xml:id="nthhpwk" type="mscore-beam-mid" dur="8" pname="a" oct="4" />
+                              <note xml:id="n1fujjjf" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -655,6 +1121,7 @@
                   <measure xml:id="mn5yoma" n="42">
                      <staff xml:id="m43s1" n="1">
                         <layer xml:id="m43s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="byb4yee">
                               <note xml:id="n6p9ksk" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="no70wbh" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
@@ -663,6 +1130,16 @@
                               </note>
                               <note xml:id="n1ovjkcf" dur="8" oct="4" pname="f">
                                  <accid xml:id="a17je0yc" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n6p9ksk" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="no70wbh" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n12fu54j" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1ovjkcf" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -671,6 +1148,7 @@
                   <measure xml:id="m14h4h7a" n="43">
                      <staff xml:id="m44s1" n="1">
                         <layer xml:id="m44s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1btl8vs">
                               <note xml:id="n17uhsf0" type="mscore-beam-begin" dur="8" oct="4" pname="g">
                                  <accid xml:id="ay5xpd3" accid.ges="s" />
@@ -679,6 +1157,16 @@
                               <note xml:id="nr2l1tn" type="mscore-beam-mid" dur="8" oct="4" pname="b" />
                               <note xml:id="n1of3dt" dur="8" oct="5" pname="c">
                                  <accid xml:id="ay5xf2d" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n17uhsf0" type="mscore-beam-begin" dur="8" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1cevrbv" type="mscore-beam-mid" dur="8" pname="a" oct="4" />
+                              <note xml:id="nr2l1tn" type="mscore-beam-mid" dur="8" pname="b" oct="4" />
+                              <note xml:id="n1of3dt" dur="8" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -688,12 +1176,21 @@
                      <staff xml:id="m45s1" n="1">
                         <layer xml:id="m45s1l1" n="1">
                            <rest xml:id="rm0xann" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="b6txpvb">
                               <note xml:id="n1a4zduh" type="mscore-beam-begin" dur="8" oct="4" pname="f">
                                  <accid xml:id="a1ulwnzr" accid.ges="s" />
                               </note>
                               <note xml:id="n1llmp5b" type="mscore-beam-mid" dur="8" oct="4" pname="b" />
                               <note xml:id="nwgu6iy" dur="8" oct="4" pname="b" />
+=======
+                           <beam>
+                              <note xml:id="n1a4zduh" type="mscore-beam-begin" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1llmp5b" type="mscore-beam-mid" dur="8" pname="b" oct="4" />
+                              <note xml:id="nwgu6iy" dur="8" pname="b" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -701,6 +1198,7 @@
                   <measure xml:id="ma7knqs" n="45">
                      <staff xml:id="m46s1" n="1">
                         <layer xml:id="m46s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bq0egfw">
                               <note xml:id="nuk1vrs" type="mscore-beam-begin" dur="8" oct="4" pname="b" />
                               <note xml:id="n1bmrb" type="mscore-beam-mid" dur="16" oct="4" pname="g">
@@ -710,22 +1208,46 @@
                               <note xml:id="n5lf2yp" type="mscore-beam-mid" dur="8" oct="4" pname="b" />
                               <note xml:id="n4jjtax" dur="8" oct="4" pname="f">
                                  <accid xml:id="a1gemp47" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="nuk1vrs" type="mscore-beam-begin" dur="8" pname="b" oct="4" />
+                              <note xml:id="n1bmrb" type="mscore-beam-mid" dur="16" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1p0qurc" type="mscore-beam-mid" dur="16" pname="a" oct="4" />
+                              <note xml:id="n5lf2yp" type="mscore-beam-mid" dur="8" pname="b" oct="4" />
+                              <note xml:id="n4jjtax" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
                      </staff>
                   </measure>
+<<<<<<< HEAD
                   <sb xml:id="s1jrgoqg" />
+=======
+                  <sb />
+>>>>>>> alexandra/arbeit
                   <measure xml:id="mt7hxfc" n="46">
                      <staff xml:id="m47s1" n="1">
                         <layer xml:id="m47s1l1" n="1">
                            <rest xml:id="r13fahf3" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="bzyfu4">
                               <note xml:id="n93fg7y" type="mscore-beam-begin" dur="8" oct="4" pname="c">
                                  <accid xml:id="a91ie9b" accid.ges="s" />
                               </note>
                               <note xml:id="n1uzopjw" type="mscore-beam-mid" dur="8" oct="3" pname="b" />
                               <note xml:id="nzwysdm" dur="8" oct="3" pname="b" />
+=======
+                           <beam>
+                              <note xml:id="n93fg7y" type="mscore-beam-begin" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1uzopjw" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="nzwysdm" dur="8" pname="b" oct="3" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -733,7 +1255,11 @@
                   <measure xml:id="m1cmhszo" n="47">
                      <staff xml:id="m48s1" n="1">
                         <layer xml:id="m48s1l1" n="1">
+<<<<<<< HEAD
                            <note xml:id="nv0wmn" dur="4" oct="3" pname="b" />
+=======
+                           <note xml:id="nv0wmn" dur="4" pname="b" oct="3" />
+>>>>>>> alexandra/arbeit
                            <rest xml:id="rj6uvt7" dur="4" />
                         </layer>
                      </staff>
@@ -741,6 +1267,7 @@
                   <measure xml:id="ms81yi5" n="48">
                      <staff xml:id="m49s1" n="1">
                         <layer xml:id="m49s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b15o4goe">
                               <note xml:id="nyemr6k" type="mscore-beam-begin" dur="8" oct="3" pname="a">
                                  <accid xml:id="alkwdzi" accid="s" />
@@ -753,6 +1280,20 @@
                               </note>
                               <note xml:id="n1ky3dh5" dur="8" oct="3" pname="a">
                                  <accid xml:id="a1i34od1" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="nyemr6k" type="mscore-beam-begin" dur="8" pname="a" oct="3">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n14523hd" type="mscore-beam-mid" dur="8" pname="a" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1soti1a" type="mscore-beam-mid" dur="8" pname="a" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1ky3dh5" dur="8" pname="a" oct="3">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -762,6 +1303,7 @@
                   <measure xml:id="m1v51lbj" n="49">
                      <staff xml:id="m50s1" n="1">
                         <layer xml:id="m50s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1mptmg7">
                               <note xml:id="n1ic8we8" type="mscore-beam-begin" dur="8" oct="3" pname="b" />
                               <note xml:id="ns9njzf" dur="8" oct="4" pname="f">
@@ -769,12 +1311,22 @@
                               </note>
                            </beam>
                            <note xml:id="n2ju3hi" dur="4" oct="4" pname="b" />
+=======
+                           <beam>
+                              <note xml:id="n1ic8we8" type="mscore-beam-begin" dur="8" pname="b" oct="3" />
+                              <note xml:id="ns9njzf" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                           <note xml:id="n2ju3hi" dur="4" pname="b" oct="4" />
+>>>>>>> alexandra/arbeit
                         </layer>
                      </staff>
                   </measure>
                   <measure xml:id="m1je98x9" n="50">
                      <staff xml:id="m51s1" n="1">
                         <layer xml:id="m51s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b2t410">
                               <note xml:id="nxtesx2" type="mscore-beam-begin" dur="8" oct="3" pname="g">
                                  <accid xml:id="a5d6dqx" accid.ges="s" />
@@ -787,6 +1339,20 @@
                               </note>
                               <note xml:id="n1tk2l8o" dur="8" oct="3" pname="g">
                                  <accid xml:id="a17g18vu" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="nxtesx2" type="mscore-beam-begin" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nmksnxi" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1fvb7oo" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1tk2l8o" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -795,6 +1361,7 @@
                   <measure xml:id="ma2678d" n="51">
                      <staff xml:id="m52s1" n="1">
                         <layer xml:id="m52s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1uog9ca">
                               <note xml:id="n151o9p0" type="mscore-beam-begin" dur="8" oct="3" pname="a" />
                               <note xml:id="nwbnw9h" type="mscore-beam-mid" dur="8" oct="4" pname="c">
@@ -802,6 +1369,15 @@
                               </note>
                               <note xml:id="nvy0s3x" type="mscore-beam-mid" dur="8" oct="3" pname="b" />
                               <note xml:id="n1n99ymc" dur="8" oct="4" pname="e" />
+=======
+                           <beam>
+                              <note xml:id="n151o9p0" type="mscore-beam-begin" dur="8" pname="a" oct="3" />
+                              <note xml:id="nwbnw9h" type="mscore-beam-mid" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nvy0s3x" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="n1n99ymc" dur="8" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -809,11 +1385,19 @@
                   <measure xml:id="m1lp6zae" n="52">
                      <staff xml:id="m53s1" n="1">
                         <layer xml:id="m53s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b80zfl9">
                               <note xml:id="n1o9v5ar" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="nrkunjm" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n2xqua1" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="nxpvaqe" dur="8" oct="4" pname="e" />
+=======
+                           <beam>
+                              <note xml:id="n1o9v5ar" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="nrkunjm" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n2xqua1" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="nxpvaqe" dur="8" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -822,6 +1406,7 @@
                      <staff xml:id="m54s1" n="1">
                         <layer xml:id="m54s1l1" n="1">
                            <rest xml:id="rk380ei" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="b1ypbt2b">
                               <note xml:id="n18pl6bf" type="mscore-beam-begin" dur="8" oct="4" pname="f">
                                  <accid xml:id="a1k5c88" accid.ges="s" />
@@ -831,16 +1416,32 @@
                               </note>
                               <note xml:id="n1y74yr4" dur="8" oct="4" pname="f">
                                  <accid xml:id="anmbuwc" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n18pl6bf" type="mscore-beam-begin" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nitqior" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1y74yr4" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
                      </staff>
                   </measure>
+<<<<<<< HEAD
                   <sb xml:id="suasygu" />
+=======
+                  <sb />
+>>>>>>> alexandra/arbeit
                   <measure xml:id="m1u9oypi" n="54">
                      <staff xml:id="m55s1" n="1">
                         <layer xml:id="m55s1l1" n="1">
                            <rest xml:id="r68f135" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="be38k59">
                               <note xml:id="n1cl8oja" type="mscore-beam-begin" dur="8" oct="4" pname="f">
                                  <accid xml:id="a1hkztv5" accid.ges="s" />
@@ -850,6 +1451,17 @@
                               </note>
                               <note xml:id="n15s88qx" dur="8" oct="4" pname="f">
                                  <accid xml:id="a11v3gf2" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n1cl8oja" type="mscore-beam-begin" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1rz0i7q" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n15s88qx" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -859,6 +1471,7 @@
                      <staff xml:id="m56s1" n="1">
                         <layer xml:id="m56s1l1" n="1">
                            <rest xml:id="r1vgpgi6" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="b16cdhmi">
                               <note xml:id="nbwfsk2" type="mscore-beam-begin" dur="8" oct="4" pname="g">
                                  <accid xml:id="a4jo57j" accid.ges="s" />
@@ -867,6 +1480,16 @@
                                  <accid xml:id="a1cl90rr" accid.ges="s" />
                               </note>
                               <note xml:id="nqcpjd7" dur="8" oct="4" pname="a" />
+=======
+                           <beam>
+                              <note xml:id="nbwfsk2" type="mscore-beam-begin" dur="8" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nwpym9o" type="mscore-beam-mid" dur="8" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nqcpjd7" dur="8" pname="a" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -874,12 +1497,21 @@
                   <measure xml:id="m1ou040x" n="56">
                      <staff xml:id="m57s1" n="1">
                         <layer xml:id="m57s1l1" n="1">
+<<<<<<< HEAD
                            <note xml:id="nrs844x" dur="4" oct="4" pname="g">
                               <accid xml:id="aieh1bx" accid.ges="s" />
                            </note>
                            <rest xml:id="ra8vq1" type="mscore-beam-none" dur="8" />
                            <note xml:id="n17m153w" type="mscore-beam-none" dur="8" oct="4" pname="g">
                               <accid xml:id="a1gvbwq" accid.ges="s" />
+=======
+                           <note xml:id="nrs844x" dur="4" pname="g" oct="4">
+                              <accid accid.ges="s" />
+                           </note>
+                           <rest xml:id="ra8vq1" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n17m153w" type="mscore-beam-none" dur="8" pname="g" oct="4">
+                              <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                         </layer>
                      </staff>
@@ -887,6 +1519,7 @@
                   <measure xml:id="m1kotnkw" n="57">
                      <staff xml:id="m58s1" n="1">
                         <layer xml:id="m58s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1crvpwo">
                               <note xml:id="n9bxw5o" type="mscore-beam-begin" dur="8" oct="4" pname="a" />
                               <note xml:id="n14es8f2" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
@@ -894,6 +1527,15 @@
                                  <accid xml:id="aa76gfx" accid.ges="s" />
                               </note>
                               <note xml:id="n10onmrd" dur="8" oct="4" pname="e" />
+=======
+                           <beam>
+                              <note xml:id="n9bxw5o" type="mscore-beam-begin" dur="8" pname="a" oct="4" />
+                              <note xml:id="n14es8f2" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="neitjqn" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n10onmrd" dur="8" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -901,6 +1543,7 @@
                   <measure xml:id="m1a0u5g9" n="58">
                      <staff xml:id="m59s1" n="1">
                         <layer xml:id="m59s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bpfoolb">
                               <note xml:id="n1r9vr7v" type="mscore-beam-begin" dur="8" oct="4" pname="f">
                                  <accid xml:id="a524ga9" accid.ges="s" />
@@ -913,6 +1556,20 @@
                               </note>
                               <note xml:id="n168evca" dur="8" oct="4" pname="f">
                                  <accid xml:id="a19hz1qy" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n1r9vr7v" type="mscore-beam-begin" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1wpha9d" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="ntmlsji" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n168evca" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -921,8 +1578,13 @@
                   <measure xml:id="m1ns747p" n="59">
                      <staff xml:id="m60s1" n="1">
                         <layer xml:id="m60s1l1" n="1">
+<<<<<<< HEAD
                            <note xml:id="n12rwnr0" dur="4" oct="4" pname="g">
                               <accid xml:id="a1pdbn89" accid.ges="s" />
+=======
+                           <note xml:id="n12rwnr0" dur="4" pname="g" oct="4">
+                              <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                            <rest xml:id="rrtoa6b" dur="4" />
                         </layer>
@@ -932,10 +1594,17 @@
                      <staff xml:id="m61s1" n="1">
                         <layer xml:id="m61s1l1" n="1">
                            <rest xml:id="rx14cje" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="b10cu63k">
                               <note xml:id="nz01fe9" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="n1fvsmcz" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n1o5q3aa" dur="8" oct="4" pname="e" />
+=======
+                           <beam>
+                              <note xml:id="nz01fe9" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1fvsmcz" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1o5q3aa" dur="8" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -943,6 +1612,7 @@
                   <measure xml:id="m3kyr6d" n="61">
                      <staff xml:id="m62s1" n="1">
                         <layer xml:id="m62s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1jb4wtb">
                               <note xml:id="n63gjde" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="nz2ee8c" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
@@ -950,10 +1620,20 @@
                                  <accid xml:id="a1eo2lyr" accid.ges="s" />
                               </note>
                               <note xml:id="n1aw5w0j" dur="8" oct="4" pname="e" />
+=======
+                           <beam>
+                              <note xml:id="n63gjde" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="nz2ee8c" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="nueqc64" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1aw5w0j" dur="8" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
                   </measure>
+<<<<<<< HEAD
                   <sb xml:id="sy9156" />
                   <measure xml:id="m15gvwl" n="62">
                      <staff xml:id="m63s1" n="1">
@@ -966,6 +1646,20 @@
                               <note xml:id="nfympre" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="nfvmjvz" dur="8" oct="4" pname="f">
                                  <accid xml:id="a4oho2y" accid.ges="s" />
+=======
+                  <sb />
+                  <measure xml:id="m15gvwl" n="62">
+                     <staff xml:id="m63s1" n="1">
+                        <layer xml:id="m63s1l1" n="1">
+                           <beam>
+                              <note xml:id="ntm2t31" type="mscore-beam-begin" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nyexeua" type="mscore-beam-mid" dur="8" pname="d" oct="4" />
+                              <note xml:id="nfympre" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="nfvmjvz" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -975,10 +1669,17 @@
                      <staff xml:id="m64s1" n="1">
                         <layer xml:id="m64s1l1" n="1">
                            <rest xml:id="r1semqzz" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="b16ffuby">
                               <note xml:id="n1qgzt2c" type="mscore-beam-begin" dur="8" oct="4" pname="d" />
                               <note xml:id="n19i6h3i" type="mscore-beam-mid" dur="8" oct="3" pname="b" />
                               <note xml:id="n1x5e6yc" dur="8" oct="4" pname="e" />
+=======
+                           <beam>
+                              <note xml:id="n1qgzt2c" type="mscore-beam-begin" dur="8" pname="d" oct="4" />
+                              <note xml:id="n19i6h3i" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="n1x5e6yc" dur="8" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -986,6 +1687,7 @@
                   <measure xml:id="m1ny5lq6" n="64">
                      <staff xml:id="m65s1" n="1">
                         <layer xml:id="m65s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bzr5mlp">
                               <note xml:id="n4ie1av" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="nlnprtv" type="mscore-beam-mid" dur="16" oct="4" pname="c">
@@ -995,6 +1697,17 @@
                               <note xml:id="n5dzuft" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n1dplh5p" dur="8" oct="4" pname="f">
                                  <accid xml:id="a7y9rsd" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n4ie1av" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="nlnprtv" type="mscore-beam-mid" dur="16" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="niw7y22" type="mscore-beam-mid" dur="16" pname="d" oct="4" />
+                              <note xml:id="n5dzuft" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1dplh5p" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -1004,10 +1717,17 @@
                      <staff xml:id="m66s1" n="1">
                         <layer xml:id="m66s1l1" n="1">
                            <rest xml:id="repagp4" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="b1jcvnx1">
                               <note xml:id="n1f8s5nj" type="mscore-beam-begin" dur="8" oct="4" pname="d" />
                               <note xml:id="n508v7x" type="mscore-beam-mid" dur="8" oct="3" pname="b" />
                               <note xml:id="n10sgbrj" dur="8" oct="3" pname="b" />
+=======
+                           <beam>
+                              <note xml:id="n1f8s5nj" type="mscore-beam-begin" dur="8" pname="d" oct="4" />
+                              <note xml:id="n508v7x" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="n10sgbrj" dur="8" pname="b" oct="3" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -1015,6 +1735,7 @@
                   <measure xml:id="m1suh6jy" n="66">
                      <staff xml:id="m67s1" n="1">
                         <layer xml:id="m67s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bdge1w0">
                               <note xml:id="n1z11rlo" type="mscore-beam-begin" dur="8" oct="4" pname="c">
                                  <accid xml:id="a1h2hpog" accid.ges="s" />
@@ -1022,6 +1743,15 @@
                               <note xml:id="n21hwou" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n1svxpvf" type="mscore-beam-mid" dur="8" oct="4" pname="a" />
                               <note xml:id="nt57nao" dur="8" oct="4" pname="a" />
+=======
+                           <beam>
+                              <note xml:id="n1z11rlo" type="mscore-beam-begin" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n21hwou" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1svxpvf" type="mscore-beam-mid" dur="8" pname="a" oct="4" />
+                              <note xml:id="nt57nao" dur="8" pname="a" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -1030,6 +1760,7 @@
                   <measure xml:id="m163qoyl" n="67">
                      <staff xml:id="m68s1" n="1">
                         <layer xml:id="m68s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bth990o">
                               <note xml:id="n1k35rdm" type="mscore-beam-begin" dur="8" oct="4" pname="f">
                                  <accid xml:id="a11uatyr" accid.ges="s" />
@@ -1042,6 +1773,20 @@
                               </note>
                               <note xml:id="n1clxiae" dur="8" oct="4" pname="f">
                                  <accid xml:id="a1lgc9ri" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n1k35rdm" type="mscore-beam-begin" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nqmp9a3" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1r0x6uc" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1clxiae" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -1050,7 +1795,11 @@
                   <measure xml:id="m1fuxipf" n="68">
                      <staff xml:id="m69s1" n="1">
                         <layer xml:id="m69s1l1" n="1">
+<<<<<<< HEAD
                            <note xml:id="n13d8636" dur="4" oct="4" pname="e" />
+=======
+                           <note xml:id="n13d8636" dur="4" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            <rest xml:id="r13rmcz0" dur="4" />
                         </layer>
                      </staff>
@@ -1058,20 +1807,36 @@
                   <measure xml:id="mp4zetd" n="69">
                      <staff xml:id="m70s1" n="1">
                         <layer xml:id="m70s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1kallgp">
                               <note xml:id="nxr9jc" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="n19ppbjb" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n1nzlm1w" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n1bjj91r" dur="8" oct="4" pname="e" />
+=======
+                           <beam>
+                              <note xml:id="nxr9jc" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="n19ppbjb" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1nzlm1w" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1bjj91r" dur="8" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
                   </measure>
+<<<<<<< HEAD
                   <sb xml:id="sja3li2" />
                   <measure xml:id="mme5fta" n="70">
                      <staff xml:id="m71s1" n="1">
                         <layer xml:id="m71s1l1" n="1">
                            <note xml:id="n2wcdga" dur="4" oct="4" pname="d" />
+=======
+                  <sb />
+                  <measure xml:id="mme5fta" n="70">
+                     <staff xml:id="m71s1" n="1">
+                        <layer xml:id="m71s1l1" n="1">
+                           <note xml:id="n2wcdga" dur="4" pname="d" oct="4" />
+>>>>>>> alexandra/arbeit
                            <rest xml:id="rpcf6rh" dur="4" />
                         </layer>
                      </staff>
@@ -1079,11 +1844,19 @@
                   <measure xml:id="m7pbqta" n="71">
                      <staff xml:id="m72s1" n="1">
                         <layer xml:id="m72s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b9sungq">
                               <note xml:id="nacdz47" type="mscore-beam-begin" dur="8" oct="4" pname="d" />
                               <note xml:id="nnhlhy8" type="mscore-beam-mid" dur="8" oct="4" pname="d" />
                               <note xml:id="nljfmpa" type="mscore-beam-mid" dur="8" oct="4" pname="d" />
                               <note xml:id="nzys0gn" dur="8" oct="4" pname="d" />
+=======
+                           <beam>
+                              <note xml:id="nacdz47" type="mscore-beam-begin" dur="8" pname="d" oct="4" />
+                              <note xml:id="nnhlhy8" type="mscore-beam-mid" dur="8" pname="d" oct="4" />
+                              <note xml:id="nljfmpa" type="mscore-beam-mid" dur="8" pname="d" oct="4" />
+                              <note xml:id="nzys0gn" dur="8" pname="d" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -1091,11 +1864,19 @@
                   <measure xml:id="m184h8b3" n="72">
                      <staff xml:id="m73s1" n="1">
                         <layer xml:id="m73s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1e3su0q">
                               <note xml:id="n1akn657" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="nlkhy60" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n1frsatw" type="mscore-beam-mid" dur="8" oct="4" pname="d" />
                               <note xml:id="nff0bvv" dur="8" oct="4" pname="d" />
+=======
+                           <beam>
+                              <note xml:id="n1akn657" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="nlkhy60" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1frsatw" type="mscore-beam-mid" dur="8" pname="d" oct="4" />
+                              <note xml:id="nff0bvv" dur="8" pname="d" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -1103,6 +1884,7 @@
                   <measure xml:id="m1nr43va" n="73">
                      <staff xml:id="m74s1" n="1">
                         <layer xml:id="m74s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b4t2zf2">
                               <note xml:id="no50x3i" type="mscore-beam-begin" dur="8" oct="4" pname="c">
                                  <accid xml:id="a8mcn2b" accid.ges="s" />
@@ -1111,6 +1893,16 @@
                               <note xml:id="n1tbunzj" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n87zcx3" dur="8" oct="4" pname="f">
                                  <accid xml:id="a1rvxkhs" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="no50x3i" type="mscore-beam-begin" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1nypw38" type="mscore-beam-mid" dur="8" pname="d" oct="4" />
+                              <note xml:id="n1tbunzj" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n87zcx3" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -1120,12 +1912,21 @@
                      <staff xml:id="m75s1" n="1">
                         <layer xml:id="m75s1l1" n="1">
                            <rest xml:id="rcrs0vs" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="b2vqhfl">
                               <note xml:id="ndnpcln" type="mscore-beam-begin" dur="8" oct="4" pname="f">
                                  <accid xml:id="a1ic8rij" accid.ges="s" />
                               </note>
                               <note xml:id="n1fh1gpy" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="nxw882c" dur="8" oct="4" pname="e" />
+=======
+                           <beam>
+                              <note xml:id="ndnpcln" type="mscore-beam-begin" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1fh1gpy" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="nxw882c" dur="8" pname="e" oct="4" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -1133,6 +1934,7 @@
                   <measure xml:id="m6dsd2z" n="75">
                      <staff xml:id="m76s1" n="1">
                         <layer xml:id="m76s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bfgmwoo">
                               <note xml:id="nm0lnk2" type="mscore-beam-begin" dur="8" oct="4" pname="e" />
                               <note xml:id="n17ogecj" type="mscore-beam-mid" dur="16" oct="4" pname="c">
@@ -1142,6 +1944,17 @@
                               <note xml:id="n16xbz9s" type="mscore-beam-mid" dur="8" oct="4" pname="e" />
                               <note xml:id="n1k191i6" dur="8" oct="4" pname="f">
                                  <accid xml:id="ardcmn8" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="nm0lnk2" type="mscore-beam-begin" dur="8" pname="e" oct="4" />
+                              <note xml:id="n17ogecj" type="mscore-beam-mid" dur="16" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="npt4p12" type="mscore-beam-mid" dur="16" pname="d" oct="4" />
+                              <note xml:id="n16xbz9s" type="mscore-beam-mid" dur="8" pname="e" oct="4" />
+                              <note xml:id="n1k191i6" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -1151,12 +1964,21 @@
                      <staff xml:id="m77s1" n="1">
                         <layer xml:id="m77s1l1" n="1">
                            <rest xml:id="r1sxy1he" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <beam xml:id="b1tcybc6">
                               <note xml:id="n73a5md" type="mscore-beam-begin" dur="8" oct="4" pname="f">
                                  <accid xml:id="axb1gp7" accid.ges="s" />
                               </note>
                               <note xml:id="n1j3dq1l" type="mscore-beam-mid" dur="8" oct="3" pname="b" />
                               <note xml:id="ndbycp4" dur="8" oct="3" pname="b" />
+=======
+                           <beam>
+                              <note xml:id="n73a5md" type="mscore-beam-begin" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1j3dq1l" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="ndbycp4" dur="8" pname="b" oct="3" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -1164,6 +1986,7 @@
                   <measure xml:id="mjy2fii" n="77">
                      <staff xml:id="m78s1" n="1">
                         <layer xml:id="m78s1l1" n="1">
+<<<<<<< HEAD
                            <note xml:id="no2w48n" type="mscore-beam-none" dur="8" oct="4" pname="c">
                               <accid xml:id="a1tal73j" accid.ges="s" />
                            </note>
@@ -1187,6 +2010,31 @@
                                  <accid xml:id="a1x92w0u" accid.ges="s" />
                               </note>
                               <note xml:id="nvcp34n" dur="8" oct="3" pname="b" />
+=======
+                           <note xml:id="no2w48n" type="mscore-beam-none" dur="8" pname="c" oct="4">
+                              <accid accid.ges="s" />
+                           </note>
+                           <note xml:id="ng27njq" type="mscore-beam-none" dur="8" pname="e" oct="4" />
+                           <note xml:id="n1y85qpe" dur="4" pname="a" oct="3" />
+                        </layer>
+                     </staff>
+                     <repeatMark xml:id="r1rnkcap" func="fine" tstamp="0.000000" />
+                     <fermata xml:id="fmsq6l2" startid="#no2w48n" />
+                  </measure>
+                  <pb />
+                  <measure xml:id="m108ympt" n="78">
+                     <staff xml:id="m79s1" n="1">
+                        <layer xml:id="m79s1l1" n="1">
+                           <beam>
+                              <note xml:id="n1qhyb5u" type="mscore-beam-begin" dur="8" pname="a" oct="3" />
+                              <note xml:id="ns85crb" type="mscore-beam-mid" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nusm906" type="mscore-beam-mid" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nvcp34n" dur="8" pname="b" oct="3" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -1195,6 +2043,7 @@
                   <measure xml:id="m1awz2cx" n="79">
                      <staff xml:id="m80s1" n="1">
                         <layer xml:id="m80s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1c6744w">
                               <note xml:id="nugwusw" type="mscore-beam-begin" dur="8" oct="3" pname="b" />
                               <note xml:id="n1b7u8rg" dur="8" oct="3" pname="a" />
@@ -1202,6 +2051,15 @@
                            <rest xml:id="rumdjn9" type="mscore-beam-none" dur="8" />
                            <note xml:id="nt5ellj" type="mscore-beam-none" dur="8" oct="4" pname="f">
                               <accid xml:id="a1sp7ktb" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="nugwusw" type="mscore-beam-begin" dur="8" pname="b" oct="3" />
+                              <note xml:id="n1b7u8rg" dur="8" pname="a" oct="3" />
+                           </beam>
+                           <rest xml:id="rumdjn9" type="mscore-beam-none" dur="8" />
+                           <note xml:id="nt5ellj" type="mscore-beam-none" dur="8" pname="f" oct="4">
+                              <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                         </layer>
                      </staff>
@@ -1209,6 +2067,7 @@
                   <measure xml:id="m1sqo9qb" n="80">
                      <staff xml:id="m81s1" n="1">
                         <layer xml:id="m81s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bwl5b0e">
                               <note xml:id="n5jw898" type="mscore-beam-begin" dur="8" oct="3" pname="a">
                                  <accid xml:id="a1tfl3um" accid="s" />
@@ -1221,6 +2080,20 @@
                               </note>
                               <note xml:id="nvc3snx" dur="8" oct="4" pname="f">
                                  <accid xml:id="ayd9tau" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n5jw898" type="mscore-beam-begin" dur="8" pname="a" oct="3">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="nxc0bgy" type="mscore-beam-mid" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n11y3fmh" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nvc3snx" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -1229,6 +2102,7 @@
                   <measure xml:id="ms719p2" n="81">
                      <staff xml:id="m82s1" n="1">
                         <layer xml:id="m82s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1224mvh">
                               <note xml:id="n1i84x71" type="mscore-beam-begin" dur="8" oct="4" pname="f">
                                  <accid xml:id="abl4pp1" accid.ges="s" />
@@ -1241,6 +2115,20 @@
                               </note>
                               <note xml:id="n1sv8po3" dur="8" oct="4" pname="c">
                                  <accid xml:id="as447ch" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n1i84x71" type="mscore-beam-begin" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nps7zpq" type="mscore-beam-mid" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1k0u99x" type="mscore-beam-mid" dur="8" pname="g" oct="4">
+                                 <accid accid="n" />
+                              </note>
+                              <note xml:id="n1sv8po3" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -1249,11 +2137,19 @@
                   <measure xml:id="mf23ht4" n="82">
                      <staff xml:id="m83s1" n="1">
                         <layer xml:id="m83s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1o1kgxl">
                               <note xml:id="ni0cyjg" type="mscore-beam-begin" dur="8" oct="4" pname="d" />
                               <note xml:id="n1qcpe6j" type="mscore-beam-mid" dur="8" oct="4" pname="d" />
                               <note xml:id="n1qeob88" type="mscore-beam-mid" dur="8" oct="3" pname="b" />
                               <note xml:id="nn4m1q5" dur="8" oct="3" pname="b" />
+=======
+                           <beam>
+                              <note xml:id="ni0cyjg" type="mscore-beam-begin" dur="8" pname="d" oct="4" />
+                              <note xml:id="n1qcpe6j" type="mscore-beam-mid" dur="8" pname="d" oct="4" />
+                              <note xml:id="n1qeob88" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="nn4m1q5" dur="8" pname="b" oct="3" />
+>>>>>>> alexandra/arbeit
                            </beam>
                         </layer>
                      </staff>
@@ -1261,12 +2157,21 @@
                   <measure xml:id="mcs745g" n="83">
                      <staff xml:id="m84s1" n="1">
                         <layer xml:id="m84s1l1" n="1">
+<<<<<<< HEAD
                            <note xml:id="n12h6hwd" dur="4" oct="3" pname="g">
                               <accid xml:id="a1s9pqn3" accid.ges="s" />
                            </note>
                            <rest xml:id="r38d2pj" type="mscore-beam-none" dur="8" />
                            <note xml:id="n1yr5mha" type="mscore-beam-none" dur="8" oct="4" pname="c">
                               <accid xml:id="aqq0m0h" accid.ges="s" />
+=======
+                           <note xml:id="n12h6hwd" dur="4" pname="g" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                           <rest xml:id="r38d2pj" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n1yr5mha" type="mscore-beam-none" dur="8" pname="c" oct="4">
+                              <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                         </layer>
                      </staff>
@@ -1274,6 +2179,7 @@
                   <measure xml:id="m19rs7b2" n="84">
                      <staff xml:id="m85s1" n="1">
                         <layer xml:id="m85s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bi5ikwf">
                               <note xml:id="n1oiytgr" type="mscore-beam-begin" dur="8" oct="4" pname="c">
                                  <accid xml:id="alytskr" accid.ges="s" />
@@ -1284,6 +2190,18 @@
                               <note xml:id="n9hn4xv" type="mscore-beam-mid" dur="8" oct="3" pname="a" />
                               <note xml:id="n13bno14" dur="8" oct="4" pname="d">
                                  <accid xml:id="abexna5" accid="s" />
+=======
+                           <beam>
+                              <note xml:id="n1oiytgr" type="mscore-beam-begin" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nmj0nab" type="mscore-beam-mid" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n9hn4xv" type="mscore-beam-mid" dur="8" pname="a" oct="3" />
+                              <note xml:id="n13bno14" dur="8" pname="d" oct="4">
+                                 <accid accid="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -1292,6 +2210,7 @@
                   <measure xml:id="mf5ezvw" n="85">
                      <staff xml:id="m86s1" n="1">
                         <layer xml:id="m86s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="b1cph0l5">
                               <note xml:id="n51j7mo" type="mscore-beam-begin" dur="8" oct="4" pname="d" />
                               <note xml:id="n146ybqw" dur="8" oct="4" pname="g">
@@ -1300,20 +2219,42 @@
                            </beam>
                            <note xml:id="n1y0b30i" dur="4" oct="3" pname="g">
                               <accid xml:id="a9badjd" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n51j7mo" type="mscore-beam-begin" dur="8" pname="d" oct="4" />
+                              <note xml:id="n146ybqw" dur="8" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                           <note xml:id="n1y0b30i" dur="4" pname="g" oct="3">
+                              <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                         </layer>
                      </staff>
                   </measure>
+<<<<<<< HEAD
                   <sb xml:id="sb7s6ln" />
+=======
+                  <sb />
+>>>>>>> alexandra/arbeit
                   <measure xml:id="m1t1sph1" n="86">
                      <staff xml:id="m87s1" n="1">
                         <layer xml:id="m87s1l1" n="1">
                            <rest xml:id="rm4qcku" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <note xml:id="n1aweeua" type="mscore-beam-none" dur="8" oct="4" pname="g">
                               <accid xml:id="abru8h8" accid.ges="s" />
                            </note>
                            <note xml:id="n1o04fx" dur="4" oct="3" pname="g">
                               <accid xml:id="a1qccmdp" accid.ges="s" />
+=======
+                           <note xml:id="n1aweeua" type="mscore-beam-none" dur="8" pname="g" oct="4">
+                              <accid accid.ges="s" />
+                           </note>
+                           <note xml:id="n1o04fx" dur="4" pname="g" oct="3">
+                              <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                         </layer>
                      </staff>
@@ -1322,11 +2263,19 @@
                      <staff xml:id="m88s1" n="1">
                         <layer xml:id="m88s1l1" n="1">
                            <rest xml:id="ruksgfb" type="mscore-beam-none" dur="8" />
+<<<<<<< HEAD
                            <note xml:id="n1r427oi" type="mscore-beam-none" dur="8" oct="4" pname="g">
                               <accid xml:id="ajx5q2" accid.ges="s" />
                            </note>
                            <note xml:id="n12o69m6" dur="4" oct="3" pname="g">
                               <accid xml:id="afkbmxf" accid.ges="s" />
+=======
+                           <note xml:id="n1r427oi" type="mscore-beam-none" dur="8" pname="g" oct="4">
+                              <accid accid.ges="s" />
+                           </note>
+                           <note xml:id="n12o69m6" dur="4" pname="g" oct="3">
+                              <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                         </layer>
                      </staff>
@@ -1334,12 +2283,21 @@
                   <measure xml:id="m1spmroo" n="88">
                      <staff xml:id="m89s1" n="1">
                         <layer xml:id="m89s1l1" n="1">
+<<<<<<< HEAD
                            <note xml:id="n1wgs2h1" dur="4" oct="4" pname="f">
                               <accid xml:id="a67sknr" accid.ges="s" />
                            </note>
                            <rest xml:id="ruwrqvt" type="mscore-beam-none" dur="8" />
                            <note xml:id="ngp6hdk" type="mscore-beam-none" dur="8" oct="3" pname="b">
                               <accid xml:id="acswhnp" accid="s" />
+=======
+                           <note xml:id="n1wgs2h1" dur="4" pname="f" oct="4">
+                              <accid accid.ges="s" />
+                           </note>
+                           <rest xml:id="ruwrqvt" type="mscore-beam-none" dur="8" />
+                           <note xml:id="ngp6hdk" type="mscore-beam-none" dur="8" pname="b" oct="3">
+                              <accid accid="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                         </layer>
                      </staff>
@@ -1347,11 +2305,19 @@
                   <measure xml:id="m1qn917z" n="89">
                      <staff xml:id="m90s1" n="1">
                         <layer xml:id="m90s1l1" n="1">
+<<<<<<< HEAD
                            <note xml:id="n1wggm87" dur="4" oct="4" pname="c">
                               <accid xml:id="afl3zs2" accid.ges="s" />
                            </note>
                            <note xml:id="nf52nwg" dur="4" oct="4" pname="f">
                               <accid xml:id="a1wmrajl" accid.ges="s" />
+=======
+                           <note xml:id="n1wggm87" dur="4" pname="c" oct="4">
+                              <accid accid.ges="s" />
+                           </note>
+                           <note xml:id="nf52nwg" dur="4" pname="f" oct="4">
+                              <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                         </layer>
                      </staff>
@@ -1359,12 +2325,21 @@
                   <measure xml:id="m1wo067" n="90">
                      <staff xml:id="m91s1" n="1">
                         <layer xml:id="m91s1l1" n="1">
+<<<<<<< HEAD
                            <note xml:id="n1xsiv8f" dur="4" oct="4" pname="g">
                               <accid xml:id="a1yl5pec" accid.ges="s" />
                            </note>
                            <rest xml:id="rytynn" type="mscore-beam-none" dur="8" />
                            <note xml:id="n198rvek" type="mscore-beam-none" dur="8" oct="3" pname="b">
                               <accid xml:id="aza8uwm" accid="s" />
+=======
+                           <note xml:id="n1xsiv8f" dur="4" pname="g" oct="4">
+                              <accid accid.ges="s" />
+                           </note>
+                           <rest xml:id="rytynn" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n198rvek" type="mscore-beam-none" dur="8" pname="b" oct="3">
+                              <accid accid="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                         </layer>
                      </staff>
@@ -1372,6 +2347,7 @@
                   <measure xml:id="m1ugkm65" n="91">
                      <staff xml:id="m92s1" n="1">
                         <layer xml:id="m92s1l1" n="1">
+<<<<<<< HEAD
                            <beam xml:id="bwz1jfc">
                               <note xml:id="n12iim77" type="mscore-beam-begin" dur="8" oct="4" pname="c">
                                  <accid xml:id="at7ozq" accid.ges="s" />
@@ -1382,6 +2358,18 @@
                               <note xml:id="nguts6q" type="mscore-beam-mid" dur="8" oct="3" pname="a" />
                               <note xml:id="n1urmw59" dur="8" oct="3" pname="f">
                                  <accid xml:id="a1sy9h04" accid.ges="s" />
+=======
+                           <beam>
+                              <note xml:id="n12iim77" type="mscore-beam-begin" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="ny4jc0r" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nguts6q" type="mscore-beam-mid" dur="8" pname="a" oct="3" />
+                              <note xml:id="n1urmw59" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                               </note>
                            </beam>
                         </layer>
@@ -1390,8 +2378,13 @@
                   <measure xml:id="mn30btu" n="92">
                      <staff xml:id="m93s1" n="1">
                         <layer xml:id="m93s1l1" n="1">
+<<<<<<< HEAD
                            <note xml:id="n4u4l9s" dur="2" oct="3" pname="g">
                               <accid xml:id="aoij2zg" accid.ges="s" />
+=======
+                           <note xml:id="n4u4l9s" dur="2" pname="g" oct="3">
+                              <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                         </layer>
                      </staff>
@@ -1399,13 +2392,22 @@
                   <measure xml:id="mnd8z84" right="dbl" n="93">
                      <staff xml:id="m94s1" n="1">
                         <layer xml:id="m94s1l1" n="1">
+<<<<<<< HEAD
                            <note xml:id="n15peq6y" dur="4" oct="3" pname="g">
                               <accid xml:id="a1ehf9in" accid.ges="s" />
+=======
+                           <note xml:id="n15peq6y" dur="4" pname="g" oct="3">
+                              <accid accid.ges="s" />
+>>>>>>> alexandra/arbeit
                            </note>
                            <rest xml:id="rdgwmhi" dur="4" />
                         </layer>
                      </staff>
+<<<<<<< HEAD
                      <repeatMark xml:id="r17avmpc" type="mscore-jump-dc-al-fine" tstamp="0.000000" func="daCapo">D.C. al Fine</repeatMark>
+=======
+                     <repeatMark xml:id="r17avmpc" type="mscore-jump-dc-al-fine" func="daCapo" tstamp="0.000000">D.C. al Fine</repeatMark>
+>>>>>>> alexandra/arbeit
                   </measure>
                </section>
             </score>

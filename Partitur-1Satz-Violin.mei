@@ -5,6 +5,7 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
+<<<<<<< HEAD
             <title/>
          </titleStmt>
          <pubStmt>
@@ -26,6 +27,16 @@
             <graphic xml:id="gqds5un1" target="manuscript-pg4.jpg"/>
          </surface>
       </facsimile>
+=======
+            <title />
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-05-13T22:23:39" />
+         </pubStmt>
+      </fileDesc>
+   </meiHead>
+   <music>
+>>>>>>> alexandra/arbeit
       <body>
          <mdiv>
             <score>
@@ -52,7 +63,11 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="s1">
+<<<<<<< HEAD
                   <pb facs="#s0ss849"/>
+=======
+                  <pb />
+>>>>>>> alexandra/arbeit
                   <measure xml:id="m1uuqubv" metcon="false" n="0">
                      <staff xml:id="m1s1" n="1">
                         <layer xml:id="m1s1l1" n="1">
