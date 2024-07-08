@@ -1,0 +1,3524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-basic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-basic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0+basic">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Unbenannte Partitur</title>
+            <respStmt>
+               <persName role="composer">Komponist / Arrangeur</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-07-08T11:21:13" />
+         </pubStmt>
+      </fileDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <pgHead>
+                     <rend halign="left" valign="top">
+                        <rend type="instrument_excerpt">Cembalo</rend>
+                     </rend>
+                     <rend halign="center" valign="top">
+                        <rend type="title" fontsize="x-large">L'aure grate il fresco rio</rend>
+                        <lb />
+                        <rend type="subtitle" fontsize="large">Mus. Hs. 427, Aussetzung: Andreas Kammenos</rend>
+                     </rend>
+                     <rend halign="right" valign="bottom">
+                        <rend type="composer">Der Molter</rend>
+                     </rend>
+                  </pgHead>
+                  <staffGrp>
+                     <staffGrp bar.thru="true" symbol="brace">
+                        <label>Cembalo</label>
+                        <labelAbbr>Cemb.</labelAbbr>
+                        <staffDef n="1" lines="5" keysig="3s" meter.count="2" meter.unit="4">
+                           <clef shape="G" line="2" />
+                        </staffDef>
+                        <staffDef n="2" lines="5" keysig="3s" meter.count="2" meter.unit="4">
+                           <clef shape="F" line="4" />
+                        </staffDef>
+                     </staffGrp>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1">
+                  <pb />
+                  <measure xml:id="m19lbs67" n="1">
+                     <staff xml:id="m1s1" n="1">
+                        <layer xml:id="m1s1l1" n="1">
+                           <space xml:id="s1lgrcz9" dots="1" dur="4" />
+                           <chord xml:id="ce1ps0p" dur="8">
+                              <note xml:id="ntehoip" pname="a" oct="4" />
+                              <note xml:id="n17gtxxd" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m1s2" n="2">
+                        <layer xml:id="m1s2l1" n="1">
+                           <space xml:id="s1yn4elc" dur="4" />
+                           <space xml:id="s3u62v5" type="mscore-beam-none" dur="8" />
+                           <note xml:id="nirjel6" dur="8" pname="a" oct="2" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mq4duym" n="2">
+                     <staff xml:id="m2s1" n="1">
+                        <layer xml:id="m2s1l1" n="1">
+                           <chord xml:id="csboo1l" dots="1" dur="4">
+                              <note xml:id="nqebbyh" pname="a" oct="4" />
+                              <note xml:id="ns72l6a" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nyfxjq4" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="cnwcoop" dur="8">
+                              <note xml:id="n23ie1y" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n553gz5" pname="a" oct="4" />
+                              <note xml:id="n1rpo0n4" pname="d" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m2s2" n="2">
+                        <layer xml:id="m2s2l1" n="1">
+                           <beam>
+                              <note xml:id="n4k5bd5" type="mscore-beam-begin" dur="8" pname="a" oct="2" />
+                              <note xml:id="nfky14n" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="nkq3grd" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="ni5ks2d" dur="8" pname="d" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1vphr2x" n="3">
+                     <staff xml:id="m3s1" n="1">
+                        <layer xml:id="m3s1l1" n="1">
+                           <beam>
+                              <chord xml:id="c1lbgt12" dur="8">
+                                 <note xml:id="nhc42e6" pname="f" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="n1dzn29z" pname="b" oct="4" />
+                                 <note xml:id="n4vyn9j" pname="d" oct="5" />
+                              </chord>
+                              <chord xml:id="cu5sigz" dur="8">
+                                 <note xml:id="n1g5labb" pname="e" oct="4" />
+                                 <note xml:id="nxh4u8f" pname="a" oct="4" />
+                                 <note xml:id="nsomx5r" pname="c" oct="5">
+                                    <accid accid.ges="s" />
+                                 </note>
+                              </chord>
+                           </beam>
+                           <rest xml:id="rnkkgsc" type="mscore-beam-none" dur="8" />
+                           <chord xml:id="c1972cjs" dur="8">
+                              <note xml:id="n26e4df" pname="e" oct="4" />
+                              <note xml:id="n1t6uuu6" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1r65ibt" pname="b" oct="4" />
+                              <note xml:id="n7vodno" pname="d" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m3s2" n="2">
+                        <layer xml:id="m3s2l1" n="1">
+                           <beam>
+                              <note xml:id="n2esapu" type="mscore-beam-begin" dur="8" pname="g" oct="2">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nrn4nk5" dur="8" pname="a" oct="2" />
+                           </beam>
+                           <rest xml:id="roz223t" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n1d2lome" type="mscore-beam-none" dur="8" pname="e" oct="3" />
+                        </layer>
+                     </staff>
+                     <harm startid="#n2esapu">
+                        <fb xml:id="ftev5om">
+                           <f xml:id="frl4ylp">7</f>
+                           <f xml:id="fw37ieo">5</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n1d2lome">
+                        <fb xml:id="f71hco9">
+                           <f xml:id="fzowqrt">7</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m15s2cq" n="4">
+                     <staff xml:id="m4s1" n="1">
+                        <layer xml:id="m4s1l1" n="1">
+                           <chord xml:id="c1v175tm" dur="4">
+                              <note xml:id="n1xhe232" pname="e" oct="4" />
+                              <note xml:id="n1057sjs" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nqenxjq" pname="b" oct="4" />
+                              <note xml:id="n1vm2x11" pname="d" oct="5" />
+                           </chord>
+                           <chord xml:id="c9dwni8" dur="4">
+                              <note xml:id="n1rilj73" pname="e" oct="4" />
+                              <note xml:id="n1l90wi6" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1ri4jvs" pname="b" oct="4" />
+                              <note xml:id="n1e691lk" pname="d" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m4s2" n="2">
+                        <layer xml:id="m4s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1irpood" type="mscore-beam-begin" dur="8" pname="e" oct="3" />
+                              <note xml:id="n6m3mrc" type="mscore-beam-mid" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n3vwjj" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1joiag" dur="8" pname="e" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1phxyjc" n="5">
+                     <staff xml:id="m5s1" n="1">
+                        <layer xml:id="m5s1l1" n="1">
+                           <beam>
+                              <chord xml:id="c1mea4zx" dur="8">
+                                 <note xml:id="n1v2ctom" pname="b" oct="4" />
+                                 <note xml:id="n1dsrhmd" pname="d" oct="5" />
+                              </chord>
+                              <chord xml:id="c1mvd33u" dur="8">
+                                 <note xml:id="n154o971" pname="a" oct="4" />
+                                 <note xml:id="nrtx44f" pname="c" oct="5">
+                                    <accid accid.ges="s" />
+                                 </note>
+                              </chord>
+                           </beam>
+                           <rest xml:id="rgupqmb" type="mscore-beam-none" dur="8" />
+                           <chord xml:id="c14swo4" dur="8" stem.dir="down">
+                              <note xml:id="niniror" pname="e" oct="4" />
+                              <note xml:id="n510vw3" pname="a" oct="4" />
+                              <note xml:id="n107i2jl" pname="e" oct="5" />
+                           </chord>
+                        </layer>
+                        <layer xml:id="m5s1l2" n="2">
+                           <note xml:id="n13acf63" dur="4" pname="e" oct="4" />
+                           <rest xml:id="r1kws2tb" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m5s2" n="2">
+                        <layer xml:id="m5s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1sup3nt" type="mscore-beam-begin" dur="8" pname="a" oct="3" />
+                              <note xml:id="nbql7aj" dur="8" pname="a" oct="2" />
+                           </beam>
+                           <rest xml:id="rymcpzd" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n15n78s6" type="mscore-beam-none" dur="8" pname="c" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <slur xml:id="sqpyxmn" startid="#c1mea4zx" endid="#c1mvd33u" />
+                     <harm startid="#n1sup3nt">
+                        <fb xml:id="f1ts0ni0">
+                           <f xml:id="f1dz9qjt">9</f>
+                           <f xml:id="fu6pq4k">4</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#nbql7aj">
+                        <fb xml:id="fvzmkf1">
+                           <f xml:id="f97y5mz">8</f>
+                           <f xml:id="f166jp2d">3</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n15n78s6">
+                        <fb xml:id="f1rftc6s">
+                           <f xml:id="f1rltaw7">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="mcr25yd" n="6">
+                     <staff xml:id="m6s1" n="1">
+                        <layer xml:id="m6s1l1" n="1">
+                           <chord xml:id="c1pwbr5c" dur="4">
+                              <note xml:id="n17r4er" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1rx8ynu" pname="a" oct="4" />
+                              <note xml:id="n4f4vjd" pname="d" oct="5" />
+                           </chord>
+                           <chord xml:id="cm447hu" dur="4">
+                              <note xml:id="nqjiqb2" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1gkndd2" pname="b" oct="4" />
+                              <note xml:id="n1ta4xb8" pname="d" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m6s2" n="2">
+                        <layer xml:id="m6s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1b3f455" type="mscore-beam-begin" dur="8" pname="d" oct="3" />
+                              <note xml:id="nhia09p" type="mscore-beam-mid" dur="8" pname="d" oct="3" />
+                              <note xml:id="n1t7dv5p" type="mscore-beam-mid" dur="8" pname="d" oct="3" />
+                              <note xml:id="nvwzy99" dur="8" pname="d" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n1t7dv5p">
+                        <fb xml:id="f1k7z6ca">
+                           <f xml:id="fprcf">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1ht9svm" n="7">
+                     <staff xml:id="m7s1" n="1">
+                        <layer xml:id="m7s1l1" n="1">
+                           <chord xml:id="c17ofmll" dur="4">
+                              <note xml:id="n1dhlaeb" pname="e" oct="4" />
+                              <note xml:id="nbfbbtq" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n81kb8j" pname="b" oct="4" />
+                           </chord>
+                           <rest xml:id="rvdqo57" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m7s2" n="2">
+                        <layer xml:id="m7s2l1" n="1">
+                           <note xml:id="n26jwqm" dur="4" pname="e" oct="3" />
+                           <rest xml:id="r1wgja0n" dur="4" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb />
+                  <measure xml:id="ms9z1g3" n="8">
+                     <staff xml:id="m8s1" n="1">
+                        <layer xml:id="m8s1l1" n="1">
+                           <chord xml:id="cog0qas" dur="4">
+                              <note xml:id="n12mq7gu" pname="e" oct="4" />
+                              <note xml:id="n1gol5wd" pname="a" oct="4" />
+                              <note xml:id="n1d49hed" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="cri7arh" dur="4">
+                              <note xml:id="n1rsmoyo" pname="e" oct="4" />
+                              <note xml:id="n1htlrop" pname="a" oct="4" />
+                              <note xml:id="nv50rm1" pname="e" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m8s2" n="2">
+                        <layer xml:id="m8s2l1" n="1">
+                           <beam>
+                              <note xml:id="n111clns" type="mscore-beam-begin" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n6fqrte" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n6i0s18" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nc0bvbg" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n111clns">
+                        <fb xml:id="f1cslaag">
+                           <f xml:id="f1sg1vmp">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1ikxxth" n="9">
+                     <staff xml:id="m9s1" n="1">
+                        <layer xml:id="m9s1l1" n="1">
+                           <chord xml:id="c1ouzbxf" dur="4">
+                              <note xml:id="n1d7239l" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n96gz9n" pname="a" oct="4" />
+                              <note xml:id="n1m0y82x" pname="d" oct="5" />
+                           </chord>
+                           <rest xml:id="rhh0sog" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m9s2" n="2">
+                        <layer xml:id="m9s2l1" n="1">
+                           <note xml:id="n13usqoy" dur="4" pname="d" oct="3" />
+                           <rest xml:id="rrqvcw1" dur="4" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m18e47sk" n="10">
+                     <staff xml:id="m10s1" n="1">
+                        <layer xml:id="m10s1l1" n="1">
+                           <chord xml:id="c1nzfwpg" dur="4">
+                              <note xml:id="n1l7shjk" pname="e" oct="4" />
+                              <note xml:id="niddy4d" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nq63rie" pname="d" oct="5" />
+                           </chord>
+                           <chord xml:id="c13zi1nq" dur="4">
+                              <note xml:id="n1n7x0er" pname="e" oct="4" />
+                              <note xml:id="n118o3w0" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nm0vtoo" pname="d" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m10s2" n="2">
+                        <layer xml:id="m10s2l1" n="1">
+                           <beam>
+                              <note xml:id="nyazpcq" type="mscore-beam-begin" dur="8" pname="b" oct="2" />
+                              <note xml:id="n38c690" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="nk7wmbz" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="nf23h2b" dur="8" pname="b" oct="2" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#nyazpcq">
+                        <fb xml:id="fmf4uyq">
+                           <f xml:id="fyaiuun">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m8r8svz" n="11">
+                     <staff xml:id="m11s1" n="1">
+                        <layer xml:id="m11s1l1" n="1">
+                           <chord xml:id="co7qadm" dur="4">
+                              <note xml:id="n1edmlvn" pname="e" oct="4" />
+                              <note xml:id="nwx14aj" pname="a" oct="4" />
+                              <note xml:id="n1nuv7if" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="cjmtp9i" dur="4">
+                              <note xml:id="n1u8kw0q" pname="e" oct="4" />
+                              <note xml:id="n1qmnc5j" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nehd0oi" pname="d" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m11s2" n="2">
+                        <layer xml:id="m11s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1i3hzen" type="mscore-beam-begin" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1b93nnb" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1uxl7vf" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="n112r6n9" dur="8" pname="b" oct="2" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n1i3hzen">
+                        <fb xml:id="fbkw3su">
+                           <f xml:id="f1g93uve">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1cn67l3" n="12">
+                     <staff xml:id="m12s1" n="1">
+                        <layer xml:id="m12s1l1" n="1">
+                           <note xml:id="ne7pvqu" dur="4" pname="c" oct="5">
+                              <accid accid.ges="s" />
+                           </note>
+                           <beam>
+                              <chord xml:id="cv9ifrr" dur="8">
+                                 <note xml:id="n1k8vh1g" pname="e" oct="4" />
+                                 <note xml:id="nrd80st" pname="a" oct="4" />
+                                 <note xml:id="nc54t39" pname="e" oct="5" />
+                              </chord>
+                              <chord xml:id="cxu41n7" dur="8">
+                                 <note xml:id="nqev2s0" pname="f" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="n1k3zhd0" pname="a" oct="4" />
+                                 <note xml:id="n11isudi" pname="d" oct="5" />
+                              </chord>
+                           </beam>
+                        </layer>
+                        <layer xml:id="m12s1l2" n="2">
+                           <chord xml:id="c186dzn6" dur="4">
+                              <note xml:id="n175eg23" pname="e" oct="4" />
+                              <note xml:id="n1unv7zv" pname="a" oct="4" />
+                           </chord>
+                           <rest xml:id="r8pqmqn" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m12s2" n="2">
+                        <layer xml:id="m12s2l1" n="1">
+                           <beam>
+                              <note xml:id="nek2clj" type="mscore-beam-begin" dur="8" pname="a" oct="2" />
+                              <note xml:id="nuhzmy2" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="n1ppv7h5" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nq3863l" dur="8" pname="d" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1cjwujx" n="13">
+                     <staff xml:id="m13s1" n="1">
+                        <layer xml:id="m13s1l1" n="1">
+                           <chord xml:id="coontee" dur="4">
+                              <note xml:id="njsgot6" pname="d" oct="4" />
+                              <note xml:id="n79z5g2" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1umazau" pname="b" oct="4" />
+                           </chord>
+                           <chord xml:id="ck8jfhk" dur="4">
+                              <note xml:id="nu4d8b3" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="njad8lg" pname="b" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m13s2" n="2">
+                        <layer xml:id="m13s2l1" n="1">
+                           <rest xml:id="r5eufgi" type="mscore-beam-none" dur="8" />
+                           <beam>
+                              <note xml:id="n1v9xbqh" type="mscore-beam-begin" dur="8" pname="d" oct="3" />
+                              <note xml:id="n16bu46n" type="mscore-beam-mid" dur="8" pname="e" oct="3" />
+                              <note xml:id="nryqunc" dur="8" pname="d" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m17kgdvn" n="14">
+                     <staff xml:id="m14s1" n="1">
+                        <layer xml:id="m14s1l1" n="1">
+                           <chord xml:id="ctco519" dur="2">
+                              <note xml:id="nh27ma6" pname="e" oct="4" />
+                              <note xml:id="nwczrxt" pname="a" oct="4" />
+                              <note xml:id="n1eqvbya" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m14s2" n="2">
+                        <layer xml:id="m14s2l1" n="1">
+                           <beam>
+                              <note xml:id="n8n2vyr" type="mscore-beam-begin" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1y5030x" type="mscore-beam-mid" dur="16" pname="a" oct="2" />
+                              <note xml:id="n1vue729" type="mscore-beam-mid" dur="16" pname="b" oct="2" />
+                              <note xml:id="ng2frsd" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="npvti2c" dur="8" pname="d" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mmptorp" n="15">
+                     <staff xml:id="m15s1" n="1">
+                        <layer xml:id="m15s1l1" n="1">
+                           <chord xml:id="c1uvvze6" dur="4">
+                              <note xml:id="nojsymz" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="ntl3yot" pname="b" oct="4" />
+                              <note xml:id="n6ysrmg" pname="d" oct="5" />
+                           </chord>
+                           <chord xml:id="cybn1xj" dur="4">
+                              <note xml:id="ny2mfux" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1eexl9s" pname="b" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m15s2" n="2">
+                        <layer xml:id="m15s2l1" n="1">
+                           <rest xml:id="rsqas9a" type="mscore-beam-none" dur="8" />
+                           <beam>
+                              <note xml:id="n13jbsuc" type="mscore-beam-begin" dur="8" pname="d" oct="3" />
+                              <note xml:id="n19besin" type="mscore-beam-mid" dur="8" pname="e" oct="3" />
+                              <note xml:id="n131mqd9" dur="8" pname="e" oct="2" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb />
+                  <measure xml:id="mgty2ej" n="16">
+                     <staff xml:id="m16s1" n="1">
+                        <layer xml:id="m16s1l1" n="1">
+                           <chord xml:id="c28yk0u" dur="4">
+                              <note xml:id="nwgjekv" pname="e" oct="4" />
+                              <note xml:id="n1dvk9fl" pname="a" oct="4" />
+                              <note xml:id="ncq19pi" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <rest xml:id="rnct13g" type="mscore-beam-none" dur="8" />
+                           <chord xml:id="c6a6e17" dur="8">
+                              <note xml:id="nvb9dqw" pname="a" oct="4" />
+                              <note xml:id="nqiws8x" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m16s2" n="2">
+                        <layer xml:id="m16s2l1" n="1">
+                           <beam>
+                              <note xml:id="n623st4" type="mscore-beam-begin" dur="8" pname="a" oct="3" />
+                              <note xml:id="n1pgc4s" dur="8" pname="e" oct="3" />
+                           </beam>
+                           <note xml:id="n1qee3ys" dur="4" pname="a" oct="2" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m63gs4n" n="17">
+                     <staff xml:id="m17s1" n="1">
+                        <layer xml:id="m17s1l1" n="1">
+                           <chord xml:id="c1frfxhk" dots="1" dur="4">
+                              <note xml:id="n1s60j4h" pname="a" oct="4" />
+                              <note xml:id="n6mqua" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1aqtmfj" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="cjmi29w" dur="8">
+                              <note xml:id="ngjoku3" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1to15aa" pname="a" oct="4" />
+                              <note xml:id="n1kwmoj2" pname="d" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m17s2" n="2">
+                        <layer xml:id="m17s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1o0f7xv" type="mscore-beam-begin" dur="8" pname="a" oct="2" />
+                              <note xml:id="njaf9jc" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="nr6cmxu" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1gfl6ne" dur="8" pname="d" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mnsm17h" n="18">
+                     <staff xml:id="m18s1" n="1">
+                        <layer xml:id="m18s1l1" n="1">
+                           <beam>
+                              <chord xml:id="c1dxb2gs" dur="8">
+                                 <note xml:id="noyzsxq" pname="f" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="njemsao" pname="b" oct="4" />
+                                 <note xml:id="n1r7t0kh" pname="d" oct="5" />
+                              </chord>
+                              <chord xml:id="c1jlll62" dur="8">
+                                 <note xml:id="n1wazodw" pname="e" oct="4" />
+                                 <note xml:id="ns6n891" pname="a" oct="4" />
+                                 <note xml:id="n15hicn" pname="c" oct="5">
+                                    <accid accid.ges="s" />
+                                 </note>
+                              </chord>
+                           </beam>
+                           <rest xml:id="r1xui7u2" type="mscore-beam-none" dur="8" />
+                           <chord xml:id="c38os3l" dur="8">
+                              <note xml:id="n1627p67" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1j36c7i" pname="b" oct="4" />
+                              <note xml:id="n17v7wia" pname="d" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m18s2" n="2">
+                        <layer xml:id="m18s2l1" n="1">
+                           <beam>
+                              <note xml:id="n2mthco" type="mscore-beam-begin" dur="8" pname="g" oct="2">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1ciqyxv" dur="8" pname="a" oct="2" />
+                           </beam>
+                           <rest xml:id="rtw928m" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n1veikf6" type="mscore-beam-none" dur="8" pname="e" oct="3" />
+                        </layer>
+                     </staff>
+                     <harm startid="#n2mthco">
+                        <fb xml:id="fow0zqw">
+                           <f xml:id="f1hvt6vc">7</f>
+                           <f xml:id="f69afyt">5</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n1ciqyxv">
+                        <fb xml:id="f1o94qpi">
+                           <f xml:id="f5yywkq">5</f>
+                           <f xml:id="fwm0xoy">3</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n1veikf6">
+                        <fb xml:id="f1g6oib2">
+                           <f xml:id="ffgrqm8">7</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1cg7gt7" n="19">
+                     <staff xml:id="m19s1" n="1">
+                        <layer xml:id="m19s1l1" n="1">
+                           <chord xml:id="cl2wx60" dur="4">
+                              <note xml:id="nrmgfkg" pname="e" oct="4" />
+                              <note xml:id="n11e2zzf" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1l21yhz" pname="b" oct="4" />
+                           </chord>
+                           <note xml:id="naie29j" dur="4" pname="g" oct="4">
+                              <accid accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m19s2" n="2">
+                        <layer xml:id="m19s2l1" n="1">
+                           <beam>
+                              <note xml:id="n2l7833" type="mscore-beam-begin" dur="8" pname="e" oct="3" />
+                              <note xml:id="n1pjm0lf" type="mscore-beam-mid" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1g7nod3" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n3ubpp0" dur="8" pname="e" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mqclwa4" n="20">
+                     <staff xml:id="m20s1" n="1">
+                        <layer xml:id="m20s1l1" n="1">
+                           <beam>
+                              <chord xml:id="c19ik2z2" dur="8">
+                                 <note xml:id="n16v9ou5" pname="d" oct="4" />
+                                 <note xml:id="n1ogea5j" pname="e" oct="4" />
+                                 <note xml:id="n1sckhtj" pname="b" oct="4" />
+                              </chord>
+                              <chord xml:id="c1oggp9r" dur="8">
+                                 <note xml:id="nha2pxo" pname="c" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="n1icjqfo" pname="e" oct="4" />
+                                 <note xml:id="nv9i7p1" pname="a" oct="4" />
+                              </chord>
+                           </beam>
+                           <rest xml:id="r1ts0q92" type="mscore-beam-none" dur="8" />
+                           <chord xml:id="c12nye9h" dur="8">
+                              <note xml:id="n1533ws" pname="e" oct="4" />
+                              <note xml:id="nfo1l42" pname="d" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m20s2" n="2">
+                        <layer xml:id="m20s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1xcdd2e" type="mscore-beam-begin" dur="8" pname="a" oct="3" />
+                              <note xml:id="n1y96zz0" dur="8" pname="a" oct="2" />
+                           </beam>
+                           <rest xml:id="rhcih7m" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n672ql4" type="mscore-beam-none" dur="8" pname="g" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <slur xml:id="s1x6bcii" startid="#c19ik2z2" endid="#c1oggp9r" />
+                  </measure>
+                  <measure xml:id="m1jxp0wg" n="21">
+                     <staff xml:id="m21s1" n="1">
+                        <layer xml:id="m21s1l1" n="1">
+                           <chord xml:id="c2zq4pj" dur="4">
+                              <note xml:id="nn2pf4s" pname="e" oct="4" />
+                              <note xml:id="nj4jjf2" pname="a" oct="4" />
+                              <note xml:id="n691kom" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <chord xml:id="c1gmylnf" dur="4">
+                              <note xml:id="n16pm9r1" pname="d" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1e18g92" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="no1y6ik" pname="b" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m21s2" n="2">
+                        <layer xml:id="m21s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1v7igoj" type="mscore-beam-begin" dur="8" pname="a" oct="3" />
+                              <note xml:id="n1cv5oje" type="mscore-beam-mid" dur="8" pname="a" oct="3" />
+                              <note xml:id="npt1bh5" type="mscore-beam-mid" dur="8" pname="a" oct="3" />
+                              <note xml:id="nockr07" dur="8" pname="a" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#npt1bh5">
+                        <fb xml:id="fdlutir">
+                           <f xml:id="fyv3e2h">4+</f>
+                           <f xml:id="fx1vowv">2</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m8epdgb" n="22">
+                     <staff xml:id="m22s1" n="1">
+                        <layer xml:id="m22s1l1" n="1">
+                           <chord xml:id="cu3f0vj" dur="2">
+                              <note xml:id="n1myf7yb" pname="e" oct="4" />
+                              <note xml:id="n11ykukh" pname="b" oct="4" />
+                              <note xml:id="n16w2q3n" pname="e" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m22s2" n="2">
+                        <layer xml:id="m22s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1k1d746" type="mscore-beam-begin" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n19brts0" type="mscore-beam-mid" dur="16" pname="e" oct="3" />
+                              <note xml:id="n15xcm5k" type="mscore-beam-mid" dur="16" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n3iqajl" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1kftd7h" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n1k1d746">
+                        <fb xml:id="f1cv9dri">
+                           <f xml:id="foyws4v">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <sb />
+                  <measure xml:id="m19ckshh" n="23">
+                     <staff xml:id="m23s1" n="1">
+                        <layer xml:id="m23s1l1" n="1">
+                           <chord xml:id="c124w6xe" dur="4">
+                              <note xml:id="nmaneh6" pname="e" oct="4" />
+                              <note xml:id="nx1abs6" pname="a" oct="4" />
+                              <note xml:id="n14htqwl" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <chord xml:id="c1usufpe" dur="4">
+                              <note xml:id="nmqymz3" pname="d" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1971gpz" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="ncm01q6" pname="b" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m23s2" n="2">
+                        <layer xml:id="m23s2l1" n="1">
+                           <rest xml:id="r14rf31e" type="mscore-beam-none" dur="8" />
+                           <note xml:id="nql2xqe" type="mscore-beam-none" dur="8" pname="a" oct="3" />
+                           <beam>
+                              <note xml:id="n4ufmpz" type="mscore-beam-begin" dur="8" pname="a" oct="3" />
+                              <note xml:id="n1vf2luy" dur="8" pname="a" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n4ufmpz">
+                        <fb xml:id="f1gxpufb">
+                           <f xml:id="f8b1nbn">4+</f>
+                           <f xml:id="f1ufqice">2</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1o3lvl4" n="24">
+                     <staff xml:id="m24s1" n="1">
+                        <layer xml:id="m24s1l1" n="1">
+                           <chord xml:id="c1o2mqe" dur="2">
+                              <note xml:id="nsh0m59" pname="e" oct="4" />
+                              <note xml:id="n1sebffv" pname="b" oct="4" />
+                              <note xml:id="n17gm5sm" pname="e" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m24s2" n="2">
+                        <layer xml:id="m24s2l1" n="1">
+                           <beam>
+                              <note xml:id="nyqhflp" type="mscore-beam-begin" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1mg6fn7" type="mscore-beam-mid" dur="16" pname="e" oct="3" />
+                              <note xml:id="n5s8rpn" type="mscore-beam-mid" dur="16" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nfqg8cm" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nh670sv" dur="8" pname="a" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#nyqhflp">
+                        <fb xml:id="f1mtovsi">
+                           <f xml:id="f1g1y8qs">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="mjvl40k" n="25">
+                     <staff xml:id="m25s1" n="1">
+                        <layer xml:id="m25s1l1" n="1">
+                           <chord xml:id="c1gfua9j" dur="4">
+                              <note xml:id="na9m6g2" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n135mrre" pname="b" oct="4" />
+                              <note xml:id="n1syakrb" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="c1p8ijqx" dur="4">
+                              <note xml:id="n10x3ivu" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1v4udsn" pname="b" oct="4" />
+                              <note xml:id="ne3i60e" pname="f" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m25s2" n="2">
+                        <layer xml:id="m25s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1254or4" type="mscore-beam-begin" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n70fncb" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1sd89k4" type="mscore-beam-mid" dur="8" pname="d" oct="3">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="nrnjbir" dur="8" pname="d" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n1sd89k4">
+                        <fb xml:id="f1n2igkl">
+                           <f xml:id="fpgbvva">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m12ysb8y" n="26">
+                     <staff xml:id="m26s1" n="1">
+                        <layer xml:id="m26s1l1" n="1">
+                           <chord xml:id="cl4072b" dur="4">
+                              <note xml:id="nzj6m9e" pname="b" oct="4" />
+                              <note xml:id="ngsb33f" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="cdb5pyz" dur="4">
+                              <note xml:id="nunaa1m" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1bgoyyb" pname="e" oct="5" />
+                           </chord>
+                        </layer>
+                        <layer xml:id="m26s1l2" n="2">
+                           <beam>
+                              <note xml:id="ngviu2d" dur="8" pname="g" oct="4">
+                                 <accid accid="n" />
+                              </note>
+                              <note xml:id="n1lknszc" dur="8" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                           <note xml:id="n1obqys" dur="4" pname="f" oct="4">
+                              <accid accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m26s2" n="2">
+                        <layer xml:id="m26s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1mshigy" type="mscore-beam-begin" dur="8" pname="e" oct="3" />
+                              <note xml:id="n1is6jw1" type="mscore-beam-mid" dur="8" pname="e" oct="3" />
+                              <note xml:id="nmwdkpt" type="mscore-beam-mid" dur="8" pname="a" oct="2">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1l9m78" dur="8" pname="a" oct="2">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#nmwdkpt">
+                        <fb xml:id="f1ntdss7">
+                           <f xml:id="f9sh3z1">5</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="may7umk" n="27">
+                     <staff xml:id="m27s1" n="1">
+                        <layer xml:id="m27s1l1" n="1">
+                           <note xml:id="nwy5fok" dur="4" pname="b" oct="4" />
+                           <note xml:id="nceleop" dur="4" pname="a" oct="4" />
+                        </layer>
+                        <layer xml:id="m27s1l2" n="2">
+                           <chord xml:id="c1vehwph" dur="2">
+                              <note xml:id="n128680s" pname="d" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n7m7i9b" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m27s2" n="2">
+                        <layer xml:id="m27s2l1" n="1">
+                           <beam>
+                              <note xml:id="nsllsol" type="mscore-beam-begin" dur="8" pname="b" oct="2" />
+                              <note xml:id="n1ywhx1s" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="n1lkhe8l" type="mscore-beam-mid" dur="8" pname="d" oct="3">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="npyb2rx" dur="8" pname="d" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <slur xml:id="s1f9y53a" startid="#nwy5fok" endid="#nceleop" />
+                     <harm startid="#nsllsol">
+                        <fb xml:id="f1avyuza">
+                           <f xml:id="f1fhe7hs">#</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n1lkhe8l">
+                        <fb xml:id="fvzl3to">
+                           <f xml:id="f7cgopw">5</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1x0shzg" n="28">
+                     <staff xml:id="m28s1" n="1">
+                        <layer xml:id="m28s1l1" n="1">
+                           <chord xml:id="cozb71t" dur="4" stem.dir="down">
+                              <note xml:id="n13asd2y" pname="e" oct="4" />
+                              <note xml:id="n1qlslfo" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1g12d0v" pname="b" oct="4" />
+                           </chord>
+                           <chord xml:id="c7h7u9w" dur="4">
+                              <note xml:id="n115bfm3" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n8e8a3d" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1vahr2m" pname="e" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m28s2" n="2">
+                        <layer xml:id="m28s2l1" n="1">
+                           <rest xml:id="r15u6zpa" type="mscore-beam-none" dur="8" />
+                           <beam>
+                              <note xml:id="n1cul5mk" type="mscore-beam-begin" dur="8" pname="e" oct="3" />
+                              <note xml:id="n155z2yw" type="mscore-beam-mid" dur="8" pname="a" oct="2">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="nlh2g08" dur="8" pname="a" oct="2">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n155z2yw">
+                        <fb xml:id="fwqlz90">
+                           <f xml:id="f1vkn5v6">5</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m182in9n" n="29">
+                     <staff xml:id="m29s1" n="1">
+                        <layer xml:id="m29s1l1" n="1">
+                           <note xml:id="nbpdnik" dur="4" pname="b" oct="4" />
+                           <note xml:id="ntvzrbo" dur="4" pname="a" oct="4" />
+                        </layer>
+                        <layer xml:id="m29s1l2" n="2">
+                           <chord xml:id="cop5pox" dur="2">
+                              <note xml:id="n17w83la" pname="d" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1fup7f9" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m29s2" n="2">
+                        <layer xml:id="m29s2l1" n="1">
+                           <beam>
+                              <note xml:id="nwcwe9p" type="mscore-beam-begin" dur="8" pname="b" oct="2" />
+                              <note xml:id="nembxqa" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="nbh77wh" type="mscore-beam-mid" dur="8" pname="d" oct="3">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="nf317sh" dur="8" pname="d" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <slur xml:id="scdss0i" startid="#nbpdnik" endid="#ntvzrbo" />
+                     <harm startid="#nwcwe9p">
+                        <fb xml:id="f4u5469">
+                           <f xml:id="frx4o1g">#</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#nbh77wh">
+                        <fb xml:id="f19lrbgd">
+                           <f xml:id="fqkwg3x">6</f>
+                           <f xml:id="f1qpenru">5</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <sb />
+                  <measure xml:id="m13ob7st" n="30">
+                     <staff xml:id="m30s1" n="1">
+                        <layer xml:id="m30s1l1" n="1">
+                           <rest xml:id="rtwhi1k" type="mscore-beam-none" dur="8" />
+                           <chord xml:id="ccag4dd" dur="4">
+                              <note xml:id="nb8dn14" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1cjvswz" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1xc0ebo" pname="f" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <chord xml:id="czrtnp9" dur="8">
+                              <note xml:id="n10qje9y" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1ydywf4" pname="b" oct="4" />
+                              <note xml:id="ne0ghza" pname="d" oct="5">
+                                 <accid accid="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m30s2" n="2">
+                        <layer xml:id="m30s2l1" n="1">
+                           <rest xml:id="rbqt185" type="mscore-beam-none" dur="8" />
+                           <note xml:id="nant8wg" dur="4" pname="a" oct="3" />
+                           <note xml:id="n19h90ue" type="mscore-beam-none" dur="8" pname="b" oct="3" />
+                        </layer>
+                     </staff>
+                     <harm startid="#nant8wg">
+                        <fb xml:id="frpwv6s">
+                           <f xml:id="fituvo3">6</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n19h90ue">
+                        <fb xml:id="f1q4icg5">
+                           <f xml:id="fsz1bwe">#</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m8t6w86" n="31">
+                     <staff xml:id="m31s1" n="1">
+                        <layer xml:id="m31s1l1" n="1">
+                           <chord xml:id="c1y4z5nk" dur="8">
+                              <note xml:id="n1velfpz" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1ewppkr" pname="b" oct="4" />
+                              <note xml:id="n46iq9t" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="c1wucwga" dur="4">
+                              <note xml:id="n1uhbbyt" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n12bn952" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1h670pe" pname="f" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <chord xml:id="c1m4uky2" dur="8">
+                              <note xml:id="n116sfth" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1qyhztr" pname="b" oct="4" />
+                              <note xml:id="n1vjnub1" pname="d" oct="5">
+                                 <accid accid="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m31s2" n="2">
+                        <layer xml:id="m31s2l1" n="1">
+                           <note xml:id="n1u5il35" type="mscore-beam-none" dur="8" pname="e" oct="3" />
+                           <note xml:id="n1nr6uak" dur="4" pname="a" oct="3" />
+                           <note xml:id="n1s91m4v" type="mscore-beam-none" dur="8" pname="b" oct="3" />
+                        </layer>
+                     </staff>
+                     <harm startid="#n1nr6uak">
+                        <fb xml:id="fiov2sd">
+                           <f xml:id="f1cnpoyg">6</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n1s91m4v">
+                        <fb xml:id="f86amld">
+                           <f xml:id="f1xkgyl5">#</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1vdjsja" n="32">
+                     <staff xml:id="m32s1" n="1">
+                        <layer xml:id="m32s1l1" n="1">
+                           <chord xml:id="c1slu6h9" dur="8">
+                              <note xml:id="n1yuso03" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n5qjqkn" pname="b" oct="4" />
+                              <note xml:id="nxxm6dy" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="c1i0cg8q" dur="4">
+                              <note xml:id="n1hrf2aq" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1oreaji" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nkn67ll" pname="f" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <chord xml:id="cz0zk2t" dur="8">
+                              <note xml:id="nl81okj" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n5zc9wv" pname="b" oct="4" />
+                              <note xml:id="n1xys1m" pname="d" oct="5">
+                                 <accid accid="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m32s2" n="2">
+                        <layer xml:id="m32s2l1" n="1">
+                           <note xml:id="n4ex9od" type="mscore-beam-none" dur="8" pname="e" oct="3" />
+                           <note xml:id="n1xy90n2" dur="4" pname="a" oct="3" />
+                           <note xml:id="nrtljrk" type="mscore-beam-none" dur="8" pname="b" oct="3" />
+                        </layer>
+                     </staff>
+                     <harm startid="#n1xy90n2">
+                        <fb xml:id="fnpa380">
+                           <f xml:id="f1gjakal">6</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#nrtljrk">
+                        <fb xml:id="f64ksf2">
+                           <f xml:id="fi23b0x">#</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1si2a83" n="33">
+                     <staff xml:id="m33s1" n="1">
+                        <layer xml:id="m33s1l1" n="1">
+                           <chord xml:id="cnqhhxc" dur="2">
+                              <note xml:id="n1hu676q" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1p2q2rm" pname="b" oct="4" />
+                              <note xml:id="n1kclitr" pname="e" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m33s2" n="2">
+                        <layer xml:id="m33s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1b1t563" type="mscore-beam-begin" dur="8" pname="e" oct="3" />
+                              <note xml:id="ndhqguk" dur="8" pname="b" oct="2" />
+                           </beam>
+                           <note xml:id="ncupgy1" dur="4" pname="e" oct="2" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1ce0gxc" n="34">
+                     <staff xml:id="m34s1" n="1">
+                        <layer xml:id="m34s1l1" n="1">
+                           <chord xml:id="c190b96s" dots="1" dur="4">
+                              <note xml:id="n13h5c52" pname="e" oct="4" />
+                              <note xml:id="nlakitl" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n189j2o6" pname="b" oct="4" />
+                              <note xml:id="n1pug3tp" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="c6f1naw" dur="8">
+                              <note xml:id="n13s26a7" pname="a" oct="4" />
+                              <note xml:id="n1c63o1h" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m34s2" n="2">
+                        <layer xml:id="m34s2l1" n="1">
+                           <beam>
+                              <note xml:id="n17kzoei" type="mscore-beam-begin" dur="8" pname="e" oct="3" />
+                              <note xml:id="nad45er" type="mscore-beam-mid" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1rmai67" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1lbf348" dur="8" pname="a" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m9gnlq5" n="35">
+                     <staff xml:id="m35s1" n="1">
+                        <layer xml:id="m35s1l1" n="1">
+                           <beam>
+                              <chord xml:id="c16bow3k" dur="8">
+                                 <note xml:id="n1qvda4v" pname="a" oct="4" />
+                                 <note xml:id="nhwwqa7" pname="c" oct="5">
+                                    <accid accid.ges="s" />
+                                 </note>
+                              </chord>
+                              <chord xml:id="c1o8fndy" dur="8">
+                                 <note xml:id="n1su3yel" pname="g" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="ncxwvz1" pname="b" oct="4" />
+                              </chord>
+                           </beam>
+                           <rest xml:id="r1hz002k" type="mscore-beam-none" dur="8" />
+                           <chord xml:id="c1g2md6q" dur="8">
+                              <note xml:id="n159c40k" pname="d" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n17vaf3v" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="ncvh0wu" pname="a" oct="4" />
+                           </chord>
+                        </layer>
+                        <layer xml:id="m35s1l2" n="2">
+                           <note xml:id="nmqzs62" dur="4" pname="e" oct="4" />
+                           <rest xml:id="r18wjuc" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m35s2" n="2">
+                        <layer xml:id="m35s2l1" n="1">
+                           <beam>
+                              <note xml:id="n2dlpsh" type="mscore-beam-begin" dur="8" pname="d" oct="3">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n824rtq" dur="8" pname="e" oct="3" />
+                           </beam>
+                           <rest xml:id="rmum093" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n12xgvie" type="mscore-beam-none" dur="8" pname="b" oct="2" />
+                        </layer>
+                     </staff>
+                     <slur xml:id="s1v2zrxu" startid="#c16bow3k" endid="#c1o8fndy" />
+                     <harm startid="#n2dlpsh">
+                        <fb xml:id="f26vc64">
+                           <f xml:id="fzyjnyv">7</f>
+                           <f xml:id="f159s23e">5</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n824rtq">
+                        <fb xml:id="fhz114t">
+                           <f xml:id="f1asae50">5</f>
+                           <f xml:id="f4dr9t3">3</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n12xgvie">
+                        <fb xml:id="f1ohwlzw">
+                           <f xml:id="f1uidlc7">7</f>
+                           <f xml:id="f1nd90yd">#</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m16sqld6" n="36">
+                     <staff xml:id="m36s1" n="1">
+                        <layer xml:id="m36s1l1" n="1">
+                           <chord xml:id="ck8v2ui" dur="4">
+                              <note xml:id="n50gh6" pname="d" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1bt6r8n" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1b5jo49" pname="a" oct="4" />
+                           </chord>
+                           <chord xml:id="c1caehv3" dur="4">
+                              <note xml:id="nd1qaqn" pname="b" oct="3" />
+                              <note xml:id="n1hpyq26" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1fr2b2w" pname="a" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m36s2" n="2">
+                        <layer xml:id="m36s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1iliz0s" type="mscore-beam-begin" dur="8" pname="b" oct="2" />
+                              <note xml:id="nsuo12u" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1wy71fu" type="mscore-beam-mid" dur="8" pname="d" oct="3">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1bxhc5o" dur="8" pname="b" oct="2" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mw9qmod" n="37">
+                     <staff xml:id="m37s1" n="1">
+                        <layer xml:id="m37s1l1" n="1">
+                           <beam>
+                              <chord xml:id="c19uu6ma" dur="8" stem.dir="down">
+                                 <note xml:id="n1l3abni" pname="f" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="n10ilzof" pname="a" oct="4" />
+                              </chord>
+                              <chord xml:id="cy498wl" dur="8" stem.dir="down">
+                                 <note xml:id="nfbt5tm" pname="e" oct="4" />
+                                 <note xml:id="n42tbj8" pname="g" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                              </chord>
+                           </beam>
+                           <note xml:id="ncqol7e" dur="4" pname="e" oct="5" />
+                        </layer>
+                        <layer xml:id="m37s1l2" n="2">
+                           <note xml:id="ny2bl9t" dur="4" pname="b" oct="4" stem.dir="up" />
+                           <chord xml:id="cc54bt8" dur="4">
+                              <note xml:id="n8qy3be" pname="e" oct="4" />
+                              <note xml:id="n1cy0n8c" pname="b" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m37s2" n="2">
+                        <layer xml:id="m37s2l1" n="1">
+                           <beam>
+                              <note xml:id="n19v6fqt" type="mscore-beam-begin" dur="8" pname="e" oct="3" />
+                              <note xml:id="nfsbsy2" dur="8" pname="e" oct="2" />
+                           </beam>
+                           <rest xml:id="rceuq7v" type="mscore-beam-none" dur="8" />
+                           <note xml:id="nnyxdlv" type="mscore-beam-none" dur="8" pname="g" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <harm startid="#n19v6fqt">
+                        <fb xml:id="f1uaeo8o">
+                           <f xml:id="fwrwzie">#3</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#nnyxdlv">
+                        <fb xml:id="f1ls1uq3">
+                           <f xml:id="fo97vga">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <sb />
+                  <measure xml:id="m13shkpk" n="38">
+                     <staff xml:id="m38s1" n="1">
+                        <layer xml:id="m38s1l1" n="1">
+                           <chord xml:id="c1ltiba4" dur="4">
+                              <note xml:id="n1ytxktb" pname="e" oct="4" />
+                              <note xml:id="neyk8z9" pname="a" oct="4" />
+                              <note xml:id="nl3r7j1" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <chord xml:id="c15yd7s5" dur="4">
+                              <note xml:id="n19wtnwv" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nxisxxl" pname="a" oct="4" />
+                              <note xml:id="n19tu8ud" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m38s2" n="2">
+                        <layer xml:id="m38s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1hp1778" type="mscore-beam-begin" dur="8" pname="a" oct="3" />
+                              <note xml:id="n1elq728" type="mscore-beam-mid" dur="8" pname="a" oct="3" />
+                              <note xml:id="ndyhg3" type="mscore-beam-mid" dur="8" pname="a" oct="3" />
+                              <note xml:id="n64mkax" dur="8" pname="a" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#ndyhg3">
+                        <fb xml:id="fa8f19d">
+                           <f xml:id="fumbl23">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1qbvbr0" n="39">
+                     <staff xml:id="m39s1" n="1">
+                        <layer xml:id="m39s1l1" n="1">
+                           <chord xml:id="c5nhrqw" dur="4">
+                              <note xml:id="n10i4ag7" pname="d" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1hpejb6" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nkzogfm" pname="b" oct="4" />
+                           </chord>
+                           <rest xml:id="rjat8f3" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m39s2" n="2">
+                        <layer xml:id="m39s2l1" n="1">
+                           <note xml:id="njq8a28" dur="4" pname="b" oct="3" />
+                           <rest xml:id="r13q0254" type="mscore-beam-none" dur="8" />
+                           <rest xml:id="rhzbf6g" type="mscore-beam-none" dur="8" />
+                        </layer>
+                     </staff>
+                     <harm startid="#njq8a28">
+                        <fb xml:id="f1vjc938">
+                           <f xml:id="f1cm7f2c">#</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1sxbrfx" n="40">
+                     <staff xml:id="m40s1" n="1">
+                        <layer xml:id="m40s1l1" n="1">
+                           <chord xml:id="cpkze1z" dur="4">
+                              <note xml:id="nx2rse3" pname="e" oct="4" />
+                              <note xml:id="n1f90nb4" pname="b" oct="4" />
+                              <note xml:id="n1pgydc1" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="c1xrh9b7" dur="4">
+                              <note xml:id="n1uac62a" pname="e" oct="4" />
+                              <note xml:id="n1cbi21j" pname="b" oct="4" />
+                              <note xml:id="n1p12x7f" pname="e" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m40s2" n="2">
+                        <layer xml:id="m40s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1ry2978" type="mscore-beam-begin" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nzebvtp" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nvfacr1" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1ua39ij" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n1ry2978">
+                        <fb xml:id="fgfyb98">
+                           <f xml:id="fwjoujj">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m31492h" n="41">
+                     <staff xml:id="m41s1" n="1">
+                        <layer xml:id="m41s1l1" n="1">
+                           <chord xml:id="c1vi6db" dur="4">
+                              <note xml:id="ndpmg0h" pname="a" oct="4" />
+                              <note xml:id="n1b904gh" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <rest xml:id="r1smxkkb" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m41s2" n="2">
+                        <layer xml:id="m41s2l1" n="1">
+                           <note xml:id="n3eeah0" dur="4" pname="a" oct="3" />
+                           <rest xml:id="r1pxq2nv" dur="4" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mek4x" n="42">
+                     <staff xml:id="m42s1" n="1">
+                        <layer xml:id="m42s1l1" n="1">
+                           <chord xml:id="c134qwhw" dur="2">
+                              <note xml:id="nvv3bx4" pname="a" oct="4" />
+                              <note xml:id="n14khobj" pname="b" oct="4" />
+                              <note xml:id="nnsoif3" pname="d" oct="5">
+                                 <accid accid="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m42s2" n="2">
+                        <layer xml:id="m42s2l1" n="1">
+                           <beam>
+                              <note xml:id="n364k7e" type="mscore-beam-begin" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nr7olap" type="mscore-beam-mid" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="ntp08fs" type="mscore-beam-mid" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1sdafzx" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n364k7e">
+                        <fb xml:id="fm9kv20">
+                           <f xml:id="f139wy5e">#6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1hnqz4c" n="43">
+                     <staff xml:id="m43s1" n="1">
+                        <layer xml:id="m43s1l1" n="1">
+                           <chord xml:id="c1yi5avr" dur="4">
+                              <note xml:id="nrris35" pname="e" oct="4" />
+                              <note xml:id="npe7mc8" pname="b" oct="4" />
+                              <note xml:id="n6y553m" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="cxw1v2l" dur="4">
+                              <note xml:id="n5cdrpg" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n14e4hcz" pname="a" oct="4" />
+                              <note xml:id="n5jv585" pname="b" oct="4" />
+                              <note xml:id="n19kdww" pname="d" oct="5">
+                                 <accid accid="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m43s2" n="2">
+                        <layer xml:id="m43s2l1" n="1">
+                           <beam>
+                              <note xml:id="n15gmni" type="mscore-beam-begin" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n2n9bs6" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n3ld3b" type="mscore-beam-mid" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1m9h4lm" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n15gmni">
+                        <fb xml:id="f1c6s18l">
+                           <f xml:id="fym7u1m">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1lvyb4v" n="44">
+                     <staff xml:id="m44s1" n="1">
+                        <layer xml:id="m44s1l1" n="1">
+                           <chord xml:id="cf2jns7" dots="1" dur="4">
+                              <note xml:id="n122t3jr" pname="e" oct="4" />
+                              <note xml:id="n17gk7vu" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1ltownk" pname="b" oct="4" />
+                              <note xml:id="n1x5frl2" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="c12tuhxd" dur="8">
+                              <note xml:id="n18xvh4i" pname="a" oct="4" />
+                              <note xml:id="n1ttsoqa" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nswr9t5" pname="e" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m44s2" n="2">
+                        <layer xml:id="m44s2l1" n="1">
+                           <beam>
+                              <note xml:id="n74p3ow" type="mscore-beam-begin" dur="8" pname="e" oct="3" />
+                              <note xml:id="nxtkszw" type="mscore-beam-mid" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nsb9jrn" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1k29ry2" dur="8" pname="a" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m5l0uej" n="45">
+                     <staff xml:id="m45s1" n="1">
+                        <layer xml:id="m45s1l1" n="1">
+                           <chord xml:id="cfl3ron" dur="4">
+                              <note xml:id="n1d0tz1u" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n11btjgt" pname="b" oct="4" />
+                              <note xml:id="n1vd2qyd" pname="d" oct="5">
+                                 <accid accid="s" />
+                              </note>
+                           </chord>
+                           <chord xml:id="cqg9nuv" dur="4">
+                              <note xml:id="n149mwac" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n121a0rc" pname="b" oct="4" />
+                              <note xml:id="n1r86yl6" pname="d" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m45s2" n="2">
+                        <layer xml:id="m45s2l1" n="1">
+                           <rest xml:id="rq01cc9" type="mscore-beam-none" dur="8" />
+                           <beam>
+                              <note xml:id="ntg0p7o" type="mscore-beam-begin" dur="8" pname="b" oct="3" />
+                              <note xml:id="nu056k4" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="nmp4gnd" dur="8" pname="a" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#ntg0p7o">
+                        <fb xml:id="flldmex">
+                           <f xml:id="f1j55kzk">#</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <pb />
+                  <measure xml:id="msg3q2b" n="46">
+                     <staff xml:id="m46s1" n="1">
+                        <layer xml:id="m46s1l1" n="1">
+                           <chord xml:id="civkpu2" dots="1" dur="4">
+                              <note xml:id="nso0k1" pname="e" oct="4" />
+                              <note xml:id="nqxe4r3" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nq4y20t" pname="b" oct="4" />
+                              <note xml:id="n5wlsl0" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="c19pyc8w" dur="8">
+                              <note xml:id="nbaljos" pname="a" oct="4" />
+                              <note xml:id="n1yo32qk" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m46s2" n="2">
+                        <layer xml:id="m46s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1ldh6g6" type="mscore-beam-begin" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n7lg27k" type="mscore-beam-mid" dur="16" pname="e" oct="3" />
+                              <note xml:id="n1poyge6" type="mscore-beam-mid" dur="16" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n7nbwz3" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n11cl0xg" dur="8" pname="a" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m15g2t4c" n="47">
+                     <staff xml:id="m47s1" n="1">
+                        <layer xml:id="m47s1l1" n="1">
+                           <chord xml:id="cwcpapl" dur="4">
+                              <note xml:id="nrxrkvn" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1ktd9ts" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1u9ftox" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="c72g1co" dur="4">
+                              <note xml:id="n183ryow" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nqmnorb" pname="a" oct="4" />
+                              <note xml:id="nlve0xe" pname="b" oct="4" />
+                              <note xml:id="n18qjpru" pname="d" oct="5">
+                                 <accid accid="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m47s2" n="2">
+                        <layer xml:id="m47s2l1" n="1">
+                           <rest xml:id="r1nv9xg9" type="mscore-beam-none" dur="8" />
+                           <beam>
+                              <note xml:id="n11jjgil" type="mscore-beam-begin" dur="8" pname="a" oct="3" />
+                              <note xml:id="n1k00oye" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="nleoccz" dur="8" pname="b" oct="2" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mv1tthx" n="48">
+                     <staff xml:id="m48s1" n="1">
+                        <layer xml:id="m48s1l1" n="1">
+                           <chord xml:id="c6pabwy" dur="2">
+                              <note xml:id="n10w6d09" pname="e" oct="4" />
+                              <note xml:id="neo1fvo" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n174ngo9" pname="b" oct="4" />
+                              <note xml:id="niza4e9" pname="e" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m48s2" n="2">
+                        <layer xml:id="m48s2l1" n="1">
+                           <beam>
+                              <note xml:id="nkzj66g" type="mscore-beam-begin" dur="8" pname="e" oct="3" />
+                              <note xml:id="n1j4ui6a" dur="8" pname="b" oct="2" />
+                           </beam>
+                           <note xml:id="n1k2a5es" dur="4" pname="e" oct="2" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1qfi20s" n="49">
+                     <staff xml:id="m49s1" n="1">
+                        <layer xml:id="m49s1l1" n="1">
+                           <mRest xml:id="mgrxri5" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m49s2" n="2">
+                        <layer xml:id="m49s2l1" n="1">
+                           <rest xml:id="r9yqzq6" type="mscore-beam-none" dur="8" />
+                           <rest xml:id="r788kxr" dur="4" />
+                           <rest xml:id="rhkubhq" type="mscore-beam-none" dur="8" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mniqpft" n="50">
+                     <staff xml:id="m50s1" n="1">
+                        <layer xml:id="m50s1l1" n="1">
+                           <chord xml:id="cp7yewf" dur="4">
+                              <note xml:id="ngv670y" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nbny5la" pname="b" oct="4" />
+                              <note xml:id="n1vyps02" pname="d" oct="5" />
+                           </chord>
+                           <rest xml:id="r1nrv9ch" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m50s2" n="2">
+                        <layer xml:id="m50s2l1" n="1">
+                           <beam>
+                              <note xml:id="n3tgo1g" type="mscore-beam-begin" dur="8" pname="b" oct="2" />
+                              <note xml:id="n1cmdnck" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                           <note xml:id="n506mes" dur="4" pname="b" oct="3" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1g5957e" n="51">
+                     <staff xml:id="m51s1" n="1">
+                        <layer xml:id="m51s1l1" n="1">
+                           <mRest xml:id="m1b37jbq" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m51s2" n="2">
+                        <layer xml:id="m51s2l1" n="1">
+                           <rest xml:id="r17m3k2o" type="mscore-beam-none" dur="8" />
+                           <rest xml:id="r1a7hirg" dur="4" />
+                           <rest xml:id="r10b02or" type="mscore-beam-none" dur="8" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m16i7rn5" n="52">
+                     <staff xml:id="m52s1" n="1">
+                        <layer xml:id="m52s1l1" n="1">
+                           <chord xml:id="ct7e2x1" dur="8">
+                              <note xml:id="ncb7iog" pname="e" oct="4" />
+                              <note xml:id="n1gzaoi1" pname="c" oct="5">
+                                 <accid accid="n" />
+                              </note>
+                           </chord>
+                           <note xml:id="n53monv" dur="4" pname="a" oct="4" />
+                           <note xml:id="n16o9gei" dur="8" pname="g" oct="4">
+                              <accid accid.ges="s" />
+                           </note>
+                        </layer>
+                        <layer xml:id="m52s1l2" n="2">
+                           <rest xml:id="r1iuku24" type="mscore-beam-none" dur="8" />
+                           <rest xml:id="r1fklcqj" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n1yx8vz5" dur="4" pname="d" oct="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m52s2" n="2">
+                        <layer xml:id="m52s2l1" n="1">
+                           <beam>
+                              <note xml:id="ndrwy73" type="mscore-beam-begin" dur="8" pname="a" oct="2" />
+                              <note xml:id="n19q6wb6" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid="n" />
+                              </note>
+                              <note xml:id="n1bwkmul" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="nzw1xfj" dur="8" pname="e" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n19q6wb6">
+                        <fb xml:id="fi48tbc">
+                           <f xml:id="fmf7fls">6</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n1bwkmul">
+                        <fb xml:id="f1e8s12d">
+                           <f xml:id="f1685fc9">7</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#nzw1xfj">
+                        <fb xml:id="f1sqssim">
+                           <f xml:id="fstymhc">7</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="mvexx46" n="53">
+                     <staff xml:id="m53s1" n="1">
+                        <layer xml:id="m53s1l1" n="1">
+                           <chord xml:id="c1ooikvp" dur="4">
+                              <note xml:id="nbbmewl" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nv363nz" pname="e" oct="4" />
+                              <note xml:id="n1kzkljc" pname="a" oct="4" />
+                           </chord>
+                           <chord xml:id="choi2yb" dur="4">
+                              <note xml:id="nfdser1" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n152yiym" pname="e" oct="4" />
+                              <note xml:id="ng3mowe" pname="a" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m53s2" n="2">
+                        <layer xml:id="m53s2l1" n="1">
+                           <beam>
+                              <note xml:id="n9sm29t" type="mscore-beam-begin" dur="8" pname="a" oct="2" />
+                              <note xml:id="n1haggjd" type="mscore-beam-mid" dur="8" pname="a" oct="3" />
+                              <note xml:id="n11s7ko5" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid="n" />
+                              </note>
+                              <note xml:id="nlf6fpm" dur="8" pname="g" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n11s7ko5">
+                        <fb xml:id="fe5euej">
+                           <f xml:id="f5rk5jw">4</f>
+                           <f xml:id="fj7mhmu">2</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <sb />
+                  <measure xml:id="mle5xzq" n="54">
+                     <staff xml:id="m54s1" n="1">
+                        <layer xml:id="m54s1l1" n="1">
+                           <chord xml:id="cfbmpzw" dur="4">
+                              <note xml:id="nbcimiw" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1d21n63" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nqpiywz" pname="a" oct="4" />
+                           </chord>
+                           <chord xml:id="cuu1cu8" dur="4">
+                              <note xml:id="nymnyc0" pname="d" oct="4" />
+                              <note xml:id="nq501qf" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1k7nlrb" pname="a" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m54s2" n="2">
+                        <layer xml:id="m54s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1pq08dt" type="mscore-beam-begin" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1nsoe9u" type="mscore-beam-mid" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1xev188" type="mscore-beam-mid" dur="8" pname="d" oct="3" />
+                              <note xml:id="n5i4nmh" dur="8" pname="d" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mdiklzw" n="55">
+                     <staff xml:id="m55s1" n="1">
+                        <layer xml:id="m55s1l1" n="1">
+                           <chord xml:id="c14mhln8" dur="4">
+                              <note xml:id="nfkm2hn" pname="d" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1jfs7m7" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <chord xml:id="cxsuhyp" dur="4">
+                              <note xml:id="n314vsq" pname="d" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1h330ca" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nhfvziz" pname="b" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m55s2" n="2">
+                        <layer xml:id="m55s2l1" n="1">
+                           <beam>
+                              <note xml:id="n5qzddz" type="mscore-beam-begin" dur="8" pname="b" oct="2" />
+                              <note xml:id="nlr9vuy" type="mscore-beam-mid" dur="8" pname="b" oct="3" />
+                              <note xml:id="n1ws3895" type="mscore-beam-mid" dur="8" pname="a" oct="3" />
+                              <note xml:id="n15hctrw" dur="8" pname="a" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n5qzddz">
+                        <fb xml:id="f1i6qn6b">
+                           <f xml:id="f647swp">#</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n1ws3895">
+                        <fb xml:id="f1wef9tk">
+                           <f xml:id="f1pmnfhj">4+</f>
+                           <f xml:id="fp8wefa">2</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="mo7rxft" n="56">
+                     <staff xml:id="m56s1" n="1">
+                        <layer xml:id="m56s1l1" n="1">
+                           <chord xml:id="cg9g8nf" dur="4">
+                              <note xml:id="n18vr1w1" pname="e" oct="4" />
+                              <note xml:id="noh7lo9" pname="b" oct="4" />
+                              <note xml:id="ngtsqqk" pname="e" oct="5" />
+                           </chord>
+                           <rest xml:id="r1vllzyw" type="mscore-beam-none" dur="8" />
+                           <chord xml:id="catjfur" dur="8">
+                              <note xml:id="nx8zieo" pname="e" oct="4" />
+                              <note xml:id="n135s9ap" pname="a" oct="4" />
+                              <note xml:id="n1tgiglq" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m56s2" n="2">
+                        <layer xml:id="m56s2l1" n="1">
+                           <beam>
+                              <note xml:id="ne3n60x" type="mscore-beam-begin" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="njqivlu" type="mscore-beam-mid" dur="16" pname="e" oct="3" />
+                              <note xml:id="nbin7am" type="mscore-beam-mid" dur="16" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="na4m26v" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1vgham4" dur="8" pname="a" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#ne3n60x">
+                        <fb xml:id="f1qatj7b">
+                           <f xml:id="f86no8e">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1urbht7" n="57">
+                     <staff xml:id="m57s1" n="1">
+                        <layer xml:id="m57s1l1" n="1">
+                           <chord xml:id="cx7awu4" dur="4">
+                              <note xml:id="nyzhvur" pname="e" oct="4" />
+                              <note xml:id="n1x4l66o" pname="b" oct="4" />
+                              <note xml:id="nyiaaw2" pname="e" oct="5" />
+                           </chord>
+                           <rest xml:id="rah41ne" type="mscore-beam-none" dur="8" />
+                           <chord xml:id="c1uow51r" dur="8">
+                              <note xml:id="n1upqhr9" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="na3t8d6" pname="b" oct="4" />
+                              <note xml:id="nl9h06r" pname="d" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m57s2" n="2">
+                        <layer xml:id="m57s2l1" n="1">
+                           <note xml:id="n94zbxa" dur="4" pname="g" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                           <rest xml:id="r170rmyb" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n1kcld53" type="mscore-beam-none" dur="8" pname="e" oct="3" />
+                        </layer>
+                     </staff>
+                     <harm startid="#n1kcld53">
+                        <fb xml:id="fy28upe">
+                           <f xml:id="f1rgqeif">h7</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="mhf70ix" n="58">
+                     <staff xml:id="m58s1" n="1">
+                        <layer xml:id="m58s1l1" n="1">
+                           <chord xml:id="c1l649o8" dur="4">
+                              <note xml:id="nh4fl6a" pname="e" oct="4" />
+                              <note xml:id="n1ojz6a4" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <beam>
+                              <chord xml:id="coxgksd" dur="8" stem.dir="down">
+                                 <note xml:id="n1fpt5ay" pname="f" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="nnhcyzd" pname="a" oct="4" />
+                              </chord>
+                              <chord xml:id="cd1dvzo" dur="8" stem.dir="down">
+                                 <note xml:id="n1y2zg8z" pname="e" oct="4" />
+                                 <note xml:id="n1l7v67s" pname="g" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                              </chord>
+                           </beam>
+                        </layer>
+                        <layer xml:id="m58s1l2" n="2">
+                           <rest xml:id="ry5uqu0" dur="4" />
+                           <note xml:id="ngtokig" dur="4" pname="b" oct="4" stem.dir="up" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m58s2" n="2">
+                        <layer xml:id="m58s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1h04m0f" type="mscore-beam-begin" dur="8" pname="a" oct="3" />
+                              <note xml:id="ntjxdi0" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="ndaimxk" type="mscore-beam-mid" dur="8" pname="d" oct="3" />
+                              <note xml:id="n18qgnco" dur="8" pname="e" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <slur xml:id="s13vo5lr" startid="#coxgksd" endid="#cd1dvzo" />
+                  </measure>
+                  <measure xml:id="m1tz46zu" n="59">
+                     <staff xml:id="m59s1" n="1">
+                        <layer xml:id="m59s1l1" n="1">
+                           <chord xml:id="cu3gmz1" dur="4">
+                              <note xml:id="nimzhjb" pname="d" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="npxm1x4" pname="a" oct="4" />
+                              <note xml:id="n1ih6zef" pname="b" oct="4" />
+                           </chord>
+                           <chord xml:id="cok0fjq" dur="4">
+                              <note xml:id="n1e9fdsy" pname="d" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n39twk3" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nicbprd" pname="b" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m59s2" n="2">
+                        <layer xml:id="m59s2l1" n="1">
+                           <beam>
+                              <note xml:id="n5eq9ej" type="mscore-beam-begin" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n10hpt05" type="mscore-beam-mid" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n18j1tgm" type="mscore-beam-mid" dur="8" pname="a" oct="3" />
+                              <note xml:id="n12ghrge" dur="8" pname="a" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n5eq9ej">
+                        <fb xml:id="fkcow53">
+                           <f xml:id="f1nxxkzd">6</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n18j1tgm">
+                        <fb xml:id="f1dojlcp">
+                           <f xml:id="f5w5elu">6</f>
+                           <f xml:id="fut8ldw">4+</f>
+                           <f xml:id="fpd4e9v">2</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1icyfh7" n="60">
+                     <staff xml:id="m60s1" n="1">
+                        <layer xml:id="m60s1l1" n="1">
+                           <chord xml:id="c8cw7t9" dur="4">
+                              <note xml:id="n8vp9t1" pname="e" oct="4" />
+                              <note xml:id="nwq6kny" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1f022wl" pname="b" oct="4" />
+                           </chord>
+                           <rest xml:id="rmpw8wd" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m60s2" n="2">
+                        <layer xml:id="m60s2l1" n="1">
+                           <note xml:id="nlo7g0" dur="4" pname="g" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                           <rest xml:id="rrf5kiw" dur="4" />
+                        </layer>
+                     </staff>
+                     <harm startid="#nlo7g0">
+                        <fb xml:id="f7ygng9">
+                           <f xml:id="f6c04zw">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <sb />
+                  <measure xml:id="muhee06" n="61">
+                     <staff xml:id="m61s1" n="1">
+                        <layer xml:id="m61s1l1" n="1">
+                           <rest xml:id="r1le4cy6" type="mscore-beam-none" dur="8" />
+                           <chord xml:id="cypzv2g" dur="8">
+                              <note xml:id="n1sw0sxg" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1uacaeh" pname="d" oct="5" />
+                           </chord>
+                           <chord xml:id="c813p9p" dur="4">
+                              <note xml:id="n1292kgn" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nz3mf79" pname="b" oct="4" />
+                              <note xml:id="n1cvxdhv" pname="e" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m61s2" n="2">
+                        <layer xml:id="m61s2l1" n="1">
+                           <rest xml:id="r1wlb69a" type="mscore-beam-none" dur="8" />
+                           <beam>
+                              <note xml:id="ncmcwgr" type="mscore-beam-begin" dur="8" pname="b" oct="3" />
+                              <note xml:id="n1lqax5a" type="mscore-beam-mid" dur="8" pname="e" oct="3" />
+                              <note xml:id="nivxa08" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mnipvxp" n="62">
+                     <staff xml:id="m62s1" n="1">
+                        <layer xml:id="m62s1l1" n="1">
+                           <chord xml:id="co9xf7f" dur="4">
+                              <note xml:id="n1mhwma" pname="e" oct="4" />
+                              <note xml:id="nj8v22c" pname="a" oct="4" />
+                              <note xml:id="nmo7ws2" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <beam>
+                              <chord xml:id="culmttb" dur="8">
+                                 <note xml:id="nqotbcr" pname="a" oct="4" />
+                                 <note xml:id="n23099a" pname="b" oct="4" />
+                              </chord>
+                              <chord xml:id="cu7hdj8" dur="8">
+                                 <note xml:id="n1fj48f9" pname="g" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="n1rfmkaw" pname="b" oct="4" />
+                              </chord>
+                           </beam>
+                        </layer>
+                        <layer xml:id="m62s1l2" n="2">
+                           <rest xml:id="ruojw44" dur="4" />
+                           <note xml:id="n1fh0es3" dur="4" pname="e" oct="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m62s2" n="2">
+                        <layer xml:id="m62s2l1" n="1">
+                           <beam>
+                              <note xml:id="nc88b8c" type="mscore-beam-begin" dur="8" pname="a" oct="3" />
+                              <note xml:id="n1ff2t21" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1uimbp0" type="mscore-beam-mid" dur="8" pname="d" oct="3" />
+                              <note xml:id="n1ky9sph" dur="8" pname="e" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <slur xml:id="sp8jrr9" startid="#culmttb" endid="#cu7hdj8" />
+                  </measure>
+                  <measure xml:id="m1c37igj" n="63">
+                     <staff xml:id="m63s1" n="1">
+                        <layer xml:id="m63s1l1" n="1">
+                           <chord xml:id="cmlwics" dur="4">
+                              <note xml:id="n4d9pl0" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1og8rub" pname="e" oct="4" />
+                              <note xml:id="n1hz40f6" pname="a" oct="4" />
+                           </chord>
+                           <rest xml:id="riwm369" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m63s2" n="2">
+                        <layer xml:id="m63s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1l0utto" type="mscore-beam-begin" dur="8" pname="a" oct="2" />
+                              <note xml:id="n10x8fn9" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="n138u2uh" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1s7c5qz" dur="8" pname="d" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1fc8v5z" n="64">
+                     <staff xml:id="m64s1" n="1">
+                        <layer xml:id="m64s1l1" n="1">
+                           <chord xml:id="cw1o2ms" dur="4">
+                              <note xml:id="ncb3kjq" pname="d" oct="4" />
+                              <note xml:id="nff9b97" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="njymggk" pname="a" oct="4" />
+                           </chord>
+                           <rest xml:id="r14c9hz5" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m64s2" n="2">
+                        <layer xml:id="m64s2l1" n="1">
+                           <rest xml:id="rdkxuan" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n1oqqgzy" type="mscore-beam-none" dur="8" pname="d" oct="3" />
+                           <beam>
+                              <note xml:id="n1y7wtq3" type="mscore-beam-begin" dur="8" pname="e" oct="3" />
+                              <note xml:id="nv8qphf" dur="8" pname="d" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mjorjir" n="65">
+                     <staff xml:id="m65s1" n="1">
+                        <layer xml:id="m65s1l1" n="1">
+                           <chord xml:id="c1865iq9" dots="1" dur="4">
+                              <note xml:id="n15220zy" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nzfeb0m" pname="e" oct="4" />
+                              <note xml:id="ngbpud" pname="a" oct="4" />
+                           </chord>
+                           <chord xml:id="c1ikx5et" dur="8">
+                              <note xml:id="n103bldm" pname="d" oct="4" />
+                              <note xml:id="n1nsylmj" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1r4bju4" pname="a" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m65s2" n="2">
+                        <layer xml:id="m65s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1kexfok" type="mscore-beam-begin" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n6wgry3" type="mscore-beam-mid" dur="16" pname="a" oct="2" />
+                              <note xml:id="n3ajaam" type="mscore-beam-mid" dur="16" pname="b" oct="2" />
+                              <note xml:id="n1da5rdp" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1oppkxz" dur="8" pname="d" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1vbyyks" n="66">
+                     <staff xml:id="m66s1" n="1">
+                        <layer xml:id="m66s1l1" n="1">
+                           <chord xml:id="c1qig97o" dur="4">
+                              <note xml:id="nu4ude1" pname="d" oct="4" />
+                              <note xml:id="n782qe4" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1e1nbjn" pname="b" oct="4" />
+                           </chord>
+                           <chord xml:id="cm4zy74" dur="4">
+                              <note xml:id="n1pnb44f" pname="e" oct="4" />
+                              <note xml:id="n2w0pko" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="ncra6om" pname="b" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m66s2" n="2">
+                        <layer xml:id="m66s2l1" n="1">
+                           <rest xml:id="ra1ab2w" type="mscore-beam-none" dur="8" />
+                           <beam>
+                              <note xml:id="n2cmkhn" type="mscore-beam-begin" dur="8" pname="d" oct="3" />
+                              <note xml:id="n4gicsl" type="mscore-beam-mid" dur="8" pname="e" oct="3" />
+                              <note xml:id="n1pgjb2q" dur="8" pname="e" oct="2" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1qnr069" n="67">
+                     <staff xml:id="m67s1" n="1">
+                        <layer xml:id="m67s1l1" n="1">
+                           <chord xml:id="c1m7u6e0" dur="4">
+                              <note xml:id="n2scw40" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nqviya1" pname="e" oct="4" />
+                              <note xml:id="n1bww9ct" pname="a" oct="4" />
+                           </chord>
+                           <rest xml:id="r1reve67" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m67s2" n="2">
+                        <layer xml:id="m67s2l1" n="1">
+                           <beam>
+                              <note xml:id="n5hyxiq" type="mscore-beam-begin" dur="8" pname="a" oct="3" />
+                              <note xml:id="ns1afrt" type="mscore-beam-mid" dur="8" pname="e" oct="3" />
+                              <note xml:id="nas1u39" type="mscore-beam-mid" dur="8" pname="a" oct="2" />
+                              <note xml:id="n1mswguu" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb />
+                  <measure xml:id="m1ywqty7" n="68">
+                     <staff xml:id="m68s1" n="1">
+                        <layer xml:id="m68s1l1" n="1">
+                           <chord xml:id="c633g9" dur="4">
+                              <note xml:id="nggqnya" pname="d" oct="4" />
+                              <note xml:id="n3owj7" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n14rvcrd" pname="a" oct="4" />
+                           </chord>
+                           <chord xml:id="cj2a2db" dur="4">
+                              <note xml:id="n9hc18z" pname="b" oct="3" />
+                              <note xml:id="n1bfssul" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1gh51qq" pname="b" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m68s2" n="2">
+                        <layer xml:id="m68s2l1" n="1">
+                           <beam>
+                              <note xml:id="nvk82jv" type="mscore-beam-begin" dur="8" pname="d" oct="3" />
+                              <note xml:id="n160p4j0" type="mscore-beam-mid" dur="8" pname="d" oct="3" />
+                              <note xml:id="n10tinsd" type="mscore-beam-mid" dur="8" pname="d" oct="3" />
+                              <note xml:id="n1uyiwyy" dur="8" pname="d" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n10tinsd">
+                        <fb xml:id="f1oyfwgt">
+                           <f xml:id="f18uoss0">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1tu0tg0" n="69">
+                     <staff xml:id="m69s1" n="1">
+                        <layer xml:id="m69s1l1" n="1">
+                           <chord xml:id="c1ffa7ej" dur="4">
+                              <note xml:id="nh4xoc3" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nfo7xu3" pname="e" oct="4" />
+                              <note xml:id="nilia49" pname="a" oct="4" />
+                           </chord>
+                           <rest xml:id="r1nelaqp" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m69s2" n="2">
+                        <layer xml:id="m69s2l1" n="1">
+                           <note xml:id="n1704uzo" dur="4" pname="e" oct="3" />
+                           <rest xml:id="r13rqj0k" type="mscore-beam-none" dur="8" />
+                           <rest xml:id="r1ug4qvp" type="mscore-beam-none" dur="8" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m17jxdjk" n="70">
+                     <staff xml:id="m70s1" n="1">
+                        <layer xml:id="m70s1l1" n="1">
+                           <chord xml:id="cbla5a7" dur="4">
+                              <note xml:id="nmohtqj" pname="e" oct="4" />
+                              <note xml:id="n1h6qm6o" pname="a" oct="4" />
+                           </chord>
+                           <chord xml:id="c1jriqe5" dur="4">
+                              <note xml:id="n15kdgzo" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n3loyw3" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                        <layer xml:id="m70s1l2" n="2">
+                           <note xml:id="n1i7f4hf" dur="2" pname="a" oct="3" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m70s2" n="2">
+                        <layer xml:id="m70s2l1" n="1">
+                           <beam>
+                              <note xml:id="n17w9kkv" type="mscore-beam-begin" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n94xg7s" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1aks87m" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1kjvtc8" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <slur xml:id="swq03bk" startid="#cbla5a7" endid="#c1jriqe5" />
+                     <harm startid="#n17w9kkv">
+                        <fb xml:id="f4geg1e">
+                           <f xml:id="f8ulb3i">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m12m9sfb" n="71">
+                     <staff xml:id="m71s1" n="1">
+                        <layer xml:id="m71s1l1" n="1">
+                           <chord xml:id="c1jlpeaz" dur="4">
+                              <note xml:id="n1rwjonj" pname="a" oct="3" />
+                              <note xml:id="n1ffyfh" pname="d" oct="4" />
+                              <note xml:id="ns9jhec" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <rest xml:id="r1smednu" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m71s2" n="2">
+                        <layer xml:id="m71s2l1" n="1">
+                           <note xml:id="n1nnzakf" dur="4" pname="d" oct="3" />
+                           <rest xml:id="r1ax0t3p" type="mscore-beam-none" dur="8" />
+                           <rest xml:id="rc9x9ow" type="mscore-beam-none" dur="8" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mz8sgrg" n="72">
+                     <staff xml:id="m72s1" n="1">
+                        <layer xml:id="m72s1l1" n="1">
+                           <chord xml:id="c18a3mcj" dur="4">
+                              <note xml:id="n1v7tux3" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nfzpfjd" pname="e" oct="4" />
+                              <note xml:id="n2pz3iq" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <rest xml:id="r1wiv6v1" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m72s2" n="2">
+                        <layer xml:id="m72s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1051qf1" type="mscore-beam-begin" dur="8" pname="b" oct="2" />
+                              <note xml:id="nwxp82u" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="n1pttj0h" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="n1nxszgr" dur="8" pname="b" oct="2" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n1051qf1">
+                        <fb xml:id="f3wi9us">
+                           <f xml:id="fhxeryp">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1ahj0xd" n="73">
+                     <staff xml:id="m73s1" n="1">
+                        <layer xml:id="m73s1l1" n="1">
+                           <chord xml:id="c1t953xy" dur="4">
+                              <note xml:id="n1gq70p8" pname="e" oct="4" />
+                              <note xml:id="nzf91i0" pname="a" oct="4" />
+                              <note xml:id="n1kkud19" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <note xml:id="nz4xeeg" dur="4" pname="f" oct="4">
+                              <accid accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m73s2" n="2">
+                        <layer xml:id="m73s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1tccmz1" type="mscore-beam-begin" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1w5pp8z" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n665hsf" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="nao7fge" dur="8" pname="b" oct="2" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1u66aij" n="74">
+                     <staff xml:id="m74s1" n="1">
+                        <layer xml:id="m74s1l1" n="1">
+                           <beam>
+                              <note xml:id="n11675c4" dur="8" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1goa6wt" dur="8" pname="d" oct="5" />
+                           </beam>
+                           <beam>
+                              <chord xml:id="c193o2sv" dur="8">
+                                 <note xml:id="nqnk0gk" pname="e" oct="4" />
+                                 <note xml:id="nto5lrt" pname="a" oct="4" />
+                                 <note xml:id="n1tiyaqg" pname="e" oct="5" />
+                              </chord>
+                              <chord xml:id="crwivy9" dur="8">
+                                 <note xml:id="nzajn24" pname="f" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="n5jr75e" pname="a" oct="4" />
+                                 <note xml:id="nvuigj6" pname="d" oct="5" />
+                              </chord>
+                           </beam>
+                        </layer>
+                        <layer xml:id="m74s1l2" n="2">
+                           <chord xml:id="c1epu1pu" dur="4">
+                              <note xml:id="n16xmjyu" pname="e" oct="4" />
+                              <note xml:id="ncspjmg" pname="a" oct="4" />
+                           </chord>
+                           <rest xml:id="r1vsql3t" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m74s2" n="2">
+                        <layer xml:id="m74s2l1" n="1">
+                           <beam>
+                              <note xml:id="n9eyfw9" type="mscore-beam-begin" dur="8" pname="a" oct="2" />
+                              <note xml:id="n19cw1sw" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="n1mnhzrp" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nvit5kr" dur="8" pname="d" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1y8j2mq" n="75">
+                     <staff xml:id="m75s1" n="1">
+                        <layer xml:id="m75s1l1" n="1">
+                           <chord xml:id="cs4mcgp" dur="4">
+                              <note xml:id="nnqml5j" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1xcsvs9" pname="b" oct="4" />
+                              <note xml:id="n16ylf5u" pname="d" oct="5" />
+                           </chord>
+                           <chord xml:id="c11hy4hh" dur="4">
+                              <note xml:id="n1ehgzun" pname="e" oct="4" />
+                              <note xml:id="n5ev1tt" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m75s2" n="2">
+                        <layer xml:id="m75s2l1" n="1">
+                           <rest xml:id="r4czip5" type="mscore-beam-none" dur="8" />
+                           <beam>
+                              <note xml:id="n1gv5pdv" type="mscore-beam-begin" dur="8" pname="d" oct="3" />
+                              <note xml:id="n12wzvc3" type="mscore-beam-mid" dur="8" pname="e" oct="3" />
+                              <note xml:id="n11ttb2s" dur="8" pname="d" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb />
+                  <measure xml:id="mbjjcvh" n="76">
+                     <staff xml:id="m76s1" n="1">
+                        <layer xml:id="m76s1l1" n="1">
+                           <chord xml:id="c12kwfpb" dur="4">
+                              <note xml:id="ntvinvx" pname="e" oct="4" />
+                              <note xml:id="n1vckkil" pname="a" oct="4" />
+                              <note xml:id="nnod7ky" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <chord xml:id="c138sxyb" dur="4">
+                              <note xml:id="n1cds6xp" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1ngzs3n" pname="b" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m76s2" n="2">
+                        <layer xml:id="m76s2l1" n="1">
+                           <beam>
+                              <note xml:id="n4s4892" type="mscore-beam-begin" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nxo3ujm" type="mscore-beam-mid" dur="16" pname="a" oct="2" />
+                              <note xml:id="nafqpob" type="mscore-beam-mid" dur="16" pname="b" oct="2" />
+                              <note xml:id="nd6klsz" type="mscore-beam-mid" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n16jkjs8" dur="8" pname="d" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1hl1h29" n="77">
+                     <staff xml:id="m77s1" n="1">
+                        <layer xml:id="m77s1l1" n="1">
+                           <chord xml:id="c12svbl7" dur="2">
+                              <note xml:id="n1hxctyd" pname="e" oct="4" />
+                              <note xml:id="n1g2dp44" pname="a" oct="4" />
+                              <note xml:id="n1gn1bci" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m77s2" n="2">
+                        <layer xml:id="m77s2l1" n="1">
+                           <rest xml:id="rfjo578" type="mscore-beam-none" dur="8" />
+                           <note xml:id="n1hgbfze" type="mscore-beam-none" dur="8" pname="d" oct="3" />
+                           <beam>
+                              <note xml:id="n1pcq9qy" type="mscore-beam-begin" dur="8" pname="e" oct="3" />
+                              <note xml:id="nw7ev1r" dur="8" pname="e" oct="2" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mu9gvf9" n="78">
+                     <staff xml:id="m78s1" n="1">
+                        <layer xml:id="m78s1l1" n="1">
+                           <chord xml:id="c12xotch" dots="1" dur="4">
+                              <note xml:id="nx9us6g" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nu642vb" pname="e" oct="4" />
+                              <note xml:id="n168l8q3" pname="a" oct="4" />
+                           </chord>
+                           <note xml:id="n3vcl58" dur="8" pname="e" oct="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m78s2" n="2">
+                        <layer xml:id="m78s2l1" n="1">
+                           <note xml:id="n4n49w" type="mscore-beam-none" dur="8" pname="a" oct="2" />
+                           <note xml:id="n1fbeknu" type="mscore-beam-none" dur="8" pname="e" oct="3" />
+                           <beam>
+                              <note xml:id="nf9opkq" dur="8" pname="a" oct="3" />
+                              <note xml:id="n1q2kq33" dur="8" pname="a" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <fermata xml:id="f1ggw6re" startid="#n4n49w" />
+                     <tie xml:id="t17iuib7" startid="#nf9opkq" endid="#n1q2kq33" />
+                  </measure>
+                  <measure xml:id="m1aco24b" n="79">
+                     <staff xml:id="m79s1" n="1">
+                        <layer xml:id="m79s1l1" n="1">
+                           <mRest xml:id="m15nyz1k" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m79s2" n="2">
+                        <layer xml:id="m79s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1aahskt" type="mscore-beam-begin" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1331xy2" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1c45zzb" type="mscore-beam-mid" dur="8" pname="a" oct="3" />
+                              <note xml:id="n15qq594" dur="8" pname="b" oct="3" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1wr9p7b" n="80">
+                     <staff xml:id="m80s1" n="1">
+                        <layer xml:id="m80s1l1" n="1">
+                           <beam>
+                              <chord xml:id="cusebrl" dur="8">
+                                 <note xml:id="n16fk1h" pname="d" oct="4" />
+                                 <note xml:id="n1o57i0" pname="e" oct="4">
+                                    <accid accid="s" />
+                                 </note>
+                                 <note xml:id="n1wuwc17" pname="a" oct="4" />
+                              </chord>
+                              <chord xml:id="c1subieo" dur="8">
+                                 <note xml:id="n1a722c1" pname="c" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="n16pug65" pname="a" oct="4" />
+                              </chord>
+                           </beam>
+                           <rest xml:id="rc0vmqg" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m80s2" n="2">
+                        <layer xml:id="m80s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1x6ka47" type="mscore-beam-begin" dur="8" pname="e" oct="3">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="np2k3x8" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                           <rest xml:id="r1um2cwb" type="mscore-beam-none" dur="8" />
+                           <note xml:id="nce594z" type="mscore-beam-none" dur="8" pname="f" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <slur xml:id="s167dx25" startid="#cusebrl" endid="#c1subieo" />
+                     <harm startid="#n1x6ka47">
+                        <fb xml:id="f10ekk5">
+                           <f xml:id="f18khrti">7</f>
+                           <f xml:id="f12zg3en">5</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#np2k3x8">
+                        <fb xml:id="f583yu5">
+                           <f xml:id="f1eom7ce">5</f>
+                           <f xml:id="f1o345ol">3</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1o7n015" n="81">
+                     <staff xml:id="m81s1" n="1">
+                        <layer xml:id="m81s1l1" n="1">
+                           <chord xml:id="cr2cr07" dur="4">
+                              <note xml:id="n1bcarli" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1bfr9by" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1kjutcs" pname="a" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                           </chord>
+                           <chord xml:id="c1w2siao" dur="4">
+                              <note xml:id="nq4emb0" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nz3lst" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nb81iiv" pname="a" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m81s2" n="2">
+                        <layer xml:id="m81s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1816td5" type="mscore-beam-begin" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nggnfou" type="mscore-beam-mid" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n6330f6" type="mscore-beam-mid" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nfkbmcd" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n1816td5">
+                        <fb xml:id="ftzvyz2">
+                           <f xml:id="f1488aea">#</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="me9sj9i" n="82">
+                     <staff xml:id="m82s1" n="1">
+                        <layer xml:id="m82s1l1" n="1">
+                           <chord xml:id="cqzbc38" dur="2">
+                              <note xml:id="n1tbkanu" pname="e" oct="4" />
+                              <note xml:id="n1yqbpe8" pname="g" oct="4">
+                                 <accid accid="n" />
+                              </note>
+                           </chord>
+                        </layer>
+                        <layer xml:id="m82s1l2" n="2">
+                           <note xml:id="n1hcnuj3" dur="4" pname="b" oct="3" />
+                           <note xml:id="n1pl3q4v" dur="4" pname="a" oct="3">
+                              <accid accid="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m82s2" n="2">
+                        <layer xml:id="m82s2l1" n="1">
+                           <beam>
+                              <note xml:id="nn7siec" type="mscore-beam-begin" dur="8" pname="b" oct="3" />
+                              <note xml:id="n7aypag" type="mscore-beam-mid" dur="8" pname="d" oct="3" />
+                              <note xml:id="n17i1jib" type="mscore-beam-mid" dur="8" pname="e" oct="3" />
+                              <note xml:id="n12s1s75" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <slur xml:id="s211c96" startid="#n1hcnuj3" endid="#n1pl3q4v" />
+                  </measure>
+                  <sb />
+                  <measure xml:id="m10pk6s2" n="83">
+                     <staff xml:id="m83s1" n="1">
+                        <layer xml:id="m83s1l1" n="1">
+                           <chord xml:id="cn9yqu6" dur="4">
+                              <note xml:id="nwbd01o" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n139nyw9" pname="b" oct="3" />
+                              <note xml:id="nnckppr" pname="d" oct="4" />
+                              <note xml:id="nhjxcg4" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <chord xml:id="c6pjn4k" dur="4">
+                              <note xml:id="nrka48n" pname="d" oct="4" />
+                              <note xml:id="n1thvf48" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m83s2" n="2">
+                        <layer xml:id="m83s2l1" n="1">
+                           <beam>
+                              <note xml:id="n1cmzfn" type="mscore-beam-begin" dur="8" pname="b" oct="2" />
+                              <note xml:id="n14wlgxh" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="n1qhuaob" type="mscore-beam-mid" dur="8" pname="b" oct="2" />
+                              <note xml:id="n1qgf339" dur="8" pname="b" oct="2" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n1qhuaob">
+                        <fb xml:id="f1ed3k8p">
+                           <f xml:id="fe1tdow">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="mwn9irr" n="84">
+                     <staff xml:id="m84s1" n="1">
+                        <layer xml:id="m84s1l1" n="1">
+                           <chord xml:id="c1dxmiy9" dur="4">
+                              <note xml:id="n1iva92o" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n11d4mx7" pname="g" oct="4">
+                                 <accid accid="n" />
+                              </note>
+                           </chord>
+                           <rest xml:id="r1x5j02t" type="mscore-beam-none" dur="8" />
+                           <chord xml:id="co2whvv" dur="8">
+                              <note xml:id="nygn2cx" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nc5es6v" pname="g" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1mwszmz" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m84s2" n="2">
+                        <layer xml:id="m84s2l1" n="1">
+                           <note xml:id="n1riz98j" dur="4" pname="c" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                           <rest xml:id="r1s0um1h" type="mscore-beam-none" dur="8" />
+                           <note xml:id="nf39s9x" type="mscore-beam-none" dur="8" pname="e" oct="3">
+                              <accid accid="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <harm startid="#n1riz98j">
+                        <fb xml:id="fjitt85">
+                           <f xml:id="forgoi8">#</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#nf39s9x">
+                        <fb xml:id="fb7xggw">
+                           <f xml:id="f1bsc5ek">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="mle2qoh" n="85">
+                     <staff xml:id="m85s1" n="1">
+                        <layer xml:id="m85s1l1" n="1">
+                           <chord xml:id="c1bgiz1f" dur="4">
+                              <note xml:id="noe6pxw" pname="c" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1msquni" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nidpkn2" pname="a" oct="4" />
+                           </chord>
+                           <chord xml:id="c9xcxyw" dur="4">
+                              <note xml:id="ng6fe2e" pname="d" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n4k6dly" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1izp4yo" pname="a" oct="4" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m85s2" n="2">
+                        <layer xml:id="m85s2l1" n="1">
+                           <beam>
+                              <note xml:id="nnj6974" type="mscore-beam-begin" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1m6bc6k" type="mscore-beam-mid" dur="8" pname="f" oct="2">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n3sdmxk" type="mscore-beam-mid" dur="8" pname="f" oct="2">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1piip23" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n3sdmxk">
+                        <fb xml:id="f1p68der">
+                           <f xml:id="f1s26s4e">#6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="mhyim2j" n="86">
+                     <staff xml:id="m86s1" n="1">
+                        <layer xml:id="m86s1l1" n="1">
+                           <chord xml:id="c1yql0je" dur="2">
+                              <note xml:id="n1ryx8yo" pname="b" oct="3">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1fz7l4f" pname="e" oct="4" />
+                              <note xml:id="n1cn3wn2" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m86s2" n="2">
+                        <layer xml:id="m86s2l1" n="1">
+                           <beam>
+                              <note xml:id="npjrpwb" type="mscore-beam-begin" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1lnyzid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                           <beam>
+                              <note xml:id="n1g4rhg5" dur="8" pname="g" oct="2">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n10v88ns" dur="8" pname="g" oct="2">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#npjrpwb">
+                        <fb xml:id="fhuh8xt">
+                           <f xml:id="fbuj85d">#3</f>
+                        </fb>
+                     </harm>
+                     <tie xml:id="t12pzezv" startid="#n1g4rhg5" endid="#n10v88ns" />
+                  </measure>
+                  <measure xml:id="m13n2nw3" n="87">
+                     <staff xml:id="m87s1" n="1">
+                        <layer xml:id="m87s1l1" n="1">
+                           <chord xml:id="cagio4r" dur="2">
+                              <note xml:id="n1utit4o" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n11ssdau" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1jw3k2n" pname="e" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m87s2" n="2">
+                        <layer xml:id="m87s2l1" n="1">
+                           <rest xml:id="r1ar9a3a" type="mscore-beam-none" dur="8" />
+                           <note xml:id="nu9c54x" type="mscore-beam-none" dur="8" pname="g" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                           <note xml:id="n1cb6iz9" dur="4" pname="g" oct="2">
+                              <accid accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <harm startid="#nu9c54x">
+                        <fb xml:id="fhm82kw">
+                           <f xml:id="fft6b62">6</f>
+                           <f xml:id="fe9vl2o">4</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1ebslqu" n="88">
+                     <staff xml:id="m88s1" n="1">
+                        <layer xml:id="m88s1l1" n="1">
+                           <chord xml:id="c1md0omj" dur="2">
+                              <note xml:id="nqb92zk" pname="b" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1wgphnn" pname="d" oct="5">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="nf0mq38" pname="g" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m88s2" n="2">
+                        <layer xml:id="m88s2l1" n="1">
+                           <rest xml:id="rktfbn1" type="mscore-beam-none" dur="8" />
+                           <note xml:id="ng3aqje" type="mscore-beam-none" dur="8" pname="g" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                           <note xml:id="nz0xxyr" dur="4" pname="g" oct="2">
+                              <accid accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <harm startid="#ng3aqje">
+                        <fb xml:id="f1j2kvww">
+                           <f xml:id="f130jt23">5</f>
+                           <f xml:id="f3jescd">#3</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1dhm0f9" n="89">
+                     <staff xml:id="m89s1" n="1">
+                        <layer xml:id="m89s1l1" n="1">
+                           <beam>
+                              <chord xml:id="c1on8c3z" dur="8">
+                                 <note xml:id="n69amgy" pname="c" oct="5">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="nel3jvu" pname="a" oct="5" />
+                              </chord>
+                              <chord xml:id="cfnbich" dur="8">
+                                 <note xml:id="nl63h21" pname="b" oct="4">
+                                    <accid accid="s" />
+                                 </note>
+                                 <note xml:id="n10rp3yn" pname="d" oct="5">
+                                    <accid accid="s" />
+                                 </note>
+                                 <note xml:id="n4sgtg3" pname="g" oct="5">
+                                    <accid accid.ges="s" />
+                                 </note>
+                              </chord>
+                           </beam>
+                           <beam>
+                              <chord xml:id="c1mzixrt" dur="8">
+                                 <note xml:id="ndmm8no" pname="c" oct="5">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="nu3ug3c" pname="g" oct="5">
+                                    <accid accid.ges="s" />
+                                 </note>
+                              </chord>
+                              <chord xml:id="cdja30e" dur="8">
+                                 <note xml:id="n1tdqkve" pname="g" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="nfo4zlv" pname="d" oct="5">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="nvlh2pg" pname="f" oct="5">
+                                    <accid accid.ges="s" />
+                                 </note>
+                              </chord>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m89s2" n="2">
+                        <layer xml:id="m89s2l1" n="1">
+                           <beam>
+                              <note xml:id="n192w44u" type="mscore-beam-begin" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="niuyceb" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n34xmki" type="mscore-beam-mid" dur="8" pname="a" oct="3">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1pxg714" dur="8" pname="b" oct="3">
+                                 <accid accid="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n192w44u">
+                        <fb xml:id="fajq8kp">
+                           <f xml:id="fntw99p">5</f>
+                           <f xml:id="f1rk3y1d">3</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#niuyceb">
+                        <fb xml:id="fu0k8ak">
+                           <f xml:id="f59tdc9">#3</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n34xmki">
+                        <fb xml:id="f1a52l37">
+                           <f xml:id="fxm1m2i">7</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n1pxg714">
+                        <fb xml:id="f1r0q81i">
+                           <f xml:id="f1r1gitf">6</f>
+                           <f xml:id="f3t2ntd">5</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1nk2rn5" n="90">
+                     <staff xml:id="m90s1" n="1">
+                        <layer xml:id="m90s1l1" n="1">
+                           <chord xml:id="co7qxrz" dur="4">
+                              <note xml:id="nlvb6ip" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1m2gl65" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1r1fp7i" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="c5h4ypw" dur="4">
+                              <note xml:id="nbr8jp4" pname="a" oct="4" />
+                              <note xml:id="nunsiyx" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1e154hb" pname="d" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m90s2" n="2">
+                        <layer xml:id="m90s2l1" n="1">
+                           <note xml:id="ng1k6n1" dur="4" pname="c" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                           <note xml:id="ndccl19" dur="4" pname="f" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <harm startid="#ndccl19">
+                        <fb xml:id="faaxcfs">
+                           <f xml:id="f3msl7o">6</f>
+                           <f xml:id="f10kdg6k">5</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <sb />
+                  <measure xml:id="m1ag8nij" n="91">
+                     <staff xml:id="m91s1" n="1">
+                        <layer xml:id="m91s1l1" n="1">
+                           <chord xml:id="cnnx1x7" dur="4">
+                              <note xml:id="n1br6cs9" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1j8wt85" pname="b" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1qgtdfc" pname="d" oct="5">
+                                 <accid accid="s" />
+                              </note>
+                           </chord>
+                           <rest xml:id="runs0tj" type="mscore-beam-none" dur="8" />
+                           <chord xml:id="c9mkzmx" dur="8">
+                              <note xml:id="nji8fi3" pname="f" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n9vlzsg" pname="b" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n3vhnxh" pname="d" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m91s2" n="2">
+                        <layer xml:id="m91s2l1" n="1">
+                           <note xml:id="n16xtk8t" dur="4" pname="g" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                           <rest xml:id="r1gpzz6u" type="mscore-beam-none" dur="8" />
+                           <note xml:id="npou3jv" type="mscore-beam-none" dur="8" pname="b" oct="2">
+                              <accid accid="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <harm startid="#n16xtk8t">
+                        <fb xml:id="f1be0yi">
+                           <f xml:id="f2bgsnc">#3</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#npou3jv">
+                        <fb xml:id="f1plom1z">
+                           <f xml:id="f1b7xav7">6</f>
+                           <f xml:id="f6u6ke1">5</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m5b7nt3" n="92">
+                     <staff xml:id="m92s1" n="1">
+                        <layer xml:id="m92s1l1" n="1">
+                           <beam>
+                              <chord xml:id="c1wt0pqd" dur="8">
+                                 <note xml:id="n1dhamwg" pname="e" oct="4" />
+                                 <note xml:id="nivnjjv" pname="g" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="ney2p8o" pname="c" oct="5">
+                                    <accid accid.ges="s" />
+                                 </note>
+                              </chord>
+                              <chord xml:id="cn7p5mm" dur="8">
+                                 <note xml:id="n1tgjmc8" pname="d" oct="4">
+                                    <accid accid="s" />
+                                 </note>
+                                 <note xml:id="n1wjyhq6" pname="b" oct="4">
+                                    <accid accid="s" />
+                                 </note>
+                              </chord>
+                           </beam>
+                           <beam>
+                              <chord xml:id="c1tojcwy" dur="8">
+                                 <note xml:id="n1e0xbvc" pname="c" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="n3qpinn" pname="e" oct="4" />
+                              </chord>
+                              <chord xml:id="c1j6itsm" dur="8">
+                                 <note xml:id="n11gq5ly" pname="d" oct="4">
+                                    <accid accid.ges="s" />
+                                 </note>
+                                 <note xml:id="n1oavxb8" pname="a" oct="4" />
+                                 <note xml:id="n1b3g8si" pname="d" oct="5">
+                                    <accid accid="s" />
+                                 </note>
+                              </chord>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m92s2" n="2">
+                        <layer xml:id="m92s2l1" n="1">
+                           <beam>
+                              <note xml:id="n19qgerm" type="mscore-beam-begin" dur="8" pname="c" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1bibyo8" type="mscore-beam-mid" dur="8" pname="g" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nfywsea" type="mscore-beam-mid" dur="8" pname="a" oct="3" />
+                              <note xml:id="n1d07r28" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <harm startid="#n1bibyo8">
+                        <fb xml:id="f1lkpalu">
+                           <f xml:id="f5az38h">#</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n1d07r28">
+                        <fb xml:id="fvd9cfz">
+                           <f xml:id="fbxvooc">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1wv9zma" n="93">
+                     <staff xml:id="m93s1" n="1">
+                        <layer xml:id="m93s1l1" n="1">
+                           <note xml:id="n144b7ow" dur="2" pname="g" oct="4" stem.dir="down">
+                              <accid accid.ges="s" />
+                           </note>
+                        </layer>
+                        <layer xml:id="m93s1l2" n="2">
+                           <chord xml:id="c1mtck07" dur="4" stem.dir="up">
+                              <note xml:id="n1riifjd" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="nnagli8" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="c13kaxdd" dur="4" stem.dir="up">
+                              <note xml:id="na2kd1f" pname="b" oct="4">
+                                 <accid accid="s" />
+                              </note>
+                              <note xml:id="n1eu8bs9" pname="d" oct="5">
+                                 <accid accid="s" />
+                              </note>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m93s2" n="2">
+                        <layer xml:id="m93s2l1" n="1">
+                           <note xml:id="nf0mbe7" dots="1" dur="4" pname="g" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                           <note xml:id="n1wojc3r" dur="8" pname="g" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <harm startid="#nf0mbe7">
+                        <fb xml:id="f1av6ubj">
+                           <f xml:id="f9deybj">#</f>
+                        </fb>
+                     </harm>
+                     <tie xml:id="t16fy1ka" startid="#nf0mbe7" endid="#n1wojc3r" />
+                  </measure>
+                  <measure xml:id="mi69gv9" right="end" n="94">
+                     <staff xml:id="m94s1" n="1">
+                        <layer xml:id="m94s1l1" n="1">
+                           <chord xml:id="cdw28uo" dur="4">
+                              <note xml:id="nh7n5qv" pname="e" oct="4" />
+                              <note xml:id="n6vk4ax" pname="g" oct="4">
+                                 <accid accid.ges="s" />
+                              </note>
+                              <note xml:id="n1meyci6" pname="c" oct="5">
+                                 <accid accid.ges="s" />
+                              </note>
+                           </chord>
+                           <space xml:id="s1gt3b9q" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m94s2" n="2">
+                        <layer xml:id="m94s2l1" n="1">
+                           <note xml:id="n16bzzxt" dur="4" pname="c" oct="3">
+                              <accid accid.ges="s" />
+                           </note>
+                           <space xml:id="stmzwfn" dur="4" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
