@@ -1,8 +1,15 @@
 \version "2.24.2"
-\language "deutsch"
-\header {title = "Cantata" subtitle = "L'aure grate il fresco rio (Mus. Hs. 427)" composer = "Johann Melchior Molter, 1740"
+
+\include "oll-core/package.ily"
+\loadPackage lilypond-export
+
+\language "deutsch" 
+
+\header {
+  title = "Letzte Aria aus…" subtitle = "…L'aure grate il fresco rio (Mus. Hs. 427)" composer = "Johann Melchior Molter, 1740"    
 }
 
+opts.exporter = #exportMusicXML
 {
   \time 2/4 \key a\major \tempo "Aria" 
     \clef bass \partial 4
@@ -110,4 +117,9 @@ h4 r4 \bar "|."|
   \once \override Score.RehearsalMark #'break-visibility = #'#(#t #t #f)
   \mark \markup { \small "D.C. al fine" }
   
+}
+
+
+\layout{
+  \FileExport #opts
 }
