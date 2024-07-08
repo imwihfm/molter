@@ -47,3 +47,5 @@ Dazu müssen die beiden folgenden Repositories in einem Ordner zum Include-Verze
 
 ## Einen neuen Branch erstellen:
 3. In main-branch: `git checkout -b mein-neuer-branch`
+## Den neuen Branch auf Github pushen mit:
+`git push origin mein-neuer-branch`
