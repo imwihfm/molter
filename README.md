@@ -40,5 +40,10 @@ Dazu müssen die beiden folgenden Repositories in einem Ordner zum Include-Verze
 - Den Seitenumbruch bei den Mei-Dateien so gestalten wie bei den Faksimile Seiten
 
 
-# Urls
-Satz 1: https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/imwihfm/molter/main/Partitur-1Satz.mei&scale=30&breaks=encoded&select=l1uxyx8f&page=1&speed=true&notationOrientation=top&notationProportion=0.58&facsimileOrientation=left&facsimileProportion=0.49
+# Arbeitsbranch löschen / neuen Arbeitsbranch erstellen
+
+1. In main-branch: `git pull origin main`
+2. In main-branch: `git branch -D mein-alter-branch`
+
+## Einen neuen Branch erstellen:
+3. In main-branch: `git checkout -b mein-neuer-branch`
