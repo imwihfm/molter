@@ -5,14 +5,30 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title />
+            <title>title</title>
+            <respStmt>
+               <persName role="composer">komponist</persName>
+            </respStmt>
          </titleStmt>
          <pubStmt>
-            <date isodate="2024-06-24T12:21:22" />
+            <date isodate="2024-06-24T12:21:22"/>
          </pubStmt>
       </fileDesc>
+      <encodingDesc xml:id="ewrves31">
+         <appInfo xml:id="af05kzq1">
+            <application xml:id="a7qk91j1" startdate="2024-07-15T08:39:20" version="1.0.14">
+               <name xml:id="ni80azf">mei-friend</name>
+               <p xml:id="pe33i701">First edit by mei-friend 1.0.14, 23 May 2024.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
    </meiHead>
    <music>
+      <facsimile xml:id="fnb1oma">
+         <surface xml:id="sy5xuz4">
+            <graphic xml:id="gwxvug61" target="manuscript-pg4.jpg" />
+         </surface>
+         </facsimile>
       <body>
          <mdiv>
             <score>
@@ -56,7 +72,7 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="s1">
-                  <pb />
+                  <pb id="skjnaio" facs="#sy5xuz4"/>
                   <measure xml:id="mg5708f" metcon="false" n="0">
                      <staff xml:id="m1s1" n="1">
                         <layer xml:id="m1s1l1" n="1">
@@ -315,7 +331,6 @@
                         </layer>
                      </staff>
                   </measure>
-                  <sb type="mscore-manual" />
                   <measure xml:id="mp8oqo5" n="5">
                      <staff xml:id="m6s1" n="1">
                         <layer xml:id="m6s1l1" n="1">
@@ -622,7 +637,6 @@
                      <slur xml:id="s1rbzdrz" startid="#n1ti6ach" endid="#nuj1g30" />
                      <slur xml:id="s1dfhq67" startid="#nvgk091" endid="#n1k6wpz0" />
                   </measure>
-                  <sb />
                   <measure xml:id="mgonesc" n="9">
                      <staff xml:id="m10s1" n="1">
                         <layer xml:id="m10s1l1" n="1">
@@ -686,6 +700,7 @@
                      <slur xml:id="s6k3t8y" startid="#n4lv25" endid="#n153ba76" />
                      <slur xml:id="szhe5wu" startid="#n10b4ocq" endid="#n15wk03w" />
                   </measure>
+                  <sb />
                   <measure xml:id="m1kpaabs" n="10">
                      <staff xml:id="m11s1" n="1">
                         <layer xml:id="m11s1l1" n="1">
@@ -929,7 +944,6 @@
                      <trill xml:id="tlyemvh" startid="#npa5gdm" />
                      <trill xml:id="t16lpbpd" startid="#ncciy6m" />
                   </measure>
-                  <pb />
                   <measure xml:id="mcc61dg" n="13">
                      <staff xml:id="m14s1" n="1">
                         <layer xml:id="m14s1l1" n="1">
@@ -1709,7 +1723,6 @@
                      <slur xml:id="srucf5p" startid="#nzmakh3" endid="#nt9w3r5" />
                      <slur xml:id="s145f7xj" startid="#n181df40" endid="#n1czddo9" />
                   </measure>
-                  <sb type="mscore-manual" />
                   <measure xml:id="mmi6h0f" n="23">
                      <staff xml:id="m24s1" n="1">
                         <layer xml:id="m24s1l1" n="1">
@@ -2007,6 +2020,7 @@
                      <slur xml:id="s1ws4k19" startid="#ncv9mp" endid="#ngzjmn" />
                      <trill xml:id="tmpzou1" startid="#nhzn4uk" />
                   </measure>
+                  <pb />
                   <measure xml:id="m1mf2hz5" n="26">
                      <staff xml:id="m27s1" n="1">
                         <layer xml:id="m27s1l1" n="1">
@@ -2094,7 +2108,6 @@
                      <slur xml:id="s1po17jt" startid="#n1xjjjaj" endid="#n832aio" />
                      <slur xml:id="slogon9" startid="#nicfktt" endid="#n7xice8" />
                   </measure>
-                  <pb />
                   <measure xml:id="mjr1b5s" n="27">
                      <staff xml:id="m28s1" n="1">
                         <layer xml:id="m28s1l1" n="1">
@@ -2415,7 +2428,6 @@
                      <slur xml:id="skf5yx7" startid="#nb1syjd" endid="#negdo3e" />
                      <trill xml:id="tm5qut5" startid="#n1443znr" />
                   </measure>
-                  <sb />
                   <measure xml:id="m4zena3" n="31">
                      <staff xml:id="m32s1" n="1">
                         <layer xml:id="m32s1l1" n="1">
@@ -2741,7 +2753,6 @@
                         </layer>
                      </staff>
                   </measure>
-                  <sb type="mscore-manual" />
                   <measure xml:id="m1msphcj" n="36">
                      <staff xml:id="m37s1" n="1">
                         <layer xml:id="m37s1l1" n="1">
@@ -2798,6 +2809,7 @@
                         </layer>
                      </staff>
                   </measure>
+                  <sb />
                   <measure xml:id="m1wb1yhu" n="37">
                      <staff xml:id="m38s1" n="1">
                         <layer xml:id="m38s1l1" n="1">
@@ -3009,7 +3021,6 @@
                      <slur xml:id="s1e7hetk" startid="#nbup0zm" endid="#n18qrlnn" />
                      <slur xml:id="s2tax9k" startid="#nom1zea" endid="#nvidikz" />
                   </measure>
-                  <pb />
                   <measure xml:id="mgcymyk" n="40">
                      <staff xml:id="m41s1" n="1">
                         <layer xml:id="m41s1l1" n="1">
@@ -3280,7 +3291,6 @@
                      <slur xml:id="s1nkpdk0" startid="#n1w2yg6x" endid="#n2vfccu" />
                      <slur xml:id="sbefqli" startid="#n1tsrgeh" endid="#n1p5rciv" />
                   </measure>
-                  <sb type="mscore-manual" />
                   <measure xml:id="m18t4yen" n="43">
                      <staff xml:id="m44s1" n="1">
                         <layer xml:id="m44s1l1" n="1">
@@ -3399,6 +3409,7 @@
                      <trill xml:id="tmryv9l" startid="#nyqh0fj" />
                      <trill xml:id="tjkesau" startid="#n16u2qrm" />
                   </measure>
+                  <sb />
                   <measure xml:id="m1bfm91v" n="45">
                      <staff xml:id="m46s1" n="1">
                         <layer xml:id="m46s1l1" n="1">
@@ -3544,7 +3555,6 @@
                      <trill xml:id="ti79em9" startid="#n1ip3xx9" />
                      <trill xml:id="t1qguugq" startid="#n1wdpxch" />
                   </measure>
-                  <sb type="mscore-manual" />
                   <measure xml:id="mwxwzrs" n="47">
                      <staff xml:id="m48s1" n="1">
                         <layer xml:id="m48s1l1" n="1">
@@ -3849,7 +3859,6 @@
                         </layer>
                      </staff>
                   </measure>
-                  <pb />
                   <measure xml:id="m96le15" n="51">
                      <staff xml:id="m52s1" n="1">
                         <layer xml:id="m52s1l1" n="1">
@@ -3924,6 +3933,7 @@
                         </layer>
                      </staff>
                   </measure>
+                  <pb />
                   <measure xml:id="m1n8o7as" n="52">
                      <staff xml:id="m53s1" n="1">
                         <layer xml:id="m53s1l1" n="1">
@@ -4244,7 +4254,6 @@
                         </layer>
                      </staff>
                   </measure>
-                  <sb type="mscore-manual" />
                   <measure xml:id="mvuf0zz" n="56">
                      <staff xml:id="m57s1" n="1">
                         <layer xml:id="m57s1l1" n="1">
@@ -4507,6 +4516,7 @@
                      <trill xml:id="t1elmv2u" startid="#nj9qf6b" />
                      <trill xml:id="t5o6pvi" startid="#n15b2x2m" />
                   </measure>
+                  <sb />
                   <measure xml:id="mufh50s" n="59">
                      <staff xml:id="m60s1" n="1">
                         <layer xml:id="m60s1l1" n="1">
@@ -4594,7 +4604,6 @@
                         </layer>
                      </staff>
                   </measure>
-                  <sb type="mscore-manual" />
                   <measure xml:id="m6c0efc" n="60">
                      <staff xml:id="m61s1" n="1">
                         <layer xml:id="m61s1l1" n="1">
@@ -4926,7 +4935,6 @@
                      <slur xml:id="s1fu52m0" startid="#nei271f" endid="#n2i6iyw" />
                      <trill xml:id="t13ic9e6" startid="#n2i6iyw" />
                   </measure>
-                  <pb />
                   <measure xml:id="m1julot9" n="64">
                      <staff xml:id="m65s1" n="1">
                         <layer xml:id="m65s1l1" n="1">
@@ -5002,6 +5010,7 @@
                      <trill xml:id="tt2n7jh" startid="#no2uifg" />
                      <trill xml:id="t42alot" startid="#n1lcc60l" />
                   </measure>
+                  <sb />
                   <measure xml:id="m7is5yc" n="65">
                      <staff xml:id="m66s1" n="1">
                         <layer xml:id="m66s1l1" n="1">
@@ -5203,7 +5212,6 @@
                      <slur xml:id="swsbgbp" startid="#n1dxni81" endid="#ngxxi0u" />
                      <slur xml:id="s4tidgm" startid="#n7obvgk" endid="#n1wpbxbq" />
                   </measure>
-                  <sb type="mscore-manual" />
                   <measure xml:id="m4qyq4z" n="68">
                      <staff xml:id="m69s1" n="1">
                         <layer xml:id="m69s1l1" n="1">
@@ -5445,7 +5453,6 @@
                      <slur xml:id="sn84lae" startid="#ntfshvp" endid="#nx4aflr" />
                      <slur xml:id="s1hvr3j1" startid="#ntnc4qc" endid="#nseg0sd" />
                   </measure>
-                  <sb type="mscore-manual" />
                   <measure xml:id="mcdrv3e" n="71">
                      <staff xml:id="m72s1" n="1">
                         <layer xml:id="m72s1l1" n="1">
@@ -5678,6 +5685,7 @@
                      <trill xml:id="t15yzz7q" startid="#n1wvl3qx" />
                      <trill xml:id="tchh734" startid="#nuazlsx" />
                   </measure>
+                  <pb />
                   <measure xml:id="mg8pecq" n="74">
                      <staff xml:id="m75s1" n="1">
                         <layer xml:id="m75s1l1" n="1">
@@ -5750,7 +5758,6 @@
                      <trill xml:id="tj3fxxu" startid="#npjzhmu" />
                      <trill xml:id="ta0k88a" startid="#n1ydizp8" />
                   </measure>
-                  <pb />
                   <measure xml:id="m1xaezm5" n="75">
                      <staff xml:id="m76s1" n="1">
                         <layer xml:id="m76s1l1" n="1">
@@ -6143,7 +6150,6 @@
                         </layer>
                      </staff>
                   </measure>
-                  <sb />
                   <measure xml:id="m1e8mzbn" n="80">
                      <staff xml:id="m81s1" n="1">
                         <layer xml:id="m81s1l1" n="1">
@@ -6247,6 +6253,7 @@
                         </layer>
                      </staff>
                   </measure>
+                  <sb />
                   <measure xml:id="mckhr10" n="81">
                      <staff xml:id="m82s1" n="1">
                         <layer xml:id="m82s1l1" n="1">
@@ -6419,6 +6426,7 @@
                         </layer>
                      </staff>
                   </measure>
+                  <sb />
                   <measure xml:id="m1jf3exd" n="83">
                      <staff xml:id="m84s1" n="1">
                         <layer xml:id="m84s1l1" n="1">
@@ -6517,7 +6525,6 @@
                      <dynam xml:id="d4654o" label="f" startid="#n3v8o9x">f</dynam>
                      <dynam xml:id="dc0fl06" label="p" startid="#n1brhodk">p</dynam>
                   </measure>
-                  <pb />
                   <measure xml:id="m1mbzzhy" n="84">
                      <staff xml:id="m85s1" n="1">
                         <layer xml:id="m85s1l1" n="1">
@@ -6928,7 +6935,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <sb />
+                  <pb />
                   <measure xml:id="m1lauq4i" n="89">
                      <staff xml:id="m90s1" n="1">
                         <layer xml:id="m90s1l1" n="1">
